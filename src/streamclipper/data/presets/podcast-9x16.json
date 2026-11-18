@@ -1,0 +1,11 @@
+{
+  "name": "podcast-9x16",
+  "description": "Vertical 9:16 for podcasts and interviews (beta): the crop follows the speaker's face, two people side by side are stacked, clips are picked from what is said (--content talk).",
+  "ratio": "9:16",
+  "layout": "speaker",
+  "content": "talk",
+  "hook_mode": "tease-climax",
+  "caption_style": "auto",
+  "hook_style": "top-bar",
+  "sfx": false
+}

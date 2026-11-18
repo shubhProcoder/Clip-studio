@@ -1,0 +1,41 @@
+# CapCut proprietary assets and SFX of unverified licence: local only, never in the repo or in builds
+src/streamclipper/data/templates/effects/
+src/streamclipper/data/templates/effects_bundle/
+src/streamclipper/data/templates/transitions/
+src/streamclipper/data/templates/sfx/
+
+# Machine-specific and private files
+env_detected.json
+.agents/
+.agents/colab_profile/
+.env
+secrets/
+cookies*.txt
+*.cookies
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Media and work folders
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+!src/streamclipper/data/templates/sfx_generated/*.wav
+work/
+renders/
+capcut_studio_work/
+/clips*.json
+capcut_drafts.zip
+dashboard.log
+workspace_data/
+

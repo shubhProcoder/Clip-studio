@@ -1,0 +1,10 @@
+{
+  "name": "square-frame-9x16",
+  "description": "Vertical 9:16: the gameplay in a centred 1080x900 frame over a blurred copy of itself, hook banner above the frame, captions below it.",
+  "ratio": "9:16",
+  "layout": "square-frame",
+  "hook_mode": "tease-climax",
+  "caption_style": "bold-pop",
+  "hook_style": "bold-box",
+  "sfx": true
+}

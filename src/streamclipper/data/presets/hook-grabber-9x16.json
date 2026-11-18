@@ -1,0 +1,12 @@
+{
+  "name": "hook-grabber-9x16",
+  "description": "Vertical 9:16: the clip on top (1080x1056), a muted filler video looping below (1080x864), captions on the seam.",
+  "ratio": "9:16",
+  "layout": "hook-grabber",
+  "main_ratio": 0.55,
+  "hook_mode": "tease-climax",
+  "caption_mode": "hormozi-pop",
+  "font": "barlow",
+  "sfx": true,
+  "requires": ["filler_video"]
+}

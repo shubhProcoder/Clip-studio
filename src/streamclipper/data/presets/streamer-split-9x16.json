@@ -1,0 +1,10 @@
+{
+  "name": "streamer-split-9x16",
+  "description": "Vertical 9:16: streamer webcam on top (1080x672), gameplay below (1080x1248), word captions on the seam.",
+  "ratio": "9:16",
+  "layout": "split",
+  "hook_mode": "tease-climax",
+  "caption_mode": "hormozi-pop",
+  "font": "barlow",
+  "sfx": true
+}

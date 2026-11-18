@@ -1,0 +1,11 @@
+{
+  "name": "caption-punch-9x16",
+  "description": "Vertical 9:16: one centre crop of the source filling the frame, big punchy captions low in the frame.",
+  "ratio": "9:16",
+  "layout": "full",
+  "hook_mode": "tease-climax",
+  "caption_mode": "hormozi-pop",
+  "font": "anton",
+  "caption_font": "anton",
+  "sfx": true
+}

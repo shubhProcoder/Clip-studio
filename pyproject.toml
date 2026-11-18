@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "streamclipper"
+version = "5.3.0"
+description = "Turn long Twitch, YouTube and Kick streams into ready-to-post vertical clips and CapCut Desktop drafts."
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Arpixa Studio" }]
+keywords = ["clipping", "stream", "twitch", "youtube", "shorts", "reels", "capcut", "ffmpeg", "whisper"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "numpy>=1.24",
+    "yt-dlp>=2024.10.0",
+    "streamlink>=6.8",
+]
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.1"]
+gpu = [
+    "nvidia-cublas-cu12; sys_platform != 'darwin' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",
+    "nvidia-cudnn-cu12==9.*; sys_platform != 'darwin' and (platform_machine == 'AMD64' or platform_machine == 'x86_64')",
+]
+# mediapipe pulls opencv-contrib-python, which keeps the Haar cascades used as the fallback.
+vision = ["mediapipe>=1.2,<2", "onnxruntime>=1.17"]
+# For platforms without mediapipe wheels: Haar face detection only (5.x dropped the cascades).
+vision-haar = ["opencv-python-headless>=4.8,<5"]
+dev = ["pytest>=7", "ruff>=0.5", "nbformat>=5", "pyyaml>=6"]
+
+[project.urls]
+Homepage = "https://github.com/shubhProcoder/Clip-studio"
+Repository = "https://github.com/shubhProcoder/Clip-studio"
+Issues = "https://github.com/shubhProcoder/Clip-studio/issues"
+
+[project.scripts]
+streamclipper = "streamclipper.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/streamclipper"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/streamclipper", "scripts", "tests", "README.md", "LICENSE", "pyproject.toml"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["streamclipper"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

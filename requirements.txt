@@ -1,0 +1,3 @@
+# Installs streamclipper from this folder with Whisper captions (same as: python -m pip install -e ".[asr]").
+# ffmpeg and ffprobe are a system install, not a pip package: winget install Gyan.FFmpeg
+-e .[asr]
