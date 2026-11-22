@@ -1,0 +1,2728 @@
+{
+ "split": "holdout",
+ "content": "gaming",
+ "transcribed": true,
+ "note": "Every candidate window (first 90 min of a VOD longer than 2 h) of one discover-clips run (--min-score 0 --max-clips 0 --llm none, --hud auto; talk: --content talk) on a public stream, labelled blind (no scores shown) by the maintainer's tooling from the window transcript and 6-frame strips. No media, no video id, title or channel. 'text' keeps <= 12 neutral tokens (milestone line, trigger words); 'tokens' holds the word counts the quality bar reads.",
+ "candidates": [
+  {
+   "start": 18.52,
+   "end": 33.52,
+   "peak": 28.85,
+   "text": "",
+   "tokens": {
+    "n": 14,
+    "distinct": 14
+   },
+   "comp": {
+    "emotion": 0.701,
+    "story": 0.986,
+    "hook": 0.12,
+    "pacing": 0.266
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.964,
+    "shock": 0.504,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.514,
+    "excitement_db": 61.6,
+    "shock_contrast_db": 12.1,
+    "contrast_db": 58.1,
+    "triggers": 0.0,
+    "speech_rate": 1.04,
+    "trigger_words": [],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 181.31,
+   "end": 206.37,
+   "peak": 202.45,
+   "text": "",
+   "tokens": {
+    "n": 2,
+    "distinct": 2
+   },
+   "comp": {
+    "emotion": 0.6,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.321
+   },
+   "signals": {
+    "intensity": 0.886,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.679,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.643,
+    "excitement_db": 18.4,
+    "shock_contrast_db": 16.3,
+    "contrast_db": 54.2,
+    "triggers": 0.0,
+    "speech_rate": 0.18,
+    "trigger_words": [],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 315.22,
+   "end": 331.52,
+   "peak": 327.55,
+   "text": "no",
+   "tokens": {
+    "n": 37,
+    "distinct": 23
+   },
+   "comp": {
+    "emotion": 0.696,
+    "story": 0.986,
+    "hook": 0.42,
+    "pacing": 0.705
+   },
+   "signals": {
+    "intensity": 0.893,
+    "arc_contrast": 1.0,
+    "reaction": 0.965,
+    "shock": 0.633,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.651,
+    "excitement_db": 18.5,
+    "shock_contrast_db": 15.2,
+    "contrast_db": 21.8,
+    "triggers": 0.5,
+    "speech_rate": 2.9,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 392.16,
+   "end": 416.4,
+   "peak": 412.75,
+   "text": "bro god no real",
+   "tokens": {
+    "n": 54,
+    "distinct": 30
+   },
+   "comp": {
+    "emotion": 0.935,
+    "story": 0.903,
+    "hook": 0.42,
+    "pacing": 0.722
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.759,
+    "shock": 0.675,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.631,
+    "excitement_db": 31.4,
+    "shock_contrast_db": 16.2,
+    "contrast_db": 20.3,
+    "triggers": 1.0,
+    "speech_rate": 3.03,
+    "trigger_words": [
+     "real",
+     "god",
+     "bro",
+     "no"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 552.16,
+   "end": 568.95,
+   "peak": 566.75,
+   "text": "lost",
+   "tokens": {
+    "n": 23,
+    "distinct": 16
+   },
+   "comp": {
+    "emotion": 0.85,
+    "story": 0.042,
+    "hook": 0.12,
+    "pacing": 0.454
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.106,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.65,
+    "excitement_db": 38.2,
+    "shock_contrast_db": 88.0,
+    "contrast_db": -4.2,
+    "triggers": 0.25,
+    "speech_rate": 1.64,
+    "trigger_words": [
+     "lost"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "rapid-fire joke list of fake server names",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 627.7,
+   "end": 650.91,
+   "peak": 648.75,
+   "text": "yo bro insane look",
+   "tokens": {
+    "n": 56,
+    "distinct": 41
+   },
+   "comp": {
+    "emotion": 0.551,
+    "story": 0.628,
+    "hook": 0.7,
+    "pacing": 0.74
+   },
+   "signals": {
+    "intensity": 0.379,
+    "arc_contrast": 0.38,
+    "reaction": 1.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.841,
+    "excitement_db": 11.3,
+    "shock_contrast_db": 25.6,
+    "contrast_db": 4.6,
+    "triggers": 1.0,
+    "speech_rate": 2.6,
+    "trigger_words": [
+     "look",
+     "yo",
+     "bro",
+     "insane"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 708.74,
+   "end": 728.79,
+   "peak": 726.65,
+   "text": "no nah real way",
+   "tokens": {
+    "n": 85,
+    "distinct": 47
+   },
+   "comp": {
+    "emotion": 0.571,
+    "story": 0.785,
+    "hook": 0.7,
+    "pacing": 0.946
+   },
+   "signals": {
+    "intensity": 0.429,
+    "arc_contrast": 1.0,
+    "reaction": 0.463,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.892,
+    "excitement_db": 12.0,
+    "shock_contrast_db": 32.6,
+    "contrast_db": 12.2,
+    "triggers": 1.0,
+    "speech_rate": 4.24,
+    "trigger_words": [
+     "nah",
+     "no",
+     "real",
+     "way"
+    ],
+    "face_motion": 0.26,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 822.32,
+   "end": 845.4,
+   "peak": 842.95,
+   "text": "bro yo dead",
+   "tokens": {
+    "n": 68,
+    "distinct": 50
+   },
+   "comp": {
+    "emotion": 0.469,
+    "story": 0.589,
+    "hook": 0.7,
+    "pacing": 0.855
+   },
+   "signals": {
+    "intensity": 0.171,
+    "arc_contrast": 0.439,
+    "reaction": 0.815,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.914,
+    "excitement_db": 8.4,
+    "shock_contrast_db": 34.3,
+    "contrast_db": 5.3,
+    "triggers": 1.0,
+    "speech_rate": 2.99,
+    "trigger_words": [
+     "dead",
+     "bro",
+     "yo"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.75
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 997.44,
+   "end": 1020.75,
+   "peak": 1018.25,
+   "text": "",
+   "tokens": {
+    "n": 36,
+    "distinct": 22
+   },
+   "comp": {
+    "emotion": 0.221,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.582
+   },
+   "signals": {
+    "intensity": 0.371,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.362,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.947,
+    "excitement_db": 11.2,
+    "shock_contrast_db": 8.7,
+    "contrast_db": 16.2,
+    "triggers": 0.0,
+    "speech_rate": 1.55,
+    "trigger_words": [],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1134.05,
+   "end": 1151.78,
+   "peak": 1148.85,
+   "text": "look",
+   "tokens": {
+    "n": 51,
+    "distinct": 42
+   },
+   "comp": {
+    "emotion": 0.235,
+    "story": 0.357,
+    "hook": 0.12,
+    "pacing": 0.86
+   },
+   "signals": {
+    "intensity": 0.164,
+    "arc_contrast": 0.0,
+    "reaction": 0.893,
+    "shock": 0.346,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.967,
+    "excitement_db": 8.3,
+    "shock_contrast_db": 8.3,
+    "contrast_db": -4.8,
+    "triggers": 0.5,
+    "speech_rate": 2.88,
+    "trigger_words": [
+     "look"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.5
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "crude trolling with no payoff",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1199.89,
+   "end": 1216.85,
+   "peak": 1214.65,
+   "text": "no",
+   "tokens": {
+    "n": 50,
+    "distinct": 37
+   },
+   "comp": {
+    "emotion": 0.341,
+    "story": 0.545,
+    "hook": 0.12,
+    "pacing": 0.784
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 0.241,
+    "reaction": 1.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.79,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 30.1,
+    "contrast_db": 2.9,
+    "triggers": 0.25,
+    "speech_rate": 2.95,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.083
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1317.66,
+   "end": 1344.07,
+   "peak": 1341.35,
+   "text": "yo",
+   "tokens": {
+    "n": 75,
+    "distinct": 45
+   },
+   "comp": {
+    "emotion": 0.62,
+    "story": 0.667,
+    "hook": 0.12,
+    "pacing": 0.829
+   },
+   "signals": {
+    "intensity": 0.693,
+    "arc_contrast": 0.49,
+    "reaction": 0.932,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.922,
+    "excitement_db": 15.7,
+    "shock_contrast_db": 41.9,
+    "contrast_db": 5.9,
+    "triggers": 0.5,
+    "speech_rate": 2.84,
+    "trigger_words": [
+     "yo"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.667
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1381.52,
+   "end": 1412.06,
+   "peak": 1407.85,
+   "text": "real nah bro",
+   "tokens": {
+    "n": 65,
+    "distinct": 36
+   },
+   "comp": {
+    "emotion": 0.467,
+    "story": 1.0,
+    "hook": 0.42,
+    "pacing": 0.723
+   },
+   "signals": {
+    "intensity": 0.414,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.504,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.994,
+    "excitement_db": 11.8,
+    "shock_contrast_db": 12.1,
+    "contrast_db": 15.4,
+    "triggers": 1.0,
+    "speech_rate": 2.13,
+    "trigger_words": [
+     "nah",
+     "real",
+     "bro"
+    ],
+    "face_motion": 0.585,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1523.81,
+   "end": 1546.18,
+   "peak": 1539.25,
+   "text": "real bro nah no",
+   "tokens": {
+    "n": 90,
+    "distinct": 34
+   },
+   "comp": {
+    "emotion": 0.474,
+    "story": 0.722,
+    "hook": 0.42,
+    "pacing": 0.986
+   },
+   "signals": {
+    "intensity": 0.271,
+    "arc_contrast": 0.57,
+    "reaction": 0.95,
+    "shock": 0.829,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.972,
+    "excitement_db": 9.8,
+    "shock_contrast_db": 19.9,
+    "contrast_db": 6.8,
+    "triggers": 1.0,
+    "speech_rate": 4.02,
+    "trigger_words": [
+     "real",
+     "bro",
+     "nah",
+     "no"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "one phrase repeated over and over",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1671.62,
+   "end": 1697.06,
+   "peak": 1692.65,
+   "text": "look",
+   "tokens": {
+    "n": 53,
+    "distinct": 38
+   },
+   "comp": {
+    "emotion": 0.393,
+    "story": 0.929,
+    "hook": 0.12,
+    "pacing": 0.679
+   },
+   "signals": {
+    "intensity": 0.5,
+    "arc_contrast": 0.979,
+    "reaction": 0.854,
+    "shock": 0.717,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.924,
+    "excitement_db": 13.0,
+    "shock_contrast_db": 17.2,
+    "contrast_db": 11.8,
+    "triggers": 0.25,
+    "speech_rate": 2.08,
+    "trigger_words": [
+     "look"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.5
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "trolls a player until they try to run him over, then gloats",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1747.59,
+   "end": 1766.58,
+   "peak": 1763.35,
+   "text": "wait bro",
+   "tokens": {
+    "n": 50,
+    "distinct": 34
+   },
+   "comp": {
+    "emotion": 0.389,
+    "story": 1.0,
+    "hook": 0.7,
+    "pacing": 0.816
+   },
+   "signals": {
+    "intensity": 0.357,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.479,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.978,
+    "excitement_db": 11.0,
+    "shock_contrast_db": 11.5,
+    "contrast_db": 24.4,
+    "triggers": 0.75,
+    "speech_rate": 2.64,
+    "trigger_words": [
+     "bro",
+     "wait"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.583
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1856.76,
+   "end": 1878.23,
+   "peak": 1875.25,
+   "text": "",
+   "tokens": {
+    "n": 17,
+    "distinct": 9
+   },
+   "comp": {
+    "emotion": 0.195,
+    "story": 0.76,
+    "hook": 0.12,
+    "pacing": 0.436
+   },
+   "signals": {
+    "intensity": 0.057,
+    "arc_contrast": 0.809,
+    "reaction": 0.685,
+    "shock": 0.858,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.872,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 20.6,
+    "contrast_db": 9.7,
+    "triggers": 0.0,
+    "speech_rate": 0.8,
+    "trigger_words": [],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2100.67,
+   "end": 2126.87,
+   "peak": 2122.45,
+   "text": "yo",
+   "tokens": {
+    "n": 93,
+    "distinct": 55
+   },
+   "comp": {
+    "emotion": 0.392,
+    "story": 0.818,
+    "hook": 0.42,
+    "pacing": 0.976
+   },
+   "signals": {
+    "intensity": 0.2,
+    "arc_contrast": 0.734,
+    "reaction": 0.944,
+    "shock": 0.558,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.952,
+    "excitement_db": 8.8,
+    "shock_contrast_db": 13.4,
+    "contrast_db": 8.8,
+    "triggers": 1.0,
+    "speech_rate": 3.55,
+    "trigger_words": [
+     "yo"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2194.96,
+   "end": 2240.37,
+   "peak": 2219.45,
+   "text": "yo",
+   "tokens": {
+    "n": 19,
+    "distinct": 4
+   },
+   "comp": {
+    "emotion": 0.39,
+    "story": 0.997,
+    "hook": 0.12,
+    "pacing": 0.489
+   },
+   "signals": {
+    "intensity": 0.257,
+    "arc_contrast": 1.0,
+    "reaction": 0.993,
+    "shock": 0.438,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.979,
+    "excitement_db": 9.6,
+    "shock_contrast_db": 10.5,
+    "contrast_db": 21.1,
+    "triggers": 1.0,
+    "speech_rate": 0.42,
+    "trigger_words": [
+     "yo"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.667
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chant, no words",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2286.36,
+   "end": 2302.83,
+   "peak": 2297.15,
+   "text": "look nah real",
+   "tokens": {
+    "n": 52,
+    "distinct": 36
+   },
+   "comp": {
+    "emotion": 0.387,
+    "story": 1.0,
+    "hook": 0.7,
+    "pacing": 0.916
+   },
+   "signals": {
+    "intensity": 0.1,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.733,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.964,
+    "excitement_db": 7.4,
+    "shock_contrast_db": 17.6,
+    "contrast_db": 13.2,
+    "triggers": 1.0,
+    "speech_rate": 3.17,
+    "trigger_words": [
+     "nah",
+     "look",
+     "real"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.833
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2339.15,
+   "end": 2359.55,
+   "peak": 2357.35,
+   "text": "bro",
+   "tokens": {
+    "n": 23,
+    "distinct": 19
+   },
+   "comp": {
+    "emotion": 0.702,
+    "story": 0.792,
+    "hook": 0.12,
+    "pacing": 0.508
+   },
+   "signals": {
+    "intensity": 0.814,
+    "arc_contrast": 0.685,
+    "reaction": 0.953,
+    "shock": 0.954,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.964,
+    "excitement_db": 17.4,
+    "shock_contrast_db": 22.9,
+    "contrast_db": 8.2,
+    "triggers": 0.5,
+    "speech_rate": 1.13,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2436.64,
+   "end": 2461.65,
+   "peak": 2459.45,
+   "text": "bro kill real wait",
+   "tokens": {
+    "n": 96,
+    "distinct": 44
+   },
+   "comp": {
+    "emotion": 0.325,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.937
+   },
+   "signals": {
+    "intensity": 0.157,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.308,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.874,
+    "excitement_db": 8.2,
+    "shock_contrast_db": 7.4,
+    "contrast_db": 13.0,
+    "triggers": 1.0,
+    "speech_rate": 3.84,
+    "trigger_words": [
+     "bro",
+     "kill",
+     "real",
+     "wait"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.75
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2535.64,
+   "end": 2554.85,
+   "peak": 2551.55,
+   "text": "nah no bro yo god",
+   "tokens": {
+    "n": 66,
+    "distinct": 50
+   },
+   "comp": {
+    "emotion": 0.591,
+    "story": 0.907,
+    "hook": 0.42,
+    "pacing": 0.923
+   },
+   "signals": {
+    "intensity": 0.479,
+    "arc_contrast": 1.0,
+    "reaction": 0.768,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.846,
+    "excitement_db": 12.7,
+    "shock_contrast_db": 28.4,
+    "contrast_db": 24.3,
+    "triggers": 1.0,
+    "speech_rate": 3.63,
+    "trigger_words": [
+     "god",
+     "yo",
+     "nah",
+     "no",
+     "bro"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.083
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2667.26,
+   "end": 2692.25,
+   "peak": 2690.05,
+   "text": "no wait crazy",
+   "tokens": {
+    "n": 35,
+    "distinct": 23
+   },
+   "comp": {
+    "emotion": 0.752,
+    "story": 0.616,
+    "hook": 0.42,
+    "pacing": 0.614
+   },
+   "signals": {
+    "intensity": 0.736,
+    "arc_contrast": 1.0,
+    "reaction": 0.041,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.595,
+    "excitement_db": 16.3,
+    "shock_contrast_db": 68.1,
+    "contrast_db": 26.3,
+    "triggers": 1.0,
+    "speech_rate": 2.58,
+    "trigger_words": [
+     "wait",
+     "crazy",
+     "no"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2768.99,
+   "end": 2793.72,
+   "peak": 2789.95,
+   "text": "yo bro way what the",
+   "tokens": {
+    "n": 105,
+    "distinct": 54
+   },
+   "comp": {
+    "emotion": 0.56,
+    "story": 0.961,
+    "hook": 0.42,
+    "pacing": 0.907
+   },
+   "signals": {
+    "intensity": 0.4,
+    "arc_contrast": 1.0,
+    "reaction": 0.902,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.814,
+    "excitement_db": 11.6,
+    "shock_contrast_db": 26.9,
+    "contrast_db": 18.3,
+    "triggers": 1.0,
+    "speech_rate": 4.3,
+    "trigger_words": [
+     "bro",
+     "yo",
+     "way",
+     "what the"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.083
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2855.2,
+   "end": 2887.91,
+   "peak": 2879.85,
+   "text": "bro crazy boss love you",
+   "tokens": {
+    "n": 74,
+    "distinct": 45
+   },
+   "comp": {
+    "emotion": 0.575,
+    "story": 0.984,
+    "hook": 0.7,
+    "pacing": 0.74
+   },
+   "signals": {
+    "intensity": 0.657,
+    "arc_contrast": 1.0,
+    "reaction": 0.96,
+    "shock": 0.413,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.974,
+    "excitement_db": 15.2,
+    "shock_contrast_db": 9.9,
+    "contrast_db": 18.9,
+    "triggers": 1.0,
+    "speech_rate": 2.26,
+    "trigger_words": [
+     "boss",
+     "love you",
+     "bro",
+     "crazy"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "wholesome",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2971.2,
+   "end": 2992.37,
+   "peak": 2988.75,
+   "text": "what the",
+   "tokens": {
+    "n": 37,
+    "distinct": 30
+   },
+   "comp": {
+    "emotion": 0.324,
+    "story": 0.926,
+    "hook": 0.12,
+    "pacing": 0.557
+   },
+   "signals": {
+    "intensity": 0.186,
+    "arc_contrast": 1.0,
+    "reaction": 0.814,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.778,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 42.6,
+    "contrast_db": 19.4,
+    "triggers": 0.25,
+    "speech_rate": 1.84,
+    "trigger_words": [
+     "what the"
+    ],
+    "face_motion": 0.876,
+    "face_seen": 0.25
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3037.35,
+   "end": 3065.53,
+   "peak": 3062.45,
+   "text": "police look bro god chat",
+   "tokens": {
+    "n": 86,
+    "distinct": 57
+   },
+   "comp": {
+    "emotion": 0.862,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.87
+   },
+   "signals": {
+    "intensity": 0.914,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.883,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.867,
+    "excitement_db": 18.8,
+    "shock_contrast_db": 21.2,
+    "contrast_db": 18.8,
+    "triggers": 1.0,
+    "speech_rate": 3.18,
+    "trigger_words": [
+     "police",
+     "look",
+     "bro",
+     "god",
+     "chat"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3123.51,
+   "end": 3150.3,
+   "peak": 3147.35,
+   "text": "watch bro crazy",
+   "tokens": {
+    "n": 65,
+    "distinct": 40
+   },
+   "comp": {
+    "emotion": 0.948,
+    "story": 0.928,
+    "hook": 0.4,
+    "pacing": 0.753
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.821,
+    "shock": 0.987,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.937,
+    "excitement_db": 24.1,
+    "shock_contrast_db": 23.7,
+    "contrast_db": 20.0,
+    "triggers": 0.75,
+    "speech_rate": 2.42,
+    "trigger_words": [
+     "watch",
+     "bro",
+     "crazy"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.583
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "a downed player, panic without payoff",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3204.5,
+   "end": 3224.72,
+   "peak": 3221.35,
+   "text": "no",
+   "tokens": {
+    "n": 37,
+    "distinct": 31
+   },
+   "comp": {
+    "emotion": 0.503,
+    "story": 0.932,
+    "hook": 0.42,
+    "pacing": 0.548
+   },
+   "signals": {
+    "intensity": 0.257,
+    "arc_contrast": 1.0,
+    "reaction": 0.831,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.763,
+    "excitement_db": 9.6,
+    "shock_contrast_db": 29.8,
+    "contrast_db": 28.5,
+    "triggers": 1.0,
+    "speech_rate": 1.83,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.5
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "argues over CPR, needs context",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3273.47,
+   "end": 3297.55,
+   "peak": 3295.35,
+   "text": "bro",
+   "tokens": {
+    "n": 17,
+    "distinct": 7
+   },
+   "comp": {
+    "emotion": 0.95,
+    "hud": 0.9,
+    "story": 0.849,
+    "hook": 0.7,
+    "pacing": 0.567
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.624,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.523,
+    "excitement_db": 59.5,
+    "shock_contrast_db": 62.1,
+    "contrast_db": 35.9,
+    "triggers": 0.75,
+    "speech_rate": 2.52,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0,
+    "hud": 0.9,
+    "hud_reason": "MISSION FAILED on screen"
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "a fail screen while he complains about a ban, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": [
+    {
+     "t": 3291.63,
+     "event": "mission_failed"
+    }
+   ]
+  },
+  {
+   "start": 3339.72,
+   "end": 3375.34,
+   "peak": 3370.25,
+   "text": "bro",
+   "tokens": {
+    "n": 49,
+    "distinct": 39
+   },
+   "comp": {
+    "emotion": 1.0,
+    "story": 0.962,
+    "hook": 0.42,
+    "pacing": 0.851
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.904,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.869,
+    "excitement_db": 22.8,
+    "shock_contrast_db": 24.9,
+    "contrast_db": 45.6,
+    "triggers": 1.0,
+    "speech_rate": 3.08,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 0.107,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3461.78,
+   "end": 3489.38,
+   "peak": 3483.95,
+   "text": "crazy god",
+   "tokens": {
+    "n": 53,
+    "distinct": 42
+   },
+   "comp": {
+    "emotion": 0.528,
+    "story": 0.909,
+    "hook": 0.42,
+    "pacing": 0.886
+   },
+   "signals": {
+    "intensity": 0.45,
+    "arc_contrast": 1.0,
+    "reaction": 0.773,
+    "shock": 0.992,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.772,
+    "excitement_db": 12.3,
+    "shock_contrast_db": 23.8,
+    "contrast_db": 47.9,
+    "triggers": 0.75,
+    "speech_rate": 3.71,
+    "trigger_words": [
+     "god",
+     "crazy"
+    ],
+    "face_motion": 0.104,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3553.97,
+   "end": 3579.34,
+   "peak": 3572.55,
+   "text": "yo bro",
+   "tokens": {
+    "n": 56,
+    "distinct": 36
+   },
+   "comp": {
+    "emotion": 0.994,
+    "story": 0.924,
+    "hook": 0.7,
+    "pacing": 0.847
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.81,
+    "shock": 0.971,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.774,
+    "excitement_db": 24.9,
+    "shock_contrast_db": 23.3,
+    "contrast_db": 40.0,
+    "triggers": 1.0,
+    "speech_rate": 3.3,
+    "trigger_words": [
+     "bro",
+     "yo"
+    ],
+    "face_motion": 0.108,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3641.97,
+   "end": 3673.89,
+   "peak": 3663.15,
+   "text": "bro yo chat",
+   "tokens": {
+    "n": 88,
+    "distinct": 59
+   },
+   "comp": {
+    "emotion": 0.632,
+    "story": 0.951,
+    "hook": 0.42,
+    "pacing": 0.918
+   },
+   "signals": {
+    "intensity": 0.65,
+    "arc_contrast": 1.0,
+    "reaction": 0.877,
+    "shock": 0.658,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.874,
+    "excitement_db": 15.1,
+    "shock_contrast_db": 15.8,
+    "contrast_db": 28.4,
+    "triggers": 1.0,
+    "speech_rate": 3.4,
+    "trigger_words": [
+     "bro",
+     "yo",
+     "chat"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.167
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3729.47,
+   "end": 3757.4,
+   "peak": 3754.25,
+   "text": "bro nah",
+   "tokens": {
+    "n": 77,
+    "distinct": 56
+   },
+   "comp": {
+    "emotion": 0.407,
+    "story": 0.863,
+    "hook": 0.12,
+    "pacing": 0.923
+   },
+   "signals": {
+    "intensity": 0.143,
+    "arc_contrast": 1.0,
+    "reaction": 0.657,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.893,
+    "excitement_db": 8.0,
+    "shock_contrast_db": 35.3,
+    "contrast_db": 18.3,
+    "triggers": 0.75,
+    "speech_rate": 3.38,
+    "trigger_words": [
+     "bro",
+     "nah"
+    ],
+    "face_motion": 0.193,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3856.11,
+   "end": 3882.25,
+   "peak": 3880.05,
+   "text": "nah bro yo",
+   "tokens": {
+    "n": 26,
+    "distinct": 24
+   },
+   "comp": {
+    "emotion": 0.907,
+    "story": 0.889,
+    "hook": 0.42,
+    "pacing": 0.798
+   },
+   "signals": {
+    "intensity": 0.943,
+    "arc_contrast": 1.0,
+    "reaction": 0.724,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.762,
+    "excitement_db": 19.2,
+    "shock_contrast_db": 43.7,
+    "contrast_db": 54.1,
+    "triggers": 1.0,
+    "speech_rate": 3.08,
+    "trigger_words": [
+     "bro",
+     "yo",
+     "nah"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3917.14,
+   "end": 3943.15,
+   "peak": 3940.95,
+   "text": "bro look at this banned",
+   "tokens": {
+    "n": 72,
+    "distinct": 42
+   },
+   "comp": {
+    "emotion": 0.403,
+    "story": 0.976,
+    "hook": 0.82,
+    "pacing": 0.792
+   },
+   "signals": {
+    "intensity": 0.043,
+    "arc_contrast": 1.0,
+    "reaction": 0.941,
+    "shock": 0.929,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.848,
+    "excitement_db": 6.6,
+    "shock_contrast_db": 22.3,
+    "contrast_db": 14.4,
+    "triggers": 1.0,
+    "speech_rate": 2.84,
+    "trigger_words": [
+     "banned",
+     "bro",
+     "look at this",
+     "look"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.583
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3994.42,
+   "end": 4010.96,
+   "peak": 4008.75,
+   "text": "way",
+   "tokens": {
+    "n": 49,
+    "distinct": 30
+   },
+   "comp": {
+    "emotion": 0.357,
+    "story": 0.965,
+    "hook": 0.12,
+    "pacing": 0.848
+   },
+   "signals": {
+    "intensity": 0.143,
+    "arc_contrast": 1.0,
+    "reaction": 0.912,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.823,
+    "excitement_db": 8.0,
+    "shock_contrast_db": 41.4,
+    "contrast_db": 22.8,
+    "triggers": 0.5,
+    "speech_rate": 3.18,
+    "trigger_words": [
+     "way"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4051.89,
+   "end": 4075.73,
+   "peak": 4072.25,
+   "text": "bro",
+   "tokens": {
+    "n": 54,
+    "distinct": 33
+   },
+   "comp": {
+    "emotion": 0.635,
+    "story": 0.98,
+    "hook": 0.12,
+    "pacing": 0.747
+   },
+   "signals": {
+    "intensity": 0.964,
+    "arc_contrast": 1.0,
+    "reaction": 0.95,
+    "shock": 0.308,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.789,
+    "excitement_db": 19.5,
+    "shock_contrast_db": 7.4,
+    "contrast_db": 31.7,
+    "triggers": 0.25,
+    "speech_rate": 2.76,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4177.37,
+   "end": 4231.15,
+   "peak": 4196.85,
+   "text": "nah run watch",
+   "tokens": {
+    "n": 23,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.482,
+    "story": 0.995,
+    "hook": 0.12,
+    "pacing": 0.492
+   },
+   "signals": {
+    "intensity": 0.414,
+    "arc_contrast": 0.994,
+    "reaction": 0.996,
+    "shock": 0.579,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.985,
+    "excitement_db": 11.8,
+    "shock_contrast_db": 13.9,
+    "contrast_db": 11.9,
+    "triggers": 1.0,
+    "speech_rate": 0.43,
+    "trigger_words": [
+     "watch",
+     "nah",
+     "run"
+    ],
+    "face_motion": 0.653,
+    "face_seen": 1.0
+   },
+   "category": "chaos",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4254.95,
+   "end": 4270.45,
+   "peak": 4268.25,
+   "text": "oh my god",
+   "tokens": {
+    "n": 27,
+    "distinct": 25
+   },
+   "comp": {
+    "emotion": 0.232,
+    "story": 0.4,
+    "hook": 0.52,
+    "pacing": 0.601
+   },
+   "signals": {
+    "intensity": 0.114,
+    "arc_contrast": 0.0,
+    "reaction": 1.0,
+    "shock": 0.683,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.889,
+    "excitement_db": 7.6,
+    "shock_contrast_db": 16.4,
+    "contrast_db": -3.2,
+    "triggers": 0.25,
+    "speech_rate": 1.78,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 0.636,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4318.5,
+   "end": 4341.46,
+   "peak": 4330.95,
+   "text": "real bro god",
+   "tokens": {
+    "n": 33,
+    "distinct": 25
+   },
+   "comp": {
+    "emotion": 0.857,
+    "story": 0.947,
+    "hook": 0.42,
+    "pacing": 0.516
+   },
+   "signals": {
+    "intensity": 0.993,
+    "arc_contrast": 1.0,
+    "reaction": 0.868,
+    "shock": 0.562,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.812,
+    "excitement_db": 19.9,
+    "shock_contrast_db": 13.5,
+    "contrast_db": 40.1,
+    "triggers": 1.0,
+    "speech_rate": 1.55,
+    "trigger_words": [
+     "bro",
+     "god",
+     "real"
+    ],
+    "face_motion": 0.869,
+    "face_seen": 0.667
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4383.87,
+   "end": 4410.15,
+   "peak": 4407.85,
+   "text": "crazy fake",
+   "tokens": {
+    "n": 85,
+    "distinct": 59
+   },
+   "comp": {
+    "emotion": 0.471,
+    "story": 0.953,
+    "hook": 0.4,
+    "pacing": 0.924
+   },
+   "signals": {
+    "intensity": 0.429,
+    "arc_contrast": 1.0,
+    "reaction": 0.883,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.953,
+    "excitement_db": 12.0,
+    "shock_contrast_db": 26.8,
+    "contrast_db": 14.0,
+    "triggers": 0.5,
+    "speech_rate": 3.24,
+    "trigger_words": [
+     "crazy",
+     "fake"
+    ],
+    "face_motion": 0.463,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4472.54,
+   "end": 4491.2,
+   "peak": 4487.65,
+   "text": "bro",
+   "tokens": {
+    "n": 52,
+    "distinct": 40
+   },
+   "comp": {
+    "emotion": 0.686,
+    "story": 0.819,
+    "hook": 0.12,
+    "pacing": 0.834
+   },
+   "signals": {
+    "intensity": 0.714,
+    "arc_contrast": 0.711,
+    "reaction": 0.98,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.926,
+    "excitement_db": 16.0,
+    "shock_contrast_db": 24.1,
+    "contrast_db": 8.5,
+    "triggers": 0.75,
+    "speech_rate": 2.85,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 0.969,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4539.67,
+   "end": 4558.52,
+   "peak": 4555.25,
+   "text": "",
+   "tokens": {
+    "n": 72,
+    "distinct": 38
+   },
+   "comp": {
+    "emotion": 0.125,
+    "story": 0.667,
+    "hook": 0.12,
+    "pacing": 0.853
+   },
+   "signals": {
+    "intensity": 0.014,
+    "arc_contrast": 0.466,
+    "reaction": 0.968,
+    "shock": 0.596,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.705,
+    "excitement_db": 6.2,
+    "shock_contrast_db": 14.3,
+    "contrast_db": 5.6,
+    "triggers": 0.0,
+    "speech_rate": 3.91,
+    "trigger_words": [],
+    "face_motion": 0.914,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4643.38,
+   "end": 4676.38,
+   "peak": 4667.45,
+   "text": "bro nah no",
+   "tokens": {
+    "n": 87,
+    "distinct": 54
+   },
+   "comp": {
+    "emotion": 0.507,
+    "story": 0.514,
+    "hook": 0.7,
+    "pacing": 0.692
+   },
+   "signals": {
+    "intensity": 0.421,
+    "arc_contrast": 0.283,
+    "reaction": 0.86,
+    "shock": 0.692,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.707,
+    "excitement_db": 11.9,
+    "shock_contrast_db": 16.6,
+    "contrast_db": 3.4,
+    "triggers": 1.0,
+    "speech_rate": 2.69,
+    "trigger_words": [
+     "nah",
+     "bro",
+     "no"
+    ],
+    "face_motion": 0.948,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4709.75,
+   "end": 4743.27,
+   "peak": 4734.75,
+   "text": "crazy no fake bro",
+   "tokens": {
+    "n": 136,
+    "distinct": 82
+   },
+   "comp": {
+    "emotion": 0.514,
+    "story": 0.858,
+    "hook": 0.4,
+    "pacing": 0.978
+   },
+   "signals": {
+    "intensity": 0.286,
+    "arc_contrast": 0.784,
+    "reaction": 0.968,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.955,
+    "excitement_db": 10.0,
+    "shock_contrast_db": 26.0,
+    "contrast_db": 9.4,
+    "triggers": 1.0,
+    "speech_rate": 4.06,
+    "trigger_words": [
+     "fake",
+     "bro",
+     "crazy",
+     "no"
+    ],
+    "face_motion": 0.77,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4838.56,
+   "end": 4859.98,
+   "peak": 4856.65,
+   "text": "bro crazy yo",
+   "tokens": {
+    "n": 65,
+    "distinct": 43
+   },
+   "comp": {
+    "emotion": 0.513,
+    "story": 0.932,
+    "hook": 0.7,
+    "pacing": 0.859
+   },
+   "signals": {
+    "intensity": 0.286,
+    "arc_contrast": 1.0,
+    "reaction": 0.829,
+    "shock": 0.996,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.858,
+    "excitement_db": 10.0,
+    "shock_contrast_db": 23.9,
+    "contrast_db": 20.8,
+    "triggers": 1.0,
+    "speech_rate": 3.15,
+    "trigger_words": [
+     "yo",
+     "bro",
+     "crazy"
+    ],
+    "face_motion": 0.844,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4960.17,
+   "end": 4984.28,
+   "peak": 4981.95,
+   "text": "bro chat",
+   "tokens": {
+    "n": 45,
+    "distinct": 37
+   },
+   "comp": {
+    "emotion": 0.421,
+    "story": 0.949,
+    "hook": 0.42,
+    "pacing": 0.568
+   },
+   "signals": {
+    "intensity": 0.179,
+    "arc_contrast": 1.0,
+    "reaction": 0.872,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.697,
+    "excitement_db": 8.5,
+    "shock_contrast_db": 27.2,
+    "contrast_db": 18.2,
+    "triggers": 0.75,
+    "speech_rate": 2.1,
+    "trigger_words": [
+     "chat",
+     "bro"
+    ],
+    "face_motion": 0.697,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5085.36,
+   "end": 5107.75,
+   "peak": 5105.55,
+   "text": "way no bro",
+   "tokens": {
+    "n": 61,
+    "distinct": 42
+   },
+   "comp": {
+    "emotion": 0.523,
+    "story": 0.885,
+    "hook": 0.42,
+    "pacing": 0.769
+   },
+   "signals": {
+    "intensity": 0.307,
+    "arc_contrast": 1.0,
+    "reaction": 0.712,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.783,
+    "excitement_db": 10.3,
+    "shock_contrast_db": 28.7,
+    "contrast_db": 14.1,
+    "triggers": 1.0,
+    "speech_rate": 2.89,
+    "trigger_words": [
+     "no",
+     "bro",
+     "way"
+    ],
+    "face_motion": 0.124,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5155.15,
+   "end": 5173.51,
+   "peak": 5170.85,
+   "text": "bro never",
+   "tokens": {
+    "n": 70,
+    "distinct": 51
+   },
+   "comp": {
+    "emotion": 0.379,
+    "story": 0.796,
+    "hook": 0.42,
+    "pacing": 0.941
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 0.661,
+    "reaction": 1.0,
+    "shock": 0.438,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.882,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 10.5,
+    "contrast_db": 7.9,
+    "triggers": 1.0,
+    "speech_rate": 3.82,
+    "trigger_words": [
+     "never",
+     "bro"
+    ],
+    "face_motion": 0.567,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5237.6,
+   "end": 5263.45,
+   "peak": 5261.25,
+   "text": "yo",
+   "tokens": {
+    "n": 11,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.47,
+    "story": 0.6,
+    "hook": 0.12,
+    "pacing": 0.293
+   },
+   "signals": {
+    "intensity": 0.55,
+    "arc_contrast": 1.0,
+    "reaction": 0.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.361,
+    "excitement_db": 13.7,
+    "shock_contrast_db": 58.7,
+    "contrast_db": 40.9,
+    "triggers": 0.25,
+    "speech_rate": 1.56,
+    "trigger_words": [
+     "yo"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5300.37,
+   "end": 5329.78,
+   "peak": 5325.75,
+   "text": "yo thank you",
+   "tokens": {
+    "n": 32,
+    "distinct": 19
+   },
+   "comp": {
+    "emotion": 0.95,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.514
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.993,
+    "excitement_db": 24.6,
+    "shock_contrast_db": 25.3,
+    "contrast_db": 12.5,
+    "triggers": 0.75,
+    "speech_rate": 1.09,
+    "trigger_words": [
+     "thank you",
+     "yo"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.083
+   },
+   "category": "wholesome",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5389.6,
+   "end": 5415.69,
+   "peak": 5413.35,
+   "text": "nah",
+   "tokens": {
+    "n": 32,
+    "distinct": 18
+   },
+   "comp": {
+    "emotion": 0.373,
+    "story": 1.0,
+    "hook": 0.42,
+    "pacing": 0.584
+   },
+   "signals": {
+    "intensity": 0.407,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.55,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.948,
+    "excitement_db": 11.7,
+    "shock_contrast_db": 13.2,
+    "contrast_db": 27.5,
+    "triggers": 0.5,
+    "speech_rate": 1.55,
+    "trigger_words": [
+     "nah"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.75
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5464.59,
+   "end": 5491.74,
+   "peak": 5488.85,
+   "text": "bro no",
+   "tokens": {
+    "n": 35,
+    "distinct": 28
+   },
+   "comp": {
+    "emotion": 0.398,
+    "story": 0.578,
+    "hook": 0.42,
+    "pacing": 0.547
+   },
+   "signals": {
+    "intensity": 0.214,
+    "arc_contrast": 0.296,
+    "reaction": 1.0,
+    "shock": 0.812,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.979,
+    "excitement_db": 9.0,
+    "shock_contrast_db": 19.5,
+    "contrast_db": 3.6,
+    "triggers": 0.75,
+    "speech_rate": 1.29,
+    "trigger_words": [
+     "no",
+     "bro"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "caught by staff, pretends he thought it was a roleplay server",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5568.06,
+   "end": 5592.02,
+   "peak": 5589.55,
+   "text": "thank you bro",
+   "tokens": {
+    "n": 55,
+    "distinct": 38
+   },
+   "comp": {
+    "emotion": 0.73,
+    "story": 0.97,
+    "hook": 0.42,
+    "pacing": 0.8
+   },
+   "signals": {
+    "intensity": 0.707,
+    "arc_contrast": 1.0,
+    "reaction": 0.924,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.853,
+    "excitement_db": 15.9,
+    "shock_contrast_db": 29.7,
+    "contrast_db": 26.3,
+    "triggers": 1.0,
+    "speech_rate": 2.87,
+    "trigger_words": [
+     "bro",
+     "thank you"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.333
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5633.26,
+   "end": 5653.9,
+   "peak": 5650.45,
+   "text": "bro",
+   "tokens": {
+    "n": 54,
+    "distinct": 40
+   },
+   "comp": {
+    "emotion": 0.384,
+    "story": 0.993,
+    "hook": 0.42,
+    "pacing": 0.788
+   },
+   "signals": {
+    "intensity": 0.221,
+    "arc_contrast": 1.0,
+    "reaction": 0.981,
+    "shock": 0.725,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.838,
+    "excitement_db": 9.1,
+    "shock_contrast_db": 17.4,
+    "contrast_db": 23.6,
+    "triggers": 0.75,
+    "speech_rate": 2.84,
+    "trigger_words": [
+     "bro"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.75
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5782.89,
+   "end": 5804.27,
+   "peak": 5799.35,
+   "text": "watch",
+   "tokens": {
+    "n": 81,
+    "distinct": 52
+   },
+   "comp": {
+    "emotion": 0.327,
+    "story": 0.501,
+    "hook": 0.12,
+    "pacing": 0.909
+   },
+   "signals": {
+    "intensity": 0.193,
+    "arc_contrast": 0.204,
+    "reaction": 0.947,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.818,
+    "excitement_db": 8.7,
+    "shock_contrast_db": 25.1,
+    "contrast_db": 2.4,
+    "triggers": 0.25,
+    "speech_rate": 3.8,
+    "trigger_words": [
+     "watch"
+    ],
+    "face_motion": 0.0,
+    "face_seen": 0.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5872.39,
+   "end": 5892.01,
+   "peak": 5885.25,
+   "text": "no bro watch",
+   "tokens": {
+    "n": 45,
+    "distinct": 33
+   },
+   "comp": {
+    "emotion": 0.482,
+    "story": 0.931,
+    "hook": 0.42,
+    "pacing": 0.762
+   },
+   "signals": {
+    "intensity": 0.329,
+    "arc_contrast": 1.0,
+    "reaction": 0.828,
+    "shock": 0.754,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.77,
+    "excitement_db": 10.6,
+    "shock_contrast_db": 18.1,
+    "contrast_db": 24.0,
+    "triggers": 1.0,
+    "speech_rate": 2.88,
+    "trigger_words": [
+     "watch",
+     "bro",
+     "no"
+    ],
+    "face_motion": 0.003,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5926.86,
+   "end": 5952.38,
+   "peak": 5949.35,
+   "text": "yo bro",
+   "tokens": {
+    "n": 22,
+    "distinct": 12
+   },
+   "comp": {
+    "emotion": 1.0,
+    "story": 0.976,
+    "hook": 0.42,
+    "pacing": 0.488
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.941,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.909,
+    "excitement_db": 22.9,
+    "shock_contrast_db": 24.3,
+    "contrast_db": 28.0,
+    "triggers": 1.0,
+    "speech_rate": 1.17,
+    "trigger_words": [
+     "yo",
+     "bro"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 0.583
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5987.68,
+   "end": 6014.55,
+   "peak": 6012.35,
+   "text": "bro watch no chat",
+   "tokens": {
+    "n": 40,
+    "distinct": 28
+   },
+   "comp": {
+    "emotion": 0.725,
+    "story": 0.896,
+    "hook": 0.7,
+    "pacing": 0.591
+   },
+   "signals": {
+    "intensity": 0.7,
+    "arc_contrast": 1.0,
+    "reaction": 0.741,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.795,
+    "excitement_db": 15.8,
+    "shock_contrast_db": 27.9,
+    "contrast_db": 26.2,
+    "triggers": 1.0,
+    "speech_rate": 1.97,
+    "trigger_words": [
+     "chat",
+     "bro",
+     "watch",
+     "no"
+    ],
+    "face_motion": 0.032,
+    "face_seen": 0.917
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 6080.48,
+   "end": 6100.65,
+   "peak": 6098.45,
+   "text": "stop gta",
+   "tokens": {
+    "n": 74,
+    "distinct": 45
+   },
+   "comp": {
+    "emotion": 0.487,
+    "story": 0.588,
+    "hook": 0.4,
+    "pacing": 0.897
+   },
+   "signals": {
+    "intensity": 0.343,
+    "arc_contrast": 0.8,
+    "reaction": 0.271,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.794,
+    "excitement_db": 10.8,
+    "shock_contrast_db": 68.2,
+    "contrast_db": 9.6,
+    "triggers": 0.75,
+    "speech_rate": 3.74,
+    "trigger_words": [
+     "stop",
+     "gta"
+    ],
+    "face_motion": 0.025,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "chat talk, insults or drama recap, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  }
+ ]
+}

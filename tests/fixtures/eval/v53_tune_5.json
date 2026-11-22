@@ -1,0 +1,2926 @@
+{
+ "split": "tune",
+ "content": "talk",
+ "transcribed": true,
+ "note": "Every candidate window (first 90 min of a VOD longer than 2 h) of one discover-clips run (--min-score 0 --max-clips 0 --llm none, --hud auto; talk: --content talk) on a public stream, labelled blind (no scores shown) by the maintainer's tooling from the window transcript and 6-frame strips. No media, no video id, title or channel. 'text' keeps <= 12 neutral tokens (milestone line, trigger words); 'tokens' holds the word counts the quality bar reads.",
+ "candidates": [
+  {
+   "start": 32.05,
+   "end": 49.25,
+   "peak": 47.05,
+   "text": "",
+   "tokens": {
+    "n": 3,
+    "distinct": 3
+   },
+   "comp": {
+    "story": 0.254,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.055
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.271,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.111,
+    "excitement_db": 76.0,
+    "shock_contrast_db": 69.1,
+    "triggers": 0.0,
+    "speech_rate": 0.17,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 117.88,
+   "end": 142.87,
+   "peak": 140.55,
+   "text": "",
+   "tokens": {
+    "n": 54,
+    "distinct": 48
+   },
+   "comp": {
+    "story": 0.5,
+    "emotion": 0.387,
+    "hook": 0.55,
+    "pacing": 0.896
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.626,
+    "laughter": 0.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.806,
+    "excitement_db": 68.6,
+    "shock_contrast_db": 44.2,
+    "triggers": 0.25,
+    "speech_rate": 3.46,
+    "trigger_words": [
+     "37"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 193.98,
+   "end": 209.95,
+   "peak": 207.75,
+   "text": "",
+   "tokens": {
+    "n": 14,
+    "distinct": 14
+   },
+   "comp": {
+    "story": 0.2,
+    "emotion": 0.3,
+    "hook": 0.65,
+    "pacing": 0.319
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.454,
+    "excitement_db": 35.8,
+    "shock_contrast_db": 67.5,
+    "triggers": 0.0,
+    "speech_rate": 1.46,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 295.65,
+   "end": 321.13,
+   "peak": 318.85,
+   "text": "",
+   "tokens": {
+    "n": 56,
+    "distinct": 44
+   },
+   "comp": {
+    "story": 0.339,
+    "emotion": 0.23,
+    "hook": 0.15,
+    "pacing": 0.745
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.3,
+    "reaction": 0.697,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.657,
+    "excitement_db": 10.2,
+    "shock_contrast_db": 32.6,
+    "triggers": 0.0,
+    "speech_rate": 3.08,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": true,
+   "big": false,
+   "reason": "reads a fan's dream about meeting him and answers with a dry joke",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 378.04,
+   "end": 405.89,
+   "peak": 401.75,
+   "text": "",
+   "tokens": {
+    "n": 55,
+    "distinct": 37
+   },
+   "comp": {
+    "story": 0.35,
+    "emotion": 0.209,
+    "hook": 0.15,
+    "pacing": 0.608
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.464,
+    "reaction": 1.0,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.806,
+    "excitement_db": 12.5,
+    "shock_contrast_db": 6.2,
+    "triggers": 0.0,
+    "speech_rate": 2.02,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 408.68,
+   "end": 434.62,
+   "peak": 432.35,
+   "text": "oh my god",
+   "tokens": {
+    "n": 39,
+    "distinct": 33
+   },
+   "comp": {
+    "story": 0.627,
+    "emotion": 0.315,
+    "hook": 1.0,
+    "pacing": 0.503
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.384,
+    "laughter": 0.4,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.633,
+    "excitement_db": -3.1,
+    "shock_contrast_db": 28.0,
+    "triggers": 0.5,
+    "speech_rate": 1.93,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 476.29,
+   "end": 498.85,
+   "peak": 496.65,
+   "text": "oh my god",
+   "tokens": {
+    "n": 23,
+    "distinct": 18
+   },
+   "comp": {
+    "story": 0.664,
+    "emotion": 0.615,
+    "hook": 0.5,
+    "pacing": 0.5
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.071,
+    "laughter": 0.4,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.501,
+    "excitement_db": 70.2,
+    "shock_contrast_db": 74.1,
+    "triggers": 0.5,
+    "speech_rate": 2.25,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 567.49,
+   "end": 594.55,
+   "peak": 592.35,
+   "text": "",
+   "tokens": {
+    "n": 17,
+    "distinct": 16
+   },
+   "comp": {
+    "story": 0.346,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.544
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.729,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.512,
+    "excitement_db": 62.5,
+    "shock_contrast_db": 45.1,
+    "triggers": 0.0,
+    "speech_rate": 2.44,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 599.61,
+   "end": 625.98,
+   "peak": 622.95,
+   "text": "what the",
+   "tokens": {
+    "n": 63,
+    "distinct": 43
+   },
+   "comp": {
+    "story": 0.725,
+    "emotion": 0.35,
+    "hook": 1.0,
+    "pacing": 0.81
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.874,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.703,
+    "excitement_db": 4.9,
+    "shock_contrast_db": 12.3,
+    "triggers": 1.0,
+    "speech_rate": 3.29,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 678.07,
+   "end": 698.54,
+   "peak": 696.05,
+   "text": "best never",
+   "tokens": {
+    "n": 44,
+    "distinct": 39
+   },
+   "comp": {
+    "story": 0.448,
+    "emotion": 0.406,
+    "hook": 0.15,
+    "pacing": 0.672
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.771,
+    "reaction": 0.714,
+    "laughter": 0.0,
+    "statement": 0.3,
+    "complete": 1.0,
+    "voiced_after_trim": 0.701,
+    "excitement_db": 16.8,
+    "shock_contrast_db": 29.5,
+    "triggers": 0.5,
+    "speech_rate": 2.61,
+    "trigger_words": [
+     "best",
+     "never"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 765.57,
+   "end": 788.65,
+   "peak": 786.45,
+   "text": "",
+   "tokens": {
+    "n": 20,
+    "distinct": 18
+   },
+   "comp": {
+    "story": 0.274,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.383
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.371,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.453,
+    "excitement_db": 32.6,
+    "shock_contrast_db": 60.8,
+    "triggers": 0.0,
+    "speech_rate": 1.79,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 841.04,
+   "end": 860.45,
+   "peak": 858.25,
+   "text": "oh my god",
+   "tokens": {
+    "n": 18,
+    "distinct": 15
+   },
+   "comp": {
+    "story": 0.6,
+    "emotion": 0.545,
+    "hook": 0.5,
+    "pacing": 0.379
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.435,
+    "excitement_db": 25.8,
+    "shock_contrast_db": 40.1,
+    "triggers": 0.5,
+    "speech_rate": 1.81,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 906.44,
+   "end": 932.65,
+   "peak": 930.45,
+   "text": "best oh my god",
+   "tokens": {
+    "n": 42,
+    "distinct": 40
+   },
+   "comp": {
+    "story": 0.605,
+    "emotion": 0.65,
+    "hook": 0.5,
+    "pacing": 0.747
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.276,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.652,
+    "excitement_db": 25.0,
+    "shock_contrast_db": 27.0,
+    "triggers": 1.0,
+    "speech_rate": 3.1,
+    "trigger_words": [
+     "oh my god",
+     "best",
+     "19"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 997.83,
+   "end": 1015.85,
+   "peak": 1013.65,
+   "text": "what the oh my god",
+   "tokens": {
+    "n": 36,
+    "distinct": 30
+   },
+   "comp": {
+    "story": 0.686,
+    "emotion": 0.643,
+    "hook": 0.5,
+    "pacing": 0.628
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.743,
+    "reaction": 0.429,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.593,
+    "excitement_db": 16.4,
+    "shock_contrast_db": 37.4,
+    "triggers": 1.0,
+    "speech_rate": 2.66,
+    "trigger_words": [
+     "what the",
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1065.57,
+   "end": 1089.15,
+   "peak": 1087.15,
+   "text": "",
+   "tokens": {
+    "n": 62,
+    "distinct": 55
+   },
+   "comp": {
+    "story": 0.211,
+    "emotion": 0.184,
+    "hook": 0.15,
+    "pacing": 0.739
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.614,
+    "reaction": 0.053,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.734,
+    "excitement_db": 14.6,
+    "shock_contrast_db": 29.4,
+    "triggers": 0.0,
+    "speech_rate": 2.86,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game dialogue, mild joke without a reaction",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1180.45,
+   "end": 1203.88,
+   "peak": 1193.45,
+   "text": "what the",
+   "tokens": {
+    "n": 41,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.74,
+    "emotion": 0.274,
+    "hook": 0.5,
+    "pacing": 0.628
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.329,
+    "reaction": 0.948,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.938,
+    "excitement_db": 10.6,
+    "shock_contrast_db": 16.9,
+    "triggers": 0.5,
+    "speech_rate": 1.79,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1251.22,
+   "end": 1278.48,
+   "peak": 1274.65,
+   "text": "",
+   "tokens": {
+    "n": 52,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.4,
+    "emotion": 0.141,
+    "hook": 0.15,
+    "pacing": 0.682
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.471,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 12.6,
+    "shock_contrast_db": 6.0,
+    "triggers": 0.0,
+    "speech_rate": 1.91,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1345.09,
+   "end": 1367.95,
+   "peak": 1365.75,
+   "text": "",
+   "tokens": {
+    "n": 26,
+    "distinct": 24
+   },
+   "comp": {
+    "story": 0.275,
+    "emotion": 0.3,
+    "hook": 0.65,
+    "pacing": 0.455
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.376,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.808,
+    "excitement_db": 20.7,
+    "shock_contrast_db": 25.5,
+    "triggers": 0.0,
+    "speech_rate": 1.25,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1486.39,
+   "end": 1505.57,
+   "peak": 1503.55,
+   "text": "",
+   "tokens": {
+    "n": 23,
+    "distinct": 17
+   },
+   "comp": {
+    "story": 0.251,
+    "emotion": 0.279,
+    "hook": 0.15,
+    "pacing": 0.446
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.929,
+    "reaction": 0.257,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.803,
+    "excitement_db": 19.0,
+    "shock_contrast_db": 26.3,
+    "triggers": 0.0,
+    "speech_rate": 1.22,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1529.42,
+   "end": 1559.29,
+   "peak": 1553.05,
+   "text": "",
+   "tokens": {
+    "n": 72,
+    "distinct": 53
+   },
+   "comp": {
+    "story": 0.625,
+    "emotion": 0.157,
+    "hook": 0.25,
+    "pacing": 0.782
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 1.0,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": -2.3,
+    "shock_contrast_db": 0.1,
+    "triggers": 0.25,
+    "speech_rate": 2.41,
+    "trigger_words": [
+     "1234"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1576.76,
+   "end": 1592.57,
+   "peak": 1590.25,
+   "text": "",
+   "tokens": {
+    "n": 10,
+    "distinct": 8
+   },
+   "comp": {
+    "story": 0.29,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.403
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.451,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.806,
+    "excitement_db": 20.3,
+    "shock_contrast_db": 30.9,
+    "triggers": 0.0,
+    "speech_rate": 0.65,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1640.6,
+   "end": 1661.65,
+   "peak": 1659.45,
+   "text": "what the oh my god",
+   "tokens": {
+    "n": 8,
+    "distinct": 8
+   },
+   "comp": {
+    "story": 0.726,
+    "emotion": 0.65,
+    "hook": 0.5,
+    "pacing": 0.453
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.882,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.906,
+    "excitement_db": 29.9,
+    "shock_contrast_db": 27.0,
+    "triggers": 1.0,
+    "speech_rate": 0.4,
+    "trigger_words": [
+     "what the",
+     "oh my god",
+     "1234"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1686.34,
+   "end": 1707.69,
+   "peak": 1705.15,
+   "text": "oh my god",
+   "tokens": {
+    "n": 27,
+    "distinct": 21
+   },
+   "comp": {
+    "story": 0.714,
+    "emotion": 0.469,
+    "hook": 0.5,
+    "pacing": 0.514
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.979,
+    "reaction": 0.819,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.915,
+    "excitement_db": 19.7,
+    "shock_contrast_db": 25.1,
+    "triggers": 0.5,
+    "speech_rate": 1.28,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "tries to log in, restarts the game's computer by mistake, groans",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1730.72,
+   "end": 1746.55,
+   "peak": 1744.35,
+   "text": "",
+   "tokens": {
+    "n": 3,
+    "distinct": 2
+   },
+   "comp": {
+    "story": 0.376,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.45
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.882,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.9,
+    "excitement_db": 23.6,
+    "shock_contrast_db": 21.0,
+    "triggers": 0.0,
+    "speech_rate": 0.2,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1788.7,
+   "end": 1810.45,
+   "peak": 1808.25,
+   "text": "oh my god",
+   "tokens": {
+    "n": 27,
+    "distinct": 23
+   },
+   "comp": {
+    "story": 0.592,
+    "emotion": 0.443,
+    "hook": 1.0,
+    "pacing": 0.528
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.893,
+    "reaction": 0.712,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.89,
+    "excitement_db": 18.5,
+    "shock_contrast_db": 18.9,
+    "triggers": 0.5,
+    "speech_rate": 1.42,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1833.27,
+   "end": 1853.65,
+   "peak": 1851.45,
+   "text": "what the",
+   "tokens": {
+    "n": 28,
+    "distinct": 25
+   },
+   "comp": {
+    "story": 0.75,
+    "emotion": 0.201,
+    "hook": 1.0,
+    "pacing": 0.563
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.086,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.857,
+    "excitement_db": 7.2,
+    "shock_contrast_db": 11.6,
+    "triggers": 0.5,
+    "speech_rate": 1.67,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1874.64,
+   "end": 1894.52,
+   "peak": 1890.55,
+   "text": "",
+   "tokens": {
+    "n": 17,
+    "distinct": 15
+   },
+   "comp": {
+    "story": 0.318,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.367
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.591,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.734,
+    "excitement_db": 25.1,
+    "shock_contrast_db": 22.6,
+    "triggers": 0.0,
+    "speech_rate": 0.85,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "leaves for a break",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2047.44,
+   "end": 2064.32,
+   "peak": 2061.95,
+   "text": "what the",
+   "tokens": {
+    "n": 25,
+    "distinct": 24
+   },
+   "comp": {
+    "story": 0.8,
+    "emotion": 0.545,
+    "hook": 0.5,
+    "pacing": 0.544
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 1.0,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.878,
+    "excitement_db": 29.2,
+    "shock_contrast_db": 18.5,
+    "triggers": 0.5,
+    "speech_rate": 1.53,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2117.54,
+   "end": 2133.66,
+   "peak": 2131.15,
+   "text": "",
+   "tokens": {
+    "n": 22,
+    "distinct": 17
+   },
+   "comp": {
+    "story": 0.385,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.52
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.925,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.873,
+    "excitement_db": 28.0,
+    "shock_contrast_db": 20.2,
+    "triggers": 0.0,
+    "speech_rate": 1.42,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2195.14,
+   "end": 2215.15,
+   "peak": 2212.95,
+   "text": "best",
+   "tokens": {
+    "n": 35,
+    "distinct": 25
+   },
+   "comp": {
+    "story": 0.555,
+    "emotion": 0.29,
+    "hook": 0.15,
+    "pacing": 0.662
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.443,
+    "reaction": 1.0,
+    "laughter": 0.2,
+    "statement": 0.3,
+    "complete": 1.0,
+    "voiced_after_trim": 0.909,
+    "excitement_db": 12.2,
+    "shock_contrast_db": 28.9,
+    "triggers": 0.25,
+    "speech_rate": 2.03,
+    "trigger_words": [
+     "best"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2279.6,
+   "end": 2295.42,
+   "peak": 2292.15,
+   "text": "oh my god",
+   "tokens": {
+    "n": 18,
+    "distinct": 17
+   },
+   "comp": {
+    "story": 0.695,
+    "emotion": 0.475,
+    "hook": 0.5,
+    "pacing": 0.465
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.726,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.876,
+    "excitement_db": 29.0,
+    "shock_contrast_db": 28.6,
+    "triggers": 0.5,
+    "speech_rate": 1.14,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2318.84,
+   "end": 2334.65,
+   "peak": 2332.45,
+   "text": "no way oh my god",
+   "tokens": {
+    "n": 34,
+    "distinct": 30
+   },
+   "comp": {
+    "story": 0.594,
+    "emotion": 0.521,
+    "hook": 1.0,
+    "pacing": 0.642
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.571,
+    "reaction": 0.218,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.689,
+    "excitement_db": 14.0,
+    "shock_contrast_db": 39.0,
+    "triggers": 1.0,
+    "speech_rate": 2.49,
+    "trigger_words": [
+     "no way",
+     "oh my god"
+    ]
+   },
+   "category": "clutch",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2341.59,
+   "end": 2368.19,
+   "peak": 2365.75,
+   "text": "what the",
+   "tokens": {
+    "n": 18,
+    "distinct": 16
+   },
+   "comp": {
+    "story": 0.785,
+    "emotion": 0.545,
+    "hook": 0.5,
+    "pacing": 0.493
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.923,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.893,
+    "excitement_db": 32.5,
+    "shock_contrast_db": 31.3,
+    "triggers": 0.5,
+    "speech_rate": 1.23,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2459.81,
+   "end": 2482.79,
+   "peak": 2480.55,
+   "text": "oh my god",
+   "tokens": {
+    "n": 55,
+    "distinct": 46
+   },
+   "comp": {
+    "story": 0.75,
+    "emotion": 0.226,
+    "hook": 0.5,
+    "pacing": 0.793
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.171,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.909,
+    "excitement_db": 8.4,
+    "shock_contrast_db": 17.5,
+    "triggers": 0.5,
+    "speech_rate": 2.69,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2579.68,
+   "end": 2603.62,
+   "peak": 2595.65,
+   "text": "oh my god",
+   "tokens": {
+    "n": 14,
+    "distinct": 11
+   },
+   "comp": {
+    "story": 0.681,
+    "emotion": 0.475,
+    "hook": 0.5,
+    "pacing": 0.387
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.655,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.774,
+    "excitement_db": 29.7,
+    "shock_contrast_db": 29.4,
+    "triggers": 0.5,
+    "speech_rate": 0.72,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2654.15,
+   "end": 2682.23,
+   "peak": 2679.25,
+   "text": "",
+   "tokens": {
+    "n": 19,
+    "distinct": 12
+   },
+   "comp": {
+    "story": 0.4,
+    "emotion": 0.24,
+    "hook": 0.15,
+    "pacing": 0.441
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.8,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.882,
+    "excitement_db": 17.2,
+    "shock_contrast_db": 13.8,
+    "triggers": 0.0,
+    "speech_rate": 0.75,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2715.52,
+   "end": 2749.04,
+   "peak": 2738.75,
+   "text": "",
+   "tokens": {
+    "n": 60,
+    "distinct": 46
+   },
+   "comp": {
+    "story": 0.565,
+    "emotion": 0.143,
+    "hook": 0.25,
+    "pacing": 0.654
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.186,
+    "reaction": 0.951,
+    "laughter": 0.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.911,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 13.8,
+    "triggers": 0.25,
+    "speech_rate": 1.99,
+    "trigger_words": [
+     "51"
+    ]
+   },
+   "category": "clutch",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2772.39,
+   "end": 2802.53,
+   "peak": 2795.45,
+   "text": "",
+   "tokens": {
+    "n": 22,
+    "distinct": 21
+   },
+   "comp": {
+    "story": 0.395,
+    "emotion": 0.279,
+    "hook": 0.15,
+    "pacing": 0.492
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.929,
+    "reaction": 0.977,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.985,
+    "excitement_db": 19.0,
+    "shock_contrast_db": 23.7,
+    "triggers": 0.0,
+    "speech_rate": 0.73,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2874.09,
+   "end": 2901.15,
+   "peak": 2898.95,
+   "text": "",
+   "tokens": {
+    "n": 39,
+    "distinct": 36
+   },
+   "comp": {
+    "story": 0.2,
+    "emotion": 0.236,
+    "hook": 0.15,
+    "pacing": 0.532
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.786,
+    "reaction": 0.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.866,
+    "excitement_db": 17.0,
+    "shock_contrast_db": 28.6,
+    "triggers": 0.0,
+    "speech_rate": 1.49,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2960.05,
+   "end": 2989.14,
+   "peak": 2981.05,
+   "text": "",
+   "tokens": {
+    "n": 31,
+    "distinct": 28
+   },
+   "comp": {
+    "story": 0.427,
+    "emotion": 0.346,
+    "hook": 0.15,
+    "pacing": 0.47
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.921,
+    "reaction": 0.884,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.869,
+    "excitement_db": 18.9,
+    "shock_contrast_db": 23.1,
+    "triggers": 0.0,
+    "speech_rate": 1.18,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3024.35,
+   "end": 3044.4,
+   "peak": 3042.35,
+   "text": "",
+   "tokens": {
+    "n": 29,
+    "distinct": 25
+   },
+   "comp": {
+    "story": 0.4,
+    "emotion": 0.176,
+    "hook": 0.65,
+    "pacing": 0.542
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.586,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.876,
+    "excitement_db": 14.2,
+    "shock_contrast_db": 22.8,
+    "triggers": 0.0,
+    "speech_rate": 1.52,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3100.29,
+   "end": 3122.25,
+   "peak": 3120.05,
+   "text": "",
+   "tokens": {
+    "n": 32,
+    "distinct": 26
+   },
+   "comp": {
+    "story": 0.369,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.518
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.847,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.854,
+    "excitement_db": 24.9,
+    "shock_contrast_db": 26.2,
+    "triggers": 0.0,
+    "speech_rate": 1.46,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3165.58,
+   "end": 3189.91,
+   "peak": 3187.15,
+   "text": "",
+   "tokens": {
+    "n": 22,
+    "distinct": 21
+   },
+   "comp": {
+    "story": 0.36,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.456
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.798,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.911,
+    "excitement_db": 24.8,
+    "shock_contrast_db": 16.6,
+    "triggers": 0.0,
+    "speech_rate": 0.95,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3262.67,
+   "end": 3279.75,
+   "peak": 3277.55,
+   "text": "",
+   "tokens": {
+    "n": 11,
+    "distinct": 11
+   },
+   "comp": {
+    "story": 0.367,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.464
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.835,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.928,
+    "excitement_db": 25.3,
+    "shock_contrast_db": 21.4,
+    "triggers": 0.0,
+    "speech_rate": 0.64,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3316.23,
+   "end": 3340.93,
+   "peak": 3338.15,
+   "text": "",
+   "tokens": {
+    "n": 35,
+    "distinct": 32
+   },
+   "comp": {
+    "story": 0.29,
+    "emotion": 0.178,
+    "hook": 0.65,
+    "pacing": 0.605
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.593,
+    "reaction": 0.448,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.64,
+    "excitement_db": 14.3,
+    "shock_contrast_db": 42.7,
+    "triggers": 0.0,
+    "speech_rate": 2.42,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3382.02,
+   "end": 3403.84,
+   "peak": 3399.35,
+   "text": "",
+   "tokens": {
+    "n": 41,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.331,
+    "emotion": 0.137,
+    "hook": 0.15,
+    "pacing": 0.596
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.457,
+    "reaction": 0.654,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.749,
+    "excitement_db": 12.4,
+    "shock_contrast_db": 27.1,
+    "triggers": 0.0,
+    "speech_rate": 2.11,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3466.97,
+   "end": 3491.95,
+   "peak": 3489.75,
+   "text": "",
+   "tokens": {
+    "n": 43,
+    "distinct": 36
+   },
+   "comp": {
+    "story": 0.2,
+    "emotion": 0.3,
+    "hook": 0.65,
+    "pacing": 0.835
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.733,
+    "excitement_db": 67.9,
+    "shock_contrast_db": 75.6,
+    "triggers": 0.0,
+    "speech_rate": 3.34,
+    "trigger_words": []
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3524.82,
+   "end": 3552.26,
+   "peak": 3550.25,
+   "text": "",
+   "tokens": {
+    "n": 26,
+    "distinct": 21
+   },
+   "comp": {
+    "story": 0.25,
+    "emotion": 0.37,
+    "hook": 0.15,
+    "pacing": 0.394
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.444,
+    "excitement_db": 59.2,
+    "shock_contrast_db": 46.9,
+    "triggers": 0.0,
+    "speech_rate": 1.86,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3597.16,
+   "end": 3615.05,
+   "peak": 3612.85,
+   "text": "",
+   "tokens": {
+    "n": 9,
+    "distinct": 9
+   },
+   "comp": {
+    "story": 0.205,
+    "emotion": 0.019,
+    "hook": 0.15,
+    "pacing": 0.205
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.064,
+    "reaction": 0.024,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.41,
+    "excitement_db": 6.9,
+    "shock_contrast_db": 67.2,
+    "triggers": 0.0,
+    "speech_rate": 0.95,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3661.66,
+   "end": 3687.15,
+   "peak": 3684.95,
+   "text": "",
+   "tokens": {
+    "n": 35,
+    "distinct": 27
+   },
+   "comp": {
+    "story": 0.311,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.633
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.553,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.661,
+    "excitement_db": 67.1,
+    "shock_contrast_db": 32.2,
+    "triggers": 0.0,
+    "speech_rate": 2.51,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3734.71,
+   "end": 3750.55,
+   "peak": 3748.35,
+   "text": "",
+   "tokens": {
+    "n": 12,
+    "distinct": 9
+   },
+   "comp": {
+    "story": 0.281,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.285
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.406,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.421,
+    "excitement_db": 44.0,
+    "shock_contrast_db": 50.1,
+    "triggers": 0.0,
+    "speech_rate": 1.37,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3784.57,
+   "end": 3810.65,
+   "peak": 3808.45,
+   "text": "",
+   "tokens": {
+    "n": 31,
+    "distinct": 24
+   },
+   "comp": {
+    "story": 0.284,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.656
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.418,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.604,
+    "excitement_db": 68.8,
+    "shock_contrast_db": 63.2,
+    "triggers": 0.0,
+    "speech_rate": 2.77,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3846.53,
+   "end": 3870.65,
+   "peak": 3868.45,
+   "text": "",
+   "tokens": {
+    "n": 50,
+    "distinct": 42
+   },
+   "comp": {
+    "story": 0.2,
+    "emotion": 0.3,
+    "hook": 0.65,
+    "pacing": 0.697
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.641,
+    "excitement_db": 22.1,
+    "shock_contrast_db": 61.0,
+    "triggers": 0.0,
+    "speech_rate": 2.88,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3916.18,
+   "end": 3941.08,
+   "peak": 3938.55,
+   "text": "",
+   "tokens": {
+    "n": 23,
+    "distinct": 22
+   },
+   "comp": {
+    "story": 0.233,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.467
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.665,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.552,
+    "excitement_db": 65.1,
+    "shock_contrast_db": 24.2,
+    "triggers": 0.0,
+    "speech_rate": 1.95,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3982.51,
+   "end": 4003.31,
+   "peak": 4000.75,
+   "text": "",
+   "tokens": {
+    "n": 41,
+    "distinct": 31
+   },
+   "comp": {
+    "story": 0.514,
+    "emotion": 0.458,
+    "hook": 0.25,
+    "pacing": 0.667
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.447,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.638,
+    "excitement_db": 50.4,
+    "shock_contrast_db": 37.0,
+    "triggers": 0.25,
+    "speech_rate": 2.74,
+    "trigger_words": [
+     "85"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4063.45,
+   "end": 4085.85,
+   "peak": 4083.65,
+   "text": "",
+   "tokens": {
+    "n": 22,
+    "distinct": 21
+   },
+   "comp": {
+    "story": 0.202,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.482
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.012,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.556,
+    "excitement_db": 33.8,
+    "shock_contrast_db": 35.5,
+    "triggers": 0.0,
+    "speech_rate": 2.02,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4133.53,
+   "end": 4158.25,
+   "peak": 4156.05,
+   "text": "",
+   "tokens": {
+    "n": 51,
+    "distinct": 33
+   },
+   "comp": {
+    "story": 0.114,
+    "emotion": 0.279,
+    "hook": 0.15,
+    "pacing": 0.743
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.929,
+    "reaction": 0.071,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.756,
+    "excitement_db": 19.0,
+    "shock_contrast_db": 45.7,
+    "triggers": 0.0,
+    "speech_rate": 2.82,
+    "trigger_words": []
+   },
+   "category": "chaos",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4200.49,
+   "end": 4226.38,
+   "peak": 4223.85,
+   "text": "",
+   "tokens": {
+    "n": 18,
+    "distinct": 18
+   },
+   "comp": {
+    "story": 0.134,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.298
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.172,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.473,
+    "excitement_db": 34.2,
+    "shock_contrast_db": 41.5,
+    "triggers": 0.0,
+    "speech_rate": 1.31,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4304.3,
+   "end": 4330.87,
+   "peak": 4328.55,
+   "text": "",
+   "tokens": {
+    "n": 17,
+    "distinct": 16
+   },
+   "comp": {
+    "story": 0.331,
+    "emotion": 0.189,
+    "hook": 0.15,
+    "pacing": 0.293
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.629,
+    "reaction": 0.654,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.549,
+    "excitement_db": 14.8,
+    "shock_contrast_db": 20.8,
+    "triggers": 0.0,
+    "speech_rate": 1.09,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4372.0,
+   "end": 4398.65,
+   "peak": 4396.45,
+   "text": "never",
+   "tokens": {
+    "n": 26,
+    "distinct": 25
+   },
+   "comp": {
+    "story": 0.507,
+    "emotion": 0.527,
+    "hook": 0.15,
+    "pacing": 0.469
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.512,
+    "laughter": 0.4,
+    "statement": 0.3,
+    "complete": 1.0,
+    "voiced_after_trim": 0.665,
+    "excitement_db": 41.2,
+    "shock_contrast_db": 47.5,
+    "triggers": 0.25,
+    "speech_rate": 1.68,
+    "trigger_words": [
+     "never"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4440.18,
+   "end": 4461.75,
+   "peak": 4459.55,
+   "text": "no way",
+   "tokens": {
+    "n": 27,
+    "distinct": 24
+   },
+   "comp": {
+    "story": 0.631,
+    "emotion": 0.475,
+    "hook": 0.5,
+    "pacing": 0.493
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.406,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.568,
+    "excitement_db": 23.7,
+    "shock_contrast_db": 54.7,
+    "triggers": 0.5,
+    "speech_rate": 2.05,
+    "trigger_words": [
+     "no way"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4466.93,
+   "end": 4493.85,
+   "peak": 4491.65,
+   "text": "oh my god",
+   "tokens": {
+    "n": 37,
+    "distinct": 31
+   },
+   "comp": {
+    "story": 0.632,
+    "emotion": 0.175,
+    "hook": 0.5,
+    "pacing": 0.624
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.412,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.66,
+    "excitement_db": -4.2,
+    "shock_contrast_db": 27.3,
+    "triggers": 0.5,
+    "speech_rate": 2.47,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4518.67,
+   "end": 4541.05,
+   "peak": 4539.05,
+   "text": "never",
+   "tokens": {
+    "n": 25,
+    "distinct": 23
+   },
+   "comp": {
+    "story": 0.21,
+    "emotion": 0.199,
+    "hook": 0.15,
+    "pacing": 0.538
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.371,
+    "reaction": 0.027,
+    "laughter": 0.0,
+    "statement": 0.3,
+    "complete": 0.5,
+    "voiced_after_trim": 0.453,
+    "excitement_db": 11.2,
+    "shock_contrast_db": 40.2,
+    "triggers": 0.25,
+    "speech_rate": 2.56,
+    "trigger_words": [
+     "never"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4576.79,
+   "end": 4603.95,
+   "peak": 4601.75,
+   "text": "",
+   "tokens": {
+    "n": 2,
+    "distinct": 2
+   },
+   "comp": {
+    "story": 0.1,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.24
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.48,
+    "excitement_db": 37.5,
+    "shock_contrast_db": 48.6,
+    "triggers": 0.0,
+    "speech_rate": 0.22,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4670.88,
+   "end": 4690.15,
+   "peak": 4688.15,
+   "text": "",
+   "tokens": {
+    "n": 24,
+    "distinct": 17
+   },
+   "comp": {
+    "story": 0.295,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.506
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.473,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.591,
+    "excitement_db": 39.3,
+    "shock_contrast_db": 19.3,
+    "triggers": 0.0,
+    "speech_rate": 2.05,
+    "trigger_words": []
+   },
+   "category": "reveal",
+   "label": true,
+   "big": false,
+   "reason": "dodges a falling hazard and cannot believe it missed him",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4740.93,
+   "end": 4766.95,
+   "peak": 4763.65,
+   "text": "",
+   "tokens": {
+    "n": 48,
+    "distinct": 34
+   },
+   "comp": {
+    "story": 0.342,
+    "emotion": 0.09,
+    "hook": 0.15,
+    "pacing": 0.784
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.3,
+    "reaction": 0.711,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.724,
+    "excitement_db": 10.2,
+    "shock_contrast_db": 12.8,
+    "triggers": 0.0,
+    "speech_rate": 3.11,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4805.87,
+   "end": 4826.21,
+   "peak": 4823.85,
+   "text": "",
+   "tokens": {
+    "n": 23,
+    "distinct": 23
+   },
+   "comp": {
+    "story": 0.162,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.473
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.312,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.54,
+    "excitement_db": 24.0,
+    "shock_contrast_db": 22.7,
+    "triggers": 0.0,
+    "speech_rate": 2.02,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4891.61,
+   "end": 4917.05,
+   "peak": 4914.85,
+   "text": "",
+   "tokens": {
+    "n": 10,
+    "distinct": 9
+   },
+   "comp": {
+    "story": 0.119,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.288
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.094,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.54,
+    "excitement_db": 36.1,
+    "shock_contrast_db": 51.3,
+    "triggers": 0.0,
+    "speech_rate": 1.09,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5007.09,
+   "end": 5023.82,
+   "peak": 5019.25,
+   "text": "",
+   "tokens": {
+    "n": 26,
+    "distinct": 25
+   },
+   "comp": {
+    "story": 0.302,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.562
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.509,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.491,
+    "excitement_db": 61.0,
+    "shock_contrast_db": 33.3,
+    "triggers": 0.0,
+    "speech_rate": 2.58,
+    "trigger_words": []
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5092.73,
+   "end": 5112.55,
+   "peak": 5110.45,
+   "text": "",
+   "tokens": {
+    "n": 16,
+    "distinct": 15
+   },
+   "comp": {
+    "story": 0.251,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.319
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.256,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.485,
+    "excitement_db": 61.0,
+    "shock_contrast_db": 50.9,
+    "triggers": 0.0,
+    "speech_rate": 1.38,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5122.4,
+   "end": 5144.32,
+   "peak": 5142.15,
+   "text": "oh my god thats insane",
+   "tokens": {
+    "n": 14,
+    "distinct": 13
+   },
+   "comp": {
+    "story": 0.657,
+    "emotion": 0.588,
+    "hook": 1.0,
+    "pacing": 0.308
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.793,
+    "reaction": 0.533,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.451,
+    "excitement_db": 17.1,
+    "shock_contrast_db": 25.8,
+    "triggers": 1.0,
+    "speech_rate": 1.41,
+    "trigger_words": [
+     "oh my god",
+     "that's insane"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5314.62,
+   "end": 5339.75,
+   "peak": 5337.55,
+   "text": "",
+   "tokens": {
+    "n": 45,
+    "distinct": 41
+   },
+   "comp": {
+    "story": 0.666,
+    "emotion": 0.397,
+    "hook": 0.25,
+    "pacing": 0.608
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.1,
+    "reaction": 0.453,
+    "laughter": 0.8,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.618,
+    "excitement_db": 7.4,
+    "shock_contrast_db": 60.8,
+    "triggers": 0.25,
+    "speech_rate": 2.5,
+    "trigger_words": [
+     "90"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5350.61,
+   "end": 5371.69,
+   "peak": 5369.05,
+   "text": "oh my god",
+   "tokens": {
+    "n": 34,
+    "distinct": 29
+   },
+   "comp": {
+    "story": 0.654,
+    "emotion": 0.175,
+    "hook": 1.0,
+    "pacing": 0.605
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.519,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.682,
+    "excitement_db": -9.8,
+    "shock_contrast_db": 37.9,
+    "triggers": 0.5,
+    "speech_rate": 2.32,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5401.15,
+   "end": 5422.59,
+   "peak": 5420.55,
+   "text": "",
+   "tokens": {
+    "n": 22,
+    "distinct": 16
+   },
+   "comp": {
+    "story": 0.261,
+    "emotion": 0.3,
+    "hook": 0.15,
+    "pacing": 0.494
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 1.0,
+    "reaction": 0.306,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.496,
+    "excitement_db": 42.6,
+    "shock_contrast_db": 46.1,
+    "triggers": 0.0,
+    "speech_rate": 2.23,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "one-line refusal, too short",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5488.2,
+   "end": 5515.38,
+   "peak": 5513.35,
+   "text": "",
+   "tokens": {
+    "n": 51,
+    "distinct": 37
+   },
+   "comp": {
+    "story": 0.375,
+    "emotion": 0.185,
+    "hook": 0.15,
+    "pacing": 0.607
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.15,
+    "reaction": 0.373,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.658,
+    "excitement_db": 8.1,
+    "shock_contrast_db": 36.0,
+    "triggers": 0.0,
+    "speech_rate": 2.39,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "menus, reading or small talk, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  }
+ ]
+}

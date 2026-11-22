@@ -1,0 +1,360 @@
+{
+ "name": "hud_gta_h2",
+ "split": "test",
+ "duration": 1443.8,
+ "profile": "gta5",
+ "events": [
+  {
+   "t": 249.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 314.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 370.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 392.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 445.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 468.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 493.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 510.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 551.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 574.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 605.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 627.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 646.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 672.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 725.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 743.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 793.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 881.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 920.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 949.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 962.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 988.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1011.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1045.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1251.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1270.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1282.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1292.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1310.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1318.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1354.0,
+   "event": "mission_failed"
+  },
+  {
+   "t": 1436.0,
+   "event": "mission_passed"
+  }
+ ],
+ "detections": [
+  {
+   "t": 249.37,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 313.54,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 369.8,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 391.7,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 445.3,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 468.5,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 493.5,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 550.67,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 573.8,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 605.0,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 626.53,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 724.9,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 742.87,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 793.33,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 881.1,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 920.04,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 948.63,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1045.1,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1250.77,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1269.73,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1281.97,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1309.64,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1353.66,
+   "event": "mission_failed",
+   "strength": 0.9
+  },
+  {
+   "t": 1436.27,
+   "event": "mission_passed",
+   "strength": 1.0
+  }
+ ],
+ "dropped_detections": [
+  {
+   "t": 136.87,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 256.03,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 320.93,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 376.6,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 397.8,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 467.23,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 513.43,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 557.77,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 611.77,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 631.07,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 650.37,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 675.43,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 694.7,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 731.37,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 750.63,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 962.13,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 991.73,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 1014.87,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 1292.6,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 1315.77,
+   "event": "flash",
+   "strength": 0.3
+  }
+ ]
+}

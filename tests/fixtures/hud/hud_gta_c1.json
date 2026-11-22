@@ -1,0 +1,29 @@
+{
+ "name": "hud_gta_c1",
+ "split": "cal",
+ "duration": 1161.4,
+ "profile": "gta5",
+ "events": [
+  {
+   "t": 972.5,
+   "event": "wanted_3plus"
+  },
+  {
+   "t": 1154.0,
+   "event": "wasted"
+  }
+ ],
+ "detections": [
+  {
+   "t": 973.8,
+   "event": "wanted_3plus",
+   "strength": 0.9
+  },
+  {
+   "t": 1154.14,
+   "event": "wasted",
+   "strength": 1.0
+  }
+ ],
+ "dropped_detections": []
+}

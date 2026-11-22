@@ -1,0 +1,904 @@
+{
+ "transcribed": true,
+ "note": "Every candidate window of one discover-clips run (--min-score 0 --max-clips 0 --llm none) on a public English gaming stream, labelled by hand from the window transcript, the signals and contact sheets. No media, no video id or title. 'text' keeps the token structure the quality bar reads (word count, distinct words, milestone lines); every other word is replaced by a code (w1, w2, ...).",
+ "candidates": [
+  {
+   "start": 4.42,
+   "end": 42.02,
+   "peak": 29.35,
+   "text": "w1 w2 w3 w3 w4 game w5 w3 w6 w7 w8 w4 w9 w10 w11 w12 w13 w14",
+   "comp": {
+    "emotion": 0.55,
+    "story": 0.82,
+    "hook": 0.48,
+    "pacing": 0.49,
+    "engagement": 0.06
+   },
+   "signals": {
+    "intensity": 0.614,
+    "arc_contrast": 0.703,
+    "reaction": 0.933,
+    "shock": 0.438,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.978,
+    "excitement_db": 14.6,
+    "shock_contrast_db": 10.5,
+    "contrast_db": 8.4,
+    "triggers": 1.0,
+    "speech_rate": 0.48,
+    "trigger_words": [
+     "bro",
+     "oh my god"
+    ],
+    "heatmap": 0.059
+   },
+   "category": "clutch",
+   "label": false,
+   "big": false,
+   "sources": [
+    "llm"
+   ],
+   "reason": "LLM-only pick over the game intro music (0.48 words/s, Whisper hears 4 words on the render): not post-worthy (user feedback 03)"
+  },
+  {
+   "start": 57.3,
+   "end": 78.89,
+   "peak": 75.65,
+   "text": "did w15 w16 w17 w18 w12 w19 w20",
+   "comp": {
+    "emotion": 0.846,
+    "story": 0.857,
+    "hook": 0.42,
+    "pacing": 0.296,
+    "engagement": 0.125
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.642,
+    "shock": 0.729,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.592,
+    "excitement_db": 23.3,
+    "shock_contrast_db": 17.5,
+    "contrast_db": 15.1,
+    "triggers": 0.5,
+    "speech_rate": 0.56,
+    "heatmap": 0.125,
+    "trigger_words": [
+     "no"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "an obstacle appears out of nowhere, a loud reaction"
+  },
+  {
+   "start": 155.24,
+   "end": 171.85,
+   "peak": 169.65,
+   "text": "w21 w22 w8 w23 w24 w25 w26 w27 w28 i did it i did it w12 w13 w14 i did it w29 we w30 it we w30 it we w30 it we w30 it",
+   "comp": {
+    "emotion": 0.746,
+    "story": 0.831,
+    "hook": 0.12,
+    "pacing": 0.635,
+    "engagement": 0.208
+   },
+   "signals": {
+    "intensity": 0.929,
+    "arc_contrast": 1.0,
+    "reaction": 0.576,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.738,
+    "excitement_db": 19.0,
+    "shock_contrast_db": 34.9,
+    "contrast_db": 13.1,
+    "triggers": 0.25,
+    "speech_rate": 2.33,
+    "heatmap": 0.208,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "he finally gets across the level: a milestone line"
+  },
+  {
+   "start": 285.72,
+   "end": 304.15,
+   "peak": 299.55,
+   "text": "w31 w32 w33 w4 w2",
+   "comp": {
+    "emotion": 0.536,
+    "story": 0.531,
+    "hook": 0.12,
+    "pacing": 0.473,
+    "engagement": 0.14
+   },
+   "signals": {
+    "intensity": 0.714,
+    "arc_contrast": 0.319,
+    "reaction": 0.849,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.946,
+    "excitement_db": 16.0,
+    "shock_contrast_db": 27.7,
+    "contrast_db": 3.8,
+    "triggers": 0.0,
+    "speech_rate": 0.31,
+    "heatmap": 0.14,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "five-word complaint, no event"
+  },
+  {
+   "start": 360.16,
+   "end": 386.85,
+   "peak": 384.65,
+   "text": "w34 w35 it w36 i w37 w34 w35 it i got it w38 i got it w38 i got it i got it w39 w40 w41 i got it i got it i got it i got it w38 i got it w26 it i got it w3 i w37 got it",
+   "comp": {
+    "emotion": 1.0,
+    "story": 0.814,
+    "hook": 0.7,
+    "pacing": 0.697,
+    "engagement": 0.009
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.535,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.848,
+    "excitement_db": 23.2,
+    "shock_contrast_db": 32.2,
+    "contrast_db": 16.1,
+    "triggers": 1.0,
+    "speech_rate": 2.36,
+    "heatmap": 0.009,
+    "trigger_words": [
+     "bro",
+     "chat",
+     "w"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": true,
+   "reason": "almost fails, then makes it: a clear fail-then-win arc with a big reaction"
+  },
+  {
+   "start": 450.68,
+   "end": 482.47,
+   "peak": 462.15,
+   "text": "i did it i beat the game i beat the game w42 the i w43 w44 w45 w38 w46 i w43 w44 w45 w38 w47 w48 w49 w50",
+   "comp": {
+    "emotion": 0.386,
+    "story": 0.925,
+    "hook": 0.12,
+    "pacing": 0.487,
+    "engagement": 0.144
+   },
+   "signals": {
+    "intensity": 0.543,
+    "arc_contrast": 0.879,
+    "reaction": 0.992,
+    "shock": 0.596,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.974,
+    "excitement_db": 13.6,
+    "shock_contrast_db": 14.3,
+    "contrast_db": 10.6,
+    "triggers": 0.25,
+    "speech_rate": 0.89,
+    "heatmap": 0.144,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "fake ending: he thinks he has won, then a confused reaction when the game keeps going"
+  },
+  {
+   "start": 527.59,
+   "end": 555.25,
+   "peak": 552.15,
+   "text": "w14 w51 w52 i w53 w44 w14 w51 w52 i w53 w44 w14 w51 w52 w12 w13 w54 w55 w52 w12 w13 w56 w51 w52 w51",
+   "comp": {
+    "emotion": 0.683,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.486,
+    "engagement": 0.112
+   },
+   "signals": {
+    "intensity": 0.864,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.425,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.973,
+    "excitement_db": 18.1,
+    "shock_contrast_db": 10.2,
+    "contrast_db": 14.5,
+    "triggers": 0.75,
+    "speech_rate": 0.99,
+    "heatmap": 0.112,
+    "trigger_words": [
+     "god"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "repeats one warning line with no visible payoff in the window"
+  },
+  {
+   "start": 615.32,
+   "end": 642.22,
+   "peak": 634.25,
+   "text": "w20 w57 w38 w58 w59 w59 w38 w58 w36 the w27 w60 w17 w44 w36 the w27 w60 w17 w48 w61 the w27 w60 w17 w48 w62 w63 w64 the w16 w65 w48 w66 w60 w67 we w43 w68 we w43 it w69 w70 w18 w71 w72 w14 w73 w7 it w44 w13 w74 w73 w7 w8 w44 w70 w18 w71 w72 w75",
+   "comp": {
+    "emotion": 0.466,
+    "story": 0.953,
+    "hook": 0.42,
+    "pacing": 0.732,
+    "engagement": 0.096
+   },
+   "signals": {
+    "intensity": 0.521,
+    "arc_contrast": 1.0,
+    "reaction": 0.883,
+    "shock": 0.288,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.823,
+    "excitement_db": 13.3,
+    "shock_contrast_db": 6.9,
+    "contrast_db": 12.1,
+    "triggers": 1.0,
+    "speech_rate": 2.6,
+    "heatmap": 0.096,
+    "trigger_words": [
+     "never",
+     "god",
+     "no",
+     "look",
+     "wait",
+     "chat",
+     "watch"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "plans to dodge an obstacle, fails, then a joke about learning from mistakes"
+  },
+  {
+   "start": 735.18,
+   "end": 764.52,
+   "peak": 753.15,
+   "text": "w76 w77 w78 w9 w79 w47 w61 w4 w16 w42 w28 w80 w81 w82",
+   "comp": {
+    "emotion": 0.37,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.445,
+    "engagement": 0.396
+   },
+   "signals": {
+    "intensity": 0.621,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.021,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.89,
+    "excitement_db": 14.7,
+    "shock_contrast_db": 0.5,
+    "contrast_db": 29.0,
+    "triggers": 0.5,
+    "speech_rate": 0.6,
+    "heatmap": 0.396,
+    "trigger_words": [
+     "let's go",
+     "watch"
+    ]
+   },
+   "category": "clutch",
+   "label": false,
+   "big": false,
+   "reason": "muddled lines, no payoff"
+  },
+  {
+   "start": 849.12,
+   "end": 866.85,
+   "peak": 864.85,
+   "text": "",
+   "comp": {
+    "emotion": 0.766,
+    "story": 0.669,
+    "hook": 0.12,
+    "pacing": 0.275,
+    "engagement": 0.253
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.173,
+    "shock": 0.829,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.55,
+    "excitement_db": 25.0,
+    "shock_contrast_db": 19.9,
+    "contrast_db": 14.3,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "heatmap": 0.253,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": true,
+   "big": true,
+   "reason": "jumps out of his chair screaming and walks off camera (25 dB scream)"
+  },
+  {
+   "start": 953.03,
+   "end": 973.54,
+   "peak": 966.35,
+   "text": "",
+   "comp": {
+    "emotion": 0.8,
+    "story": 0.904,
+    "hook": 0.12,
+    "pacing": 0.345,
+    "engagement": 0.762
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.759,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.69,
+    "excitement_db": 32.0,
+    "shock_contrast_db": 24.2,
+    "contrast_db": 22.2,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "heatmap": 0.762,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": true,
+   "big": true,
+   "reason": "the stream's Most Replayed moment: 32 dB scream, he runs around the room"
+  },
+  {
+   "start": 1056.35,
+   "end": 1083.34,
+   "peak": 1073.65,
+   "text": "w1",
+   "comp": {
+    "emotion": 0.721,
+    "story": 0.973,
+    "hook": 0.12,
+    "pacing": 0.416,
+    "engagement": 0.215
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.934,
+    "shock": 0.792,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.831,
+    "excitement_db": 20.5,
+    "shock_contrast_db": 19.0,
+    "contrast_db": 21.1,
+    "triggers": 0.0,
+    "speech_rate": 0.05,
+    "heatmap": 0.215,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "one word, nothing happens on screen"
+  },
+  {
+   "start": 1176.65,
+   "end": 1193.85,
+   "peak": 1191.65,
+   "text": "w56 w83 w84 w85 w86 w87 w8 w88 game w89 w90 the w91 w92 w93 w94 w4 w95 w96 w44 w97 w98 w4 w95 w99 w96 w44 w97 w98 w90 w100 w101 w84 w85 w96 w44 w99 w102 w100 w95 w90 w100 w101 w84 w85 w96 w44 w99 w102 w100 w103 w95 w90 w100 w101",
+   "comp": {
+    "emotion": 0.525,
+    "story": 0.597,
+    "hook": 0.12,
+    "pacing": 0.877,
+    "engagement": 0.069
+   },
+   "signals": {
+    "intensity": 0.7,
+    "arc_contrast": 0.563,
+    "reaction": 0.647,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.833,
+    "excitement_db": 15.8,
+    "shock_contrast_db": 25.2,
+    "contrast_db": 6.8,
+    "triggers": 0.0,
+    "speech_rate": 3.3,
+    "heatmap": 0.069,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "rant asking chat for another game, no event"
+  },
+  {
+   "start": 1266.92,
+   "end": 1292.25,
+   "peak": 1290.05,
+   "text": "w104 it w78 w57",
+   "comp": {
+    "emotion": 0.8,
+    "story": 0.899,
+    "hook": 0.12,
+    "pacing": 0.346,
+    "engagement": 0.131
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.747,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.692,
+    "excitement_db": 22.9,
+    "shock_contrast_db": 28.0,
+    "contrast_db": 21.8,
+    "triggers": 0.0,
+    "speech_rate": 0.23,
+    "heatmap": 0.131,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "a cheer over normal gameplay, no event"
+  },
+  {
+   "start": 1410.58,
+   "end": 1431.71,
+   "peak": 1428.95,
+   "text": "w13 w14 w105 w106 w107 w43 w108 w85 w21 got it w3 w106 w109 w8 w108 w6 w90 the w36 w110 w3 i w106 w43 w42 w111 w112 w10 w3 w113 w106 w109 w8 w15 w106",
+   "comp": {
+    "emotion": 0.955,
+    "story": 0.88,
+    "hook": 0.42,
+    "pacing": 0.627,
+    "engagement": 0.079
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.699,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.798,
+    "excitement_db": 20.2,
+    "shock_contrast_db": 25.1,
+    "contrast_db": 17.6,
+    "triggers": 1.0,
+    "speech_rate": 2.14,
+    "heatmap": 0.079,
+    "trigger_words": [
+     "bro",
+     "god",
+     "chat",
+     "yo"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "snaps back at a chat nickname: funny without context"
+  },
+  {
+   "start": 1505.91,
+   "end": 1529.75,
+   "peak": 1527.55,
+   "text": "w79 w47 w114 w90 the w36 w114 w90 w100 w41 w12 w13 w14 we finally did it",
+   "comp": {
+    "emotion": 0.895,
+    "story": 0.659,
+    "hook": 0.42,
+    "pacing": 0.389,
+    "engagement": 0.191
+   },
+   "signals": {
+    "intensity": 0.993,
+    "arc_contrast": 1.0,
+    "reaction": 0.147,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.779,
+    "excitement_db": 19.9,
+    "shock_contrast_db": 42.6,
+    "contrast_db": 14.6,
+    "triggers": 0.75,
+    "speech_rate": 0.77,
+    "heatmap": 0.191,
+    "trigger_words": [
+     "let's go",
+     "chat",
+     "oh my god"
+    ]
+   },
+   "category": "clutch",
+   "label": true,
+   "big": false,
+   "reason": "celebrates with chat after clearing a level"
+  },
+  {
+   "start": 1600.76,
+   "end": 1623.14,
+   "peak": 1616.75,
+   "text": "w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w44 w45 i w43 w42 w44 w45 i w43 w42 w44 w45",
+   "comp": {
+    "emotion": 0.537,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.922,
+    "engagement": 0.06
+   },
+   "signals": {
+    "intensity": 0.857,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.471,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.845,
+    "excitement_db": 18.0,
+    "shock_contrast_db": 11.3,
+    "contrast_db": 25.4,
+    "triggers": 0.0,
+    "speech_rate": 6.59,
+    "heatmap": 0.06,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "chants one line two dozen times"
+  },
+  {
+   "start": 1702.37,
+   "end": 1720.65,
+   "peak": 1718.65,
+   "text": "w57 w57 w38 w76 w67 w115 i w76 got w44 w67 w115 w58 w67 w115 w116 w51 w52 w52 w117 w116 w22 w22 w22 w22 w22 w118 w118 w58 i w119 w120 w28 i w119 w120 w17 w24 w121 w122",
+   "comp": {
+    "emotion": 0.34,
+    "story": 0.73,
+    "hook": 0.12,
+    "pacing": 0.644,
+    "engagement": 0.743
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 0.742,
+    "reaction": 0.713,
+    "shock": 0.742,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.836,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 17.8,
+    "contrast_db": 8.9,
+    "triggers": 0.5,
+    "speech_rate": 2.13,
+    "heatmap": 0.743,
+    "trigger_words": [
+     "look"
+    ]
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "calm walking; frames show nothing happening"
+  },
+  {
+   "start": 1757.13,
+   "end": 1788.96,
+   "peak": 1780.05,
+   "text": "w106 w43 w42 the i w76 w28 i w106 w43 i w106 w43 w42 i w76 did i w106 w43 i w106 w43 w3 i w106 w43 w122 w123 w124 i w106 w125 w43 w42 did i w76 w45 w126 w22 the w126 w127 w42 the w19 w2 the w126 w76 w128 w129 w130 w111 w131 w132 w3 w20 the w126 w55 w55 w133 w134 i w106 w43",
+   "comp": {
+    "emotion": 0.625,
+    "story": 0.634,
+    "hook": 0.82,
+    "pacing": 0.67,
+    "engagement": 0.171
+   },
+   "signals": {
+    "intensity": 0.593,
+    "arc_contrast": 0.589,
+    "reaction": 0.702,
+    "shock": 0.9,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.753,
+    "excitement_db": 14.3,
+    "shock_contrast_db": 21.6,
+    "contrast_db": 7.1,
+    "triggers": 1.0,
+    "speech_rate": 2.47,
+    "heatmap": 0.171,
+    "trigger_words": [
+     "bro",
+     "no",
+     "what the"
+    ]
+   },
+   "category": "rage",
+   "label": false,
+   "big": false,
+   "reason": "the camera feed went black: the video is a blank card"
+  },
+  {
+   "start": 1852.4,
+   "end": 1874.91,
+   "peak": 1871.55,
+   "text": "i w135 the w27 w96 the w136 w137 w13 w138 w36 w139 w13 w112 w3 w41 w139 w13 w112 w41 w17 w24 w140 w8 w78 w139 w13 w112 w36 w42 w55 w13 w112 w3 w42 w55 w13 w112 w139 w13 w112 w20 w139 w13 w112 w141 w142 w108 w141",
+   "comp": {
+    "emotion": 0.561,
+    "story": 0.938,
+    "hook": 0.42,
+    "pacing": 0.665,
+    "engagement": 0.197
+   },
+   "signals": {
+    "intensity": 0.479,
+    "arc_contrast": 1.0,
+    "reaction": 0.846,
+    "shock": 0.85,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.728,
+    "excitement_db": 12.7,
+    "shock_contrast_db": 20.4,
+    "contrast_db": 12.7,
+    "triggers": 1.0,
+    "speech_rate": 2.5,
+    "heatmap": 0.197,
+    "trigger_words": [
+     "stop",
+     "chat",
+     "bro",
+     "no"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "keeps asking chat a question and ends annoyed"
+  },
+  {
+   "start": 1937.89,
+   "end": 1974.82,
+   "peak": 1961.95,
+   "text": "w75 w17 w24 w83 w76 w143 w144 w76 w143 w144 w76 w143 w144 w76 w143 w144 w76 w143 w144 w76 w143 w144 the w27 w145 w18 the w146 w76 w143 w144 got him w79 w47 w55 w15 it w55 w15 the w55 w15 w85 the w27 w47 w47 w47 w47",
+   "comp": {
+    "emotion": 0.548,
+    "story": 0.921,
+    "hook": 0.12,
+    "pacing": 0.484,
+    "engagement": 0.328
+   },
+   "signals": {
+    "intensity": 0.664,
+    "arc_contrast": 0.918,
+    "reaction": 0.927,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.805,
+    "excitement_db": 15.3,
+    "shock_contrast_db": 25.6,
+    "contrast_db": 11.0,
+    "triggers": 0.25,
+    "speech_rate": 1.41,
+    "heatmap": 0.328,
+    "trigger_words": [
+     "let's go"
+    ]
+   },
+   "category": "clutch",
+   "label": true,
+   "big": false,
+   "reason": "keeps moving through falling obstacles, then a cheer"
+  },
+  {
+   "start": 2261.43,
+   "end": 2283.9,
+   "peak": 2278.05,
+   "text": "w147 w148 w149 w18 the w16 w62 w150 w78 w33 w100 w151 i w106 w152 w4 game i w153 w154 w62 i got w142 w62 i w106 w125 w43 it w10 w21 w43 w57 w57",
+   "comp": {
+    "emotion": 0.142,
+    "story": 0.653,
+    "hook": 0.12,
+    "pacing": 0.565,
+    "engagement": 0.088
+   },
+   "signals": {
+    "intensity": 0.036,
+    "arc_contrast": 0.564,
+    "reaction": 0.787,
+    "shock": 0.638,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.846,
+    "excitement_db": 6.5,
+    "shock_contrast_db": 15.3,
+    "contrast_db": 6.8,
+    "triggers": 0.0,
+    "speech_rate": 1.71,
+    "heatmap": 0.088,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "quiet confusion about an exploding item"
+  },
+  {
+   "start": 2382.39,
+   "end": 2408.82,
+   "peak": 2401.05,
+   "text": "w155 w156 w157 w3 w79 w47 w57 w57 w59 w59 w59 w59 w59 w59 w59 i w43 the w45 i w43 the w45 w61 w61 w4 i w43 w42 w44 w45 w75",
+   "comp": {
+    "emotion": 0.985,
+    "story": 0.927,
+    "hook": 0.7,
+    "pacing": 0.469,
+    "engagement": 0.123
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.817,
+    "shock": 0.925,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.835,
+    "excitement_db": 23.5,
+    "shock_contrast_db": 22.2,
+    "contrast_db": 21.9,
+    "triggers": 1.0,
+    "speech_rate": 1.26,
+    "heatmap": 0.123,
+    "trigger_words": [
+     "wait",
+     "watch",
+     "bro",
+     "let's go"
+    ]
+   },
+   "category": "reveal",
+   "label": true,
+   "big": false,
+   "reason": "loud build-up ('wait wait wait ... watch this') and payoff"
+  },
+  {
+   "start": 2450.46,
+   "end": 2483.1,
+   "peak": 2474.15,
+   "text": "did i beat the game did i beat the game did i beat the game w110",
+   "comp": {
+    "emotion": 0.303,
+    "story": 0.985,
+    "hook": 0.42,
+    "pacing": 0.464,
+    "engagement": 0.397
+   },
+   "signals": {
+    "intensity": 0.329,
+    "arc_contrast": 0.987,
+    "reaction": 0.982,
+    "shock": 0.358,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.928,
+    "excitement_db": 10.6,
+    "shock_contrast_db": 8.6,
+    "contrast_db": 11.8,
+    "triggers": 0.5,
+    "speech_rate": 0.51,
+    "heatmap": 0.397,
+    "trigger_words": [
+     "yo"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "a new level opens and he stands up in disbelief"
+  },
+  {
+   "start": 2538.05,
+   "end": 2557.95,
+   "peak": 2555.75,
+   "text": "w59 w85 i w158 w45 w55 w42 the w19 w51 w76 w100 w121 w60 w22 the w159 w16 the w159 w16",
+   "comp": {
+    "emotion": 0.566,
+    "story": 0.594,
+    "hook": 0.4,
+    "pacing": 0.383,
+    "engagement": 0.203
+   },
+   "signals": {
+    "intensity": 0.621,
+    "arc_contrast": 0.989,
+    "reaction": 0.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.409,
+    "excitement_db": 14.7,
+    "shock_contrast_db": 34.6,
+    "contrast_db": 11.9,
+    "triggers": 0.5,
+    "speech_rate": 1.89,
+    "heatmap": 0.203,
+    "trigger_words": [
+     "wait",
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "names an obstacle with no reaction after it"
+  },
+  {
+   "start": 2617.51,
+   "end": 2636.85,
+   "peak": 2634.65,
+   "text": "w59 w160 w45 i w161 w162 it w12 it w65 w163 w24 w164 w165 w44 w166 w167 w168 w3 w68 w21 w106 w169 w78 w62 w170 w25 w27 w171 w172 got w100 w173 w137 w36 the w174 w10 w175 w46",
+   "comp": {
+    "emotion": 0.558,
+    "story": 1.0,
+    "hook": 0.7,
+    "pacing": 0.644,
+    "engagement": 0.024
+   },
+   "signals": {
+    "intensity": 0.429,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.933,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.791,
+    "excitement_db": 12.0,
+    "shock_contrast_db": 22.4,
+    "contrast_db": 18.3,
+    "triggers": 1.0,
+    "speech_rate": 2.24,
+    "heatmap": 0.024,
+    "trigger_words": [
+     "chat",
+     "wait",
+     "bro",
+     "kill"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "outro on the store page, no moment"
+  }
+ ]
+}

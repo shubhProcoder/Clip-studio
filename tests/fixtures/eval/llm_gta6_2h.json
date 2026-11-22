@@ -1,0 +1,6775 @@
+{
+ "split": "llm",
+ "content": "gaming",
+ "labels_confirmed": false,
+ "label_help": "label = would you post this clip? (true/false); big = a moment you would call the best of the stream. Left null until you confirm them; the eval reports 0 precision while they are null.",
+ "stream": "GTA VI first stream, 2 h 34 min, cached job 20261122-061708-5abb",
+ "game": "Grand Theft Auto VI",
+ "llm": "ollama:gemma4:12b",
+ "language_detected": "hi",
+ "candidates": [
+  {
+   "start": 2242.59,
+   "end": 2266.46,
+   "peak": 2259.95,
+   "score": 61,
+   "comp": {
+    "emotion": 0.784,
+    "story": 0.921,
+    "hook": 0.12,
+    "pacing": 0.417
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.804,
+    "shock": 0.921,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.834,
+    "excitement_db": 30.0,
+    "shock_contrast_db": 22.1,
+    "contrast_db": 41.8,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 92,
+    "emotion": 78,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 42 dB above setup; voice 30 dB above the stream's usual level; keeps reacting for 80% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 986.91,
+   "end": 1010.75,
+   "peak": 1006.45,
+   "score": 60,
+   "comp": {
+    "emotion": 0.714,
+    "story": 0.948,
+    "hook": 0.12,
+    "pacing": 0.413
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.871,
+    "shock": 0.571,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.826,
+    "excitement_db": 26.7,
+    "shock_contrast_db": 13.7,
+    "contrast_db": 34.1,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 95,
+    "emotion": 71,
+    "pacing": 41,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 34 dB above setup; voice 27 dB above the stream's usual level; keeps reacting for 87% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7455.15,
+   "end": 7478.65,
+   "peak": 7473.75,
+   "score": 62,
+   "comp": {
+    "emotion": 0.731,
+    "story": 0.986,
+    "hook": 0.12,
+    "pacing": 0.443
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.966,
+    "shock": 0.654,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.816,
+    "excitement_db": 26.0,
+    "shock_contrast_db": 15.7,
+    "contrast_db": 24.3,
+    "triggers": 0.0,
+    "speech_rate": 1.18,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 99,
+    "emotion": 73,
+    "pacing": 44,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 24 dB above setup; voice 26 dB above the stream's usual level; keeps reacting for 97% of the ending",
+   "text": "சלwhite اجا you got paid after there been collect it get it get it get it o hei a feeling hei padhaqi na feelings yeeea said nice",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8493.88,
+   "end": 8538.56,
+   "peak": 8434.25,
+   "score": 54,
+   "comp": {
+    "emotion": 0.803,
+    "story": 0.399,
+    "hook": 0.4,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.999,
+    "shock": 0.767,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 24.4,
+    "shock_contrast_db": 18.4,
+    "contrast_db": -85.1,
+    "triggers": 0.25,
+    "speech_rate": 0.04,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 40,
+    "emotion": 80,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 24 dB above the stream's usual level; keeps reacting for 100% of the ending; trigger words: bhai",
+   "text": "Bhai pula",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2841.64,
+   "end": 2858.76,
+   "peak": 2851.85,
+   "score": 76,
+   "comp": {
+    "emotion": 0.98,
+    "story": 0.976,
+    "hook": 0.4,
+    "pacing": 0.401
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.941,
+    "shock": 0.9,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.802,
+    "excitement_db": 24.1,
+    "shock_contrast_db": 21.6,
+    "contrast_db": 24.0,
+    "triggers": 1.0,
+    "speech_rate": 0.3,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 98,
+    "emotion": 98,
+    "pacing": 40,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai; reaction 24 dB above setup; voice 24 dB above the stream's usual level",
+   "text": "bhai bhai Samantha bhai bhai",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2473.77,
+   "end": 2500.07,
+   "peak": 2497.65,
+   "score": 60,
+   "comp": {
+    "emotion": 0.794,
+    "story": 0.84,
+    "hook": 0.12,
+    "pacing": 0.478
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.599,
+    "shock": 0.971,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.49,
+    "excitement_db": 23.3,
+    "shock_contrast_db": 23.3,
+    "contrast_db": 17.3,
+    "triggers": 0.0,
+    "speech_rate": 2.17,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 84,
+    "emotion": 79,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; voice 23 dB above the stream's usual level; keeps reacting for 60% of the ending",
+   "text": "is this? What is he doing? Did you see that? Is it a carrot? See this? What is he doing? What is he doing? You are wearing a wig, right? Hey! Boys and girls! Yes! Let's do this!",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8794.87,
+   "end": 8816.37,
+   "peak": 8806.85,
+   "score": 64,
+   "comp": {
+    "emotion": 0.794,
+    "story": 0.961,
+    "hook": 0.12,
+    "pacing": 0.453
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.902,
+    "shock": 0.971,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.907,
+    "excitement_db": 22.7,
+    "shock_contrast_db": 23.3,
+    "contrast_db": 28.8,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 79,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 29 dB above setup; voice 23 dB above the stream's usual level; keeps reacting for 90% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1573.85,
+   "end": 1607.88,
+   "peak": 1597.05,
+   "score": 61,
+   "comp": {
+    "emotion": 0.696,
+    "story": 0.994,
+    "hook": 0.12,
+    "pacing": 0.443
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.985,
+    "shock": 0.479,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.886,
+    "excitement_db": 22.6,
+    "shock_contrast_db": 11.5,
+    "contrast_db": 23.7,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 99,
+    "emotion": 70,
+    "pacing": 44,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 24 dB above setup; voice 23 dB above the stream's usual level; keeps reacting for 99% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7880.61,
+   "end": 7914.25,
+   "peak": 7902.55,
+   "score": 66,
+   "comp": {
+    "emotion": 0.85,
+    "story": 0.983,
+    "hook": 0.12,
+    "pacing": 0.492
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.956,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.917,
+    "excitement_db": 22.0,
+    "shock_contrast_db": 28.4,
+    "contrast_db": 17.9,
+    "triggers": 0.25,
+    "speech_rate": 1.17,
+    "trigger_words": [
+     "kill"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 98,
+    "emotion": 85,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 22 dB above the stream's usual level; keeps reacting for 96% of the ending",
+   "text": "brother i have not done this sorry brother sorry brother lamborghini urus sorry brother and brother i did not kill him brother brother why are you running away what brother one minute i am going to the right place",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 135.65,
+   "end": 157.4,
+   "peak": 150.65,
+   "score": 56,
+   "comp": {
+    "emotion": 0.8,
+    "story": 0.845,
+    "hook": 0.12,
+    "pacing": 0.088
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.613,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.176,
+    "excitement_db": 22.0,
+    "shock_contrast_db": 28.8,
+    "contrast_db": 37.4,
+    "triggers": 0.0,
+    "speech_rate": 0.78,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 84,
+    "emotion": 80,
+    "pacing": 9,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 37 dB above setup; voice 22 dB above the stream's usual level; keeps reacting for 61% of the ending",
+   "text": "ویدم, میں نے اٹھ ہماری آج کی جگہ پہ پیچھے جیڈے ایک سکس کی آج چندگی گیا",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5058.78,
+   "end": 5102.1,
+   "peak": 5069.25,
+   "score": 70,
+   "comp": {
+    "emotion": 0.953,
+    "story": 0.998,
+    "hook": 0.12,
+    "pacing": 0.474
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.995,
+    "shock": 0.779,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.949,
+    "excitement_db": 21.9,
+    "shock_contrast_db": 18.7,
+    "contrast_db": 25.3,
+    "triggers": 1.0,
+    "speech_rate": 0.83,
+    "trigger_words": [
+     "bhai",
+     "no way",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 95,
+    "pacing": 47,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, no way, bro; reaction 25 dB above setup; voice 22 dB above the stream's usual level",
+   "text": "k zak zak zak looking good looking good hello bhai bhai bha patharo yao� hai bha saramsi bhai Pink bhai sa al์ There's no way bro Okay GZ Why is Nehamer? He doesn't bend his ears",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1106.61,
+   "end": 1133.54,
+   "peak": 1130.75,
+   "score": 77,
+   "comp": {
+    "emotion": 0.99,
+    "story": 0.877,
+    "hook": 0.4,
+    "pacing": 0.697
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.693,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.706,
+    "excitement_db": 21.6,
+    "shock_contrast_db": 28.6,
+    "contrast_db": 27.6,
+    "triggers": 1.0,
+    "speech_rate": 2.72,
+    "trigger_words": [
+     "bhai",
+     "kya"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 88,
+    "emotion": 99,
+    "pacing": 70,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, kya; reaction 28 dB above setup; voice 22 dB above the stream's usual level",
+   "text": "Mhe bhai game khe iltao Game ki video naktao, stream katao Chai Yana Nere bhai tu Kise kya maangaraa bho todhek Mere advise leke Mere bho dhe todhe bhai Jai bhai Jai yi tapar, nahi bhe Nere bho di chis ki advise maangaraa bho oske le bho lhao Hena Aman singh rajput, kuch kaaa do Aur bhabhi",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7213.87,
+   "end": 7237.15,
+   "peak": 7234.95,
+   "score": 61,
+   "comp": {
+    "emotion": 0.787,
+    "story": 0.929,
+    "hook": 0.12,
+    "pacing": 0.374
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.824,
+    "shock": 0.987,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.749,
+    "excitement_db": 21.6,
+    "shock_contrast_db": 23.7,
+    "contrast_db": 13.1,
+    "triggers": 0.0,
+    "speech_rate": 0.6,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 93,
+    "emotion": 79,
+    "pacing": 37,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; voice 22 dB above the stream's usual level; keeps reacting for 82% of the ending",
+   "text": "ایک ک Unidos. بھاری۔۔ اور بھارے۔ اور بھارے۔ بھارے۔ بھارے۔ ابہارے۔ بھارے۔",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4691.14,
+   "end": 4713.56,
+   "peak": 4711.35,
+   "score": 84,
+   "comp": {
+    "emotion": 0.965,
+    "story": 1.0,
+    "hook": 0.6,
+    "pacing": 0.643
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.875,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.849,
+    "excitement_db": 21.6,
+    "shock_contrast_db": 21.0,
+    "contrast_db": 16.8,
+    "triggers": 1.0,
+    "speech_rate": 2.09,
+    "trigger_words": [
+     "let's go",
+     "bro",
+     "kill"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 100,
+    "emotion": 96,
+    "pacing": 64,
+    "engagement": null
+   },
+   "category": "clutch",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: let's go, bro, kill; reaction 17 dB above setup; voice 22 dB above the stream's usual level",
+   "text": "Okay, we have to go ahead Bro, I didn't kill that guy If you come again, I will make a ghost Oh, let's go Okay I am going to unite Okay, I am going to unite Okay, shit Oh, let's go",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1489.78,
+   "end": 1518.2,
+   "peak": 1514.95,
+   "score": 56,
+   "comp": {
+    "emotion": 0.78,
+    "story": 0.856,
+    "hook": 0.12,
+    "pacing": 0.173
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.639,
+    "shock": 0.975,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.345,
+    "excitement_db": 21.4,
+    "shock_contrast_db": 23.4,
+    "contrast_db": 21.3,
+    "triggers": 0.0,
+    "speech_rate": 0.55,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 86,
+    "emotion": 78,
+    "pacing": 17,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 21 dB above setup; voice 21 dB above the stream's usual level; keeps reacting for 64% of the ending",
+   "text": "Kumar, surya Kumar, naanuninne premissu naanuninne pramissu naanuninne pramissu naanuninne pramissu naanuninne",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7271.69,
+   "end": 7325.75,
+   "peak": 7323.55,
+   "score": 49,
+   "comp": {
+    "emotion": 0.835,
+    "story": 0.452,
+    "hook": 0.12,
+    "pacing": 0.45
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.745,
+    "reaction": 0.012,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.9,
+    "excitement_db": 21.4,
+    "shock_contrast_db": 38.9,
+    "contrast_db": 8.9,
+    "triggers": 0.25,
+    "speech_rate": 0.54,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 45,
+    "emotion": 84,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 21 dB above the stream's usual level; reaction 9 dB above setup; trigger words: bro",
+   "text": "okay, i got it okay, my location completelyleri got it and my car okay this is why bro o uppernuand i am not doing this okay",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5625.19,
+   "end": 5649.45,
+   "peak": 5647.05,
+   "score": 70,
+   "comp": {
+    "emotion": 0.935,
+    "story": 0.549,
+    "hook": 0.7,
+    "pacing": 0.495
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.719,
+    "reaction": 0.295,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.715,
+    "excitement_db": 21.4,
+    "shock_contrast_db": 27.4,
+    "contrast_db": 8.6,
+    "triggers": 0.75,
+    "speech_rate": 1.69,
+    "trigger_words": [
+     "lucia",
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 70,
+    "story": 55,
+    "emotion": 94,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 21 dB above the stream's usual level; trigger words: lucia, bhai; reaction 9 dB above setup",
+   "text": "bhai We are here at Jason's house He is looking for water He is looking for his house He is looking for a flight A condo from his house But he is looking for a condo Oh Lucia, call us What?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1172.15,
+   "end": 1192.72,
+   "peak": 1187.65,
+   "score": 60,
+   "comp": {
+    "emotion": 0.795,
+    "story": 0.822,
+    "hook": 0.12,
+    "pacing": 0.483
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.555,
+    "shock": 0.812,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.754,
+    "excitement_db": 21.3,
+    "shock_contrast_db": 19.5,
+    "contrast_db": 14.3,
+    "triggers": 0.25,
+    "speech_rate": 1.53,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 82,
+    "emotion": 80,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; voice 21 dB above the stream's usual level; trigger words: bhai",
+   "text": "bhai lo ki, mnea aachhi baat ajoki joki aachhi baat ajoki aachhi baat ajoki guys, who have not liked it, listen to me i have 1 minute to go",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3064.4,
+   "end": 3084.55,
+   "peak": 3082.35,
+   "score": 79,
+   "comp": {
+    "emotion": 0.934,
+    "story": 0.934,
+    "hook": 0.6,
+    "pacing": 0.42
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.835,
+    "shock": 0.771,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.581,
+    "excitement_db": 21.2,
+    "shock_contrast_db": 18.5,
+    "contrast_db": 30.6,
+    "triggers": 1.0,
+    "speech_rate": 1.65,
+    "trigger_words": [
+     "let's go",
+     "no",
+     "oh my god"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 93,
+    "emotion": 93,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "clutch",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: let's go, no, oh my god; reaction 31 dB above setup; voice 21 dB above the stream's usual level",
+   "text": "this is bullshit i just go out of my own no you won't just put it up oh battery is 60 % oh my god let's go let's go oh my",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2887.06,
+   "end": 2917.34,
+   "peak": 2909.75,
+   "score": 70,
+   "comp": {
+    "emotion": 0.978,
+    "story": 0.923,
+    "hook": 0.12,
+    "pacing": 0.586
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.807,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.775,
+    "excitement_db": 21.1,
+    "shock_contrast_db": 26.5,
+    "contrast_db": 17.0,
+    "triggers": 1.0,
+    "speech_rate": 2.0,
+    "trigger_words": [
+     "bro",
+     "run"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 92,
+    "emotion": 98,
+    "pacing": 59,
+    "engagement": null
+   },
+   "category": "chaos",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, run; reaction 17 dB above setup; voice 21 dB above the stream's usual level",
+   "text": "sg oi this is a store oi this is a store game play recording post because you entered a blockchain game play recording this is recording recording this is my recording hello map please it's a new car it's a new car who we were playing bro is this game play we got to run these plates",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8501.65,
+   "end": 8520.8,
+   "peak": 8516.65,
+   "score": 30,
+   "comp": {
+    "emotion": 0.767,
+    "story": 0.1,
+    "hook": 0.12,
+    "pacing": 0.0
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.167,
+    "reaction": 0.0,
+    "shock": 0.971,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.0,
+    "excitement_db": 20.9,
+    "shock_contrast_db": 23.3,
+    "contrast_db": 2.0,
+    "triggers": 0.0,
+    "speech_rate": 0.05,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 10,
+    "emotion": 77,
+    "pacing": 0,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 21 dB above the stream's usual level; reaction 2 dB above setup",
+   "text": "pula",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4628.54,
+   "end": 4656.27,
+   "peak": 4652.95,
+   "score": 60,
+   "comp": {
+    "emotion": 0.97,
+    "story": 0.599,
+    "hook": 0.12,
+    "pacing": 0.642
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.702,
+    "reaction": 0.443,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.756,
+    "excitement_db": 20.8,
+    "shock_contrast_db": 30.6,
+    "contrast_db": 8.4,
+    "triggers": 1.0,
+    "speech_rate": 2.32,
+    "trigger_words": [
+     "no way",
+     "bro",
+     "kill"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 60,
+    "emotion": 97,
+    "pacing": 64,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no way, bro, kill; voice 21 dB above the stream's usual level; reaction 8 dB above setup",
+   "text": "Okay, this is the place We have to go there to hide But we have to go quietly, there is no way to fight Guys, I am going in front of everyone But what is that? Bro, I think I should have killed this guy Bro, I can kill this guy Bro, he should have killed him",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6232.17,
+   "end": 6255.24,
+   "peak": 6252.85,
+   "score": 75,
+   "comp": {
+    "emotion": 0.821,
+    "story": 0.975,
+    "hook": 0.42,
+    "pacing": 0.691
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.937,
+    "shock": 0.767,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.717,
+    "excitement_db": 20.7,
+    "shock_contrast_db": 18.4,
+    "contrast_db": 21.9,
+    "triggers": 0.5,
+    "speech_rate": 2.66,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 98,
+    "emotion": 82,
+    "pacing": 69,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 22 dB above setup; voice 21 dB above the stream's usual level; trigger words: bro",
+   "text": "Guys, I am going to taunt you. I am going to drag you. NPC, what's your name? I am going to taunt you. Taunt taunt taunt taunt you guys. Try to taunt you guys. Yeah, go fuck you, sir. Sala! Sala! You guys are doing the same thing as the bullet. Sorry, bro. Sorry, man.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8098.05,
+   "end": 8117.42,
+   "peak": 8112.55,
+   "score": 77,
+   "comp": {
+    "emotion": 0.93,
+    "story": 1.0,
+    "hook": 0.4,
+    "pacing": 0.5
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.812,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 20.7,
+    "shock_contrast_db": 19.5,
+    "contrast_db": 12.2,
+    "triggers": 1.0,
+    "speech_rate": 0.5,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 100,
+    "emotion": 93,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai; reaction 12 dB above setup; voice 21 dB above the stream's usual level",
+   "text": "Bhai! kap ivi cur lah Bhai! Bhai! Bhai queow舞 Bhai!",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7969.14,
+   "end": 7988.96,
+   "peak": 7984.95,
+   "score": 62,
+   "comp": {
+    "emotion": 0.669,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.517
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.271,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.971,
+    "excitement_db": 20.6,
+    "shock_contrast_db": 6.5,
+    "contrast_db": 18.8,
+    "triggers": 0.25,
+    "speech_rate": 1.16,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 67,
+    "pacing": 52,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 19 dB above setup; voice 21 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "oh brother this is the property and this is the place why are you running away bro what is going on what is",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3533.04,
+   "end": 3550.09,
+   "peak": 3547.75,
+   "score": 61,
+   "comp": {
+    "emotion": 0.769,
+    "story": 0.817,
+    "hook": 0.12,
+    "pacing": 0.666
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.543,
+    "shock": 0.821,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.793,
+    "excitement_db": 20.2,
+    "shock_contrast_db": 19.7,
+    "contrast_db": 25.4,
+    "triggers": 0.25,
+    "speech_rate": 2.35,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 82,
+    "emotion": 77,
+    "pacing": 67,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 25 dB above setup; voice 20 dB above the stream's usual level; trigger words: bro",
+   "text": "I just realized that I left my money Am I cautious Oh you know how I'm not going in universes Too many Too many Hey Bro This gun is coming out Oh This is locked Okay See",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5484.96,
+   "end": 5512.18,
+   "peak": 5502.75,
+   "score": 68,
+   "comp": {
+    "emotion": 0.95,
+    "story": 0.958,
+    "hook": 0.12,
+    "pacing": 0.431
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.896,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.826,
+    "excitement_db": 20.0,
+    "shock_contrast_db": 24.4,
+    "contrast_db": 26.5,
+    "triggers": 1.0,
+    "speech_rate": 1.09,
+    "trigger_words": [
+     "bhai",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 95,
+    "pacing": 43,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, let's go; reaction 26 dB above setup; voice 20 dB above the stream's usual level",
+   "text": "thanks man you're not a buddy let's go I'm going to check this bhai listen I'm going to check this bhai you're taking care of this",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5887.52,
+   "end": 5917.4,
+   "peak": 5912.65,
+   "score": 75,
+   "comp": {
+    "emotion": 0.939,
+    "story": 0.87,
+    "hook": 0.42,
+    "pacing": 0.607
+   },
+   "signals": {
+    "intensity": 0.986,
+    "arc_contrast": 1.0,
+    "reaction": 0.675,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.753,
+    "excitement_db": 19.8,
+    "shock_contrast_db": 32.1,
+    "contrast_db": 17.1,
+    "triggers": 1.0,
+    "speech_rate": 2.15,
+    "trigger_words": [
+     "bro",
+     "jason",
+     "what the"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 87,
+    "emotion": 94,
+    "pacing": 61,
+    "engagement": null
+   },
+   "category": "rage",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, jason, what the; reaction 17 dB above setup; voice 20 dB above the stream's usual level",
+   "text": "in the bedroom you can sleep to rest up you can also access your hidden stash of cash what the heck continue exploring your house in the area outside to find a variety of other things to do hey what the hell bro Jason come on oh yeah the water",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6707.05,
+   "end": 6734.27,
+   "peak": 6732.15,
+   "score": 48,
+   "comp": {
+    "emotion": 0.739,
+    "story": 0.443,
+    "hook": 0.12,
+    "pacing": 0.62
+   },
+   "signals": {
+    "intensity": 0.986,
+    "arc_contrast": 0.689,
+    "reaction": 0.074,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.73,
+    "excitement_db": 19.8,
+    "shock_contrast_db": 27.5,
+    "contrast_db": 8.3,
+    "triggers": 0.0,
+    "speech_rate": 2.27,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 44,
+    "emotion": 74,
+    "pacing": 62,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 20 dB above the stream's usual level; reaction 8 dB above setup",
+   "text": "دیسا وینک میرے بائی scan میرے بائی in the range hold this to open when you cap and scan it وقتلے یہ کی ہوتا وینک وقت یہ کی چیز ہے وقت",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1253.89,
+   "end": 1271.58,
+   "peak": 1268.15,
+   "score": 52,
+   "comp": {
+    "emotion": 0.734,
+    "story": 0.745,
+    "hook": 0.12,
+    "pacing": 0.235
+   },
+   "signals": {
+    "intensity": 0.979,
+    "arc_contrast": 1.0,
+    "reaction": 0.362,
+    "shock": 1.0,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.47,
+    "excitement_db": 19.7,
+    "shock_contrast_db": 29.9,
+    "contrast_db": 20.6,
+    "triggers": 0.0,
+    "speech_rate": 0.68,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 74,
+    "emotion": 73,
+    "pacing": 24,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 21 dB above setup; voice 20 dB above the stream's usual level; laughter",
+   "text": "बीरे यसते नाओाना फ़ी वि conventionっていうöl तो अपत ये गार खें",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2742.35,
+   "end": 2758.86,
+   "peak": 2756.05,
+   "score": 76,
+   "comp": {
+    "emotion": 0.828,
+    "story": 1.0,
+    "hook": 0.42,
+    "pacing": 0.656
+   },
+   "signals": {
+    "intensity": 0.957,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.55,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.801,
+    "excitement_db": 19.4,
+    "shock_contrast_db": 13.2,
+    "contrast_db": 19.7,
+    "triggers": 1.0,
+    "speech_rate": 2.28,
+    "trigger_words": [
+     "bro",
+     "bhai",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 100,
+    "emotion": 83,
+    "pacing": 66,
+    "engagement": null
+   },
+   "category": "clutch",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, bhai, let's go; reaction 20 dB above setup; voice 19 dB above the stream's usual level",
+   "text": "൑ comfortable to have hero talo dho sa maso chau kala chis mein mi diki ni rai bhai ye sa ye bii sa ye sa ye talo boys let's go finish that up ooooooh we are gonna play GDSX bro",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6482.8,
+   "end": 6504.81,
+   "peak": 6502.15,
+   "score": 71,
+   "comp": {
+    "emotion": 0.904,
+    "story": 0.85,
+    "hook": 0.42,
+    "pacing": 0.473
+   },
+   "signals": {
+    "intensity": 0.95,
+    "arc_contrast": 1.0,
+    "reaction": 0.625,
+    "shock": 0.958,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.614,
+    "excitement_db": 19.3,
+    "shock_contrast_db": 23.0,
+    "contrast_db": 21.9,
+    "triggers": 1.0,
+    "speech_rate": 1.83,
+    "trigger_words": [
+     "bro",
+     "wait"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 85,
+    "emotion": 90,
+    "pacing": 47,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, wait; reaction 22 dB above setup; voice 19 dB above the stream's usual level",
+   "text": "Bhabhi How is the reload Okay From the square We can loot Bro what is that Wait a minute Bro I can hear the body I will get it",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2785.47,
+   "end": 2808.03,
+   "peak": 2802.85,
+   "score": 73,
+   "comp": {
+    "emotion": 0.812,
+    "story": 0.94,
+    "hook": 0.42,
+    "pacing": 0.604
+   },
+   "signals": {
+    "intensity": 0.936,
+    "arc_contrast": 1.0,
+    "reaction": 0.85,
+    "shock": 0.55,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.735,
+    "excitement_db": 19.1,
+    "shock_contrast_db": 13.2,
+    "contrast_db": 15.1,
+    "triggers": 1.0,
+    "speech_rate": 2.18,
+    "trigger_words": [
+     "no",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 94,
+    "emotion": 81,
+    "pacing": 60,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no, bro; reaction 15 dB above setup; voice 19 dB above the stream's usual level",
+   "text": "why should he do it why should he do it two years ago two years ago two years ago oh bro he is stealing he is stealing car jacking car jacking you see what are you doing with my mother's car oh no fuck you oh bro",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3765.47,
+   "end": 3788.9,
+   "peak": 3778.55,
+   "score": 65,
+   "comp": {
+    "emotion": 0.778,
+    "story": 0.992,
+    "hook": 0.12,
+    "pacing": 0.545
+   },
+   "signals": {
+    "intensity": 0.921,
+    "arc_contrast": 1.0,
+    "reaction": 0.98,
+    "shock": 0.433,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.792,
+    "excitement_db": 18.9,
+    "shock_contrast_db": 10.4,
+    "contrast_db": 28.0,
+    "triggers": 1.0,
+    "speech_rate": 1.75,
+    "trigger_words": [
+     "jason",
+     "lucia"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 99,
+    "emotion": 78,
+    "pacing": 55,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: jason, lucia; reaction 28 dB above setup; voice 19 dB above the stream's usual level",
+   "text": "आब यहुप लरूजन नहीं 5a playnut 1 playnut 1a 1a playnut 1a Chapter 1 playnut 1a 4aupro long cutam guys we are in the game now Jason gail rumb Oye Eskamosa amlokko lucia mohos pa ni Jason´s rabis ah ah",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8379.77,
+   "end": 8424.77,
+   "peak": 8330.45,
+   "score": 38,
+   "comp": {
+    "emotion": 0.517,
+    "story": 0.399,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.907,
+    "arc_contrast": 0.0,
+    "reaction": 0.998,
+    "shock": 0.183,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 18.7,
+    "shock_contrast_db": 4.4,
+    "contrast_db": -68.6,
+    "triggers": 0.0,
+    "speech_rate": 0.16,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 40,
+    "emotion": 52,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 19 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "नब्वग के यर तकाशहा हैग। पातक ईब",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5254.55,
+   "end": 5276.45,
+   "peak": 5274.25,
+   "score": 51,
+   "comp": {
+    "emotion": 0.675,
+    "story": 0.608,
+    "hook": 0.12,
+    "pacing": 0.665
+   },
+   "signals": {
+    "intensity": 0.9,
+    "arc_contrast": 0.939,
+    "reaction": 0.112,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.636,
+    "excitement_db": 18.6,
+    "shock_contrast_db": 42.5,
+    "contrast_db": 11.3,
+    "triggers": 0.0,
+    "speech_rate": 2.73,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 61,
+    "emotion": 68,
+    "pacing": 66,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; voice 19 dB above the stream's usual level; keeps reacting for 11% of the ending",
+   "text": "He ain't going to be here forever I am So why don't you think about that tonight and we'll talk tomorrow Why? You know what I ain't going to do Yeah thanks Brian Yeah Oh oh Laurie want you to come by for Sangria Yeah You always ask how you're doing Oh great Brother",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2107.34,
+   "end": 2126.46,
+   "peak": 2123.25,
+   "score": 54,
+   "comp": {
+    "emotion": 0.504,
+    "story": 0.978,
+    "hook": 0.12,
+    "pacing": 0.409
+   },
+   "signals": {
+    "intensity": 0.9,
+    "arc_contrast": 1.0,
+    "reaction": 0.945,
+    "shock": 0.146,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.817,
+    "excitement_db": 18.6,
+    "shock_contrast_db": 3.5,
+    "contrast_db": 18.4,
+    "triggers": 0.0,
+    "speech_rate": 0.51,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 98,
+    "emotion": 50,
+    "pacing": 41,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 19 dB above the stream's usual level; keeps reacting for 94% of the ending",
+   "text": "That's the question Brother, we are sitting here",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4237.14,
+   "end": 4278.77,
+   "peak": 4275.15,
+   "score": 59,
+   "comp": {
+    "emotion": 0.837,
+    "story": 0.728,
+    "hook": 0.12,
+    "pacing": 0.552
+   },
+   "signals": {
+    "intensity": 0.9,
+    "arc_contrast": 0.547,
+    "reaction": 1.0,
+    "shock": 0.808,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.986,
+    "excitement_db": 18.6,
+    "shock_contrast_db": 19.4,
+    "contrast_db": 6.6,
+    "triggers": 1.0,
+    "speech_rate": 1.3,
+    "trigger_words": [
+     "bhai",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 73,
+    "emotion": 84,
+    "pacing": 55,
+    "engagement": null
+   },
+   "category": "clutch",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, let's go; voice 19 dB above the stream's usual level; reaction 7 dB above setup",
+   "text": "one whack liek daan bhai liek na na naman na naman na naman na naman na naman na naman hai galai one whack liek bhai ho jo hai brother hahaha ame ajá okey slow bhi garmí hai bhai bhai bhai bhai slow bhi garmí chalo Let's go baby... ...sara kokei nu prom That all.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2591.4,
+   "end": 2606.75,
+   "peak": 2604.55,
+   "score": 59,
+   "comp": {
+    "emotion": 0.605,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.443
+   },
+   "signals": {
+    "intensity": 0.893,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.175,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.762,
+    "excitement_db": 18.5,
+    "shock_contrast_db": 4.2,
+    "contrast_db": 23.4,
+    "triggers": 0.5,
+    "speech_rate": 1.31,
+    "trigger_words": [
+     "let's go",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 60,
+    "pacing": 44,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 23 dB above setup; voice 18 dB above the stream's usual level; trigger words: let's go, bro",
+   "text": "There it is. Done! Hashgs let's go bro 1 min 1 min 1 min 1 min 1 min 1 min",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4497.1,
+   "end": 4521.64,
+   "peak": 4519.05,
+   "score": 76,
+   "comp": {
+    "emotion": 0.825,
+    "story": 0.971,
+    "hook": 0.42,
+    "pacing": 0.786
+   },
+   "signals": {
+    "intensity": 0.886,
+    "arc_contrast": 1.0,
+    "reaction": 0.928,
+    "shock": 0.804,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.828,
+    "excitement_db": 18.4,
+    "shock_contrast_db": 19.3,
+    "contrast_db": 16.6,
+    "triggers": 1.0,
+    "speech_rate": 2.86,
+    "trigger_words": [
+     "look",
+     "gta",
+     "let's go",
+     "never",
+     "crazy",
+     "no way"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 97,
+    "emotion": 82,
+    "pacing": 79,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: look, gta, let's go; reaction 17 dB above setup; voice 18 dB above the stream's usual level",
+   "text": "Guys, when we are going to fight for the first time, what will happen in GTA 6? Let's go Never get out of the boat Okay, alright Just tell me as soon as you got him, okay? He is going to be going crazy, he is going to be going crazy There is no way Guys, look at the minimap, there is a minimap, what?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1901.81,
+   "end": 1936.31,
+   "peak": 1925.35,
+   "score": 58,
+   "comp": {
+    "emotion": 0.623,
+    "story": 0.954,
+    "hook": 0.12,
+    "pacing": 0.442
+   },
+   "signals": {
+    "intensity": 0.879,
+    "arc_contrast": 1.0,
+    "reaction": 0.885,
+    "shock": 0.558,
+    "laughter": 0.8,
+    "voiced_after_trim": 0.885,
+    "excitement_db": 18.3,
+    "shock_contrast_db": 13.4,
+    "contrast_db": 17.3,
+    "triggers": 0.0,
+    "speech_rate": 0.07,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 95,
+    "emotion": 62,
+    "pacing": 44,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; voice 18 dB above the stream's usual level; laughter",
+   "text": "type ki",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3477.7,
+   "end": 3503.25,
+   "peak": 3499.85,
+   "score": 76,
+   "comp": {
+    "emotion": 0.854,
+    "story": 0.806,
+    "hook": 0.6,
+    "pacing": 0.735
+   },
+   "signals": {
+    "intensity": 0.871,
+    "arc_contrast": 1.0,
+    "reaction": 0.514,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.697,
+    "excitement_db": 18.2,
+    "shock_contrast_db": 29.0,
+    "contrast_db": 16.9,
+    "triggers": 1.0,
+    "speech_rate": 2.93,
+    "trigger_words": [
+     "no way",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 81,
+    "emotion": 85,
+    "pacing": 74,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no way, bro; reaction 17 dB above setup; voice 18 dB above the stream's usual level",
+   "text": "mean in here with me Oi tu kli prelle me ghi ti siya I feel that you Yeah Convex talk So what have they been saying They are saying that you locked up more of us than you can handle And now you gotta let some others go Not quite Let you go It's a supervised release program Home detention A electronic monitoring Ain't no way bro You could be eligible for the trial",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4450.48,
+   "end": 4483.21,
+   "peak": 4468.65,
+   "score": 62,
+   "comp": {
+    "emotion": 0.682,
+    "story": 0.996,
+    "hook": 0.12,
+    "pacing": 0.491
+   },
+   "signals": {
+    "intensity": 0.864,
+    "arc_contrast": 1.0,
+    "reaction": 0.989,
+    "shock": 0.917,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.878,
+    "excitement_db": 18.1,
+    "shock_contrast_db": 22.0,
+    "contrast_db": 15.6,
+    "triggers": 0.25,
+    "speech_rate": 1.26,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 68,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 16 dB above setup; voice 18 dB above the stream's usual level; keeps reacting for 99% of the ending",
+   "text": "How many people are there? Two, three, four, five, six, seven We have to make the most of the goalie Oh my God, he is going to die Well, you want to tell Brian, we saw everything and backed off",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4387.44,
+   "end": 4414.65,
+   "peak": 4412.45,
+   "score": 52,
+   "comp": {
+    "emotion": 0.641,
+    "story": 0.76,
+    "hook": 0.12,
+    "pacing": 0.396
+   },
+   "signals": {
+    "intensity": 0.857,
+    "arc_contrast": 1.0,
+    "reaction": 0.4,
+    "shock": 0.992,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.792,
+    "excitement_db": 18.0,
+    "shock_contrast_db": 23.8,
+    "contrast_db": 18.1,
+    "triggers": 0.0,
+    "speech_rate": 0.9,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 76,
+    "emotion": 64,
+    "pacing": 40,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 18 dB above the stream's usual level; keeps reacting for 40% of the ending",
+   "text": "what is he doing? He is coming to the back I think he is going to be going to the goalie",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7841.74,
+   "end": 7860.35,
+   "peak": 7852.05,
+   "score": 58,
+   "comp": {
+    "emotion": 0.608,
+    "story": 0.972,
+    "hook": 0.12,
+    "pacing": 0.46
+   },
+   "signals": {
+    "intensity": 0.843,
+    "arc_contrast": 1.0,
+    "reaction": 0.931,
+    "shock": 0.879,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.921,
+    "excitement_db": 17.8,
+    "shock_contrast_db": 21.1,
+    "contrast_db": 15.3,
+    "triggers": 0.0,
+    "speech_rate": 0.85,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 61,
+    "pacing": 46,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; voice 18 dB above the stream's usual level; keeps reacting for 93% of the ending",
+   "text": "oray Oh, Bai Lambore kini horoos awarek my यह ट खगनूं i cant do anything",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6928.27,
+   "end": 6973.19,
+   "peak": 6949.45,
+   "score": 51,
+   "comp": {
+    "emotion": 0.606,
+    "story": 0.81,
+    "hook": 0.12,
+    "pacing": 0.277
+   },
+   "signals": {
+    "intensity": 0.829,
+    "arc_contrast": 0.996,
+    "reaction": 0.531,
+    "shock": 0.671,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.553,
+    "excitement_db": 17.6,
+    "shock_contrast_db": 16.1,
+    "contrast_db": 12.0,
+    "triggers": 0.25,
+    "speech_rate": 0.32,
+    "trigger_words": [
+     "l"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 81,
+    "emotion": 61,
+    "pacing": 28,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; voice 18 dB above the stream's usual level; trigger words: l",
+   "text": "Restrained. l可愛中 , L square Ve Pewur Ve czar Ve Pewur",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 799.93,
+   "end": 825.98,
+   "peak": 823.45,
+   "score": 56,
+   "comp": {
+    "emotion": 0.611,
+    "story": 0.78,
+    "hook": 0.12,
+    "pacing": 0.761
+   },
+   "signals": {
+    "intensity": 0.814,
+    "arc_contrast": 0.966,
+    "reaction": 0.501,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.727,
+    "excitement_db": 17.4,
+    "shock_contrast_db": 29.8,
+    "contrast_db": 11.6,
+    "triggers": 0.0,
+    "speech_rate": 2.99,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 78,
+    "emotion": 61,
+    "pacing": 76,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; voice 17 dB above the stream's usual level; keeps reacting for 50% of the ending",
+   "text": "بہیہ my name is harness from Ahmedabad رہے رہے رہے by congratulations harness from Ahmedabad پر میں نے اس کو اگر اچھ لیسن کی بلے وہی میں سوجتا پھنے کیوں گنا بہی کس تو ہو گا اس کی life میں چھایو جندہ ہے بہی congrats to my my congratulations بہی جندہ انہیں سے جاتا بڑی بات کی ہوگی بات ہوا congratulations congratulations congratulations OK وہ بھی GTS -600 والا دن پے تم",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7694.88,
+   "end": 7716.05,
+   "peak": 7713.85,
+   "score": 66,
+   "comp": {
+    "emotion": 0.6,
+    "story": 1.0,
+    "hook": 0.4,
+    "pacing": 0.464
+   },
+   "signals": {
+    "intensity": 0.807,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.721,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.927,
+    "excitement_db": 17.3,
+    "shock_contrast_db": 17.3,
+    "contrast_db": 14.7,
+    "triggers": 0.25,
+    "speech_rate": 0.96,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 100,
+    "emotion": 60,
+    "pacing": 46,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; voice 17 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "Bro, I'm going to a Range Rover. You're going to steal my life's only purpose. Hey, listen to me.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1975.45,
+   "end": 1999.62,
+   "peak": 1997.25,
+   "score": 65,
+   "comp": {
+    "emotion": 0.695,
+    "story": 0.92,
+    "hook": 0.42,
+    "pacing": 0.346
+   },
+   "signals": {
+    "intensity": 0.793,
+    "arc_contrast": 1.0,
+    "reaction": 0.8,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.692,
+    "excitement_db": 17.1,
+    "shock_contrast_db": 24.8,
+    "contrast_db": 31.2,
+    "triggers": 0.5,
+    "speech_rate": 0.28,
+    "trigger_words": [
+     "yaar"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 92,
+    "emotion": 70,
+    "pacing": 35,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 31 dB above setup; voice 17 dB above the stream's usual level; trigger words: yaar",
+   "text": "27 month yaar dhiyo",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7373.69,
+   "end": 7395.25,
+   "peak": 7393.05,
+   "score": 65,
+   "comp": {
+    "emotion": 0.689,
+    "story": 0.816,
+    "hook": 0.42,
+    "pacing": 0.58
+   },
+   "signals": {
+    "intensity": 0.786,
+    "arc_contrast": 1.0,
+    "reaction": 0.541,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.713,
+    "excitement_db": 17.0,
+    "shock_contrast_db": 32.4,
+    "contrast_db": 23.7,
+    "triggers": 0.5,
+    "speech_rate": 2.12,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 82,
+    "emotion": 69,
+    "pacing": 58,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 24 dB above setup; voice 17 dB above the stream's usual level; trigger words: bro",
+   "text": "Ya, Fanta standout vehicle, some of its part may be unique Chala! Ajaklone ki What? Klone ki, madlam? Madlam, ma 'iz gadi ko aise ni chala sakna Bro!",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2961.68,
+   "end": 2977.63,
+   "peak": 2975.45,
+   "score": 76,
+   "comp": {
+    "emotion": 0.784,
+    "story": 0.902,
+    "hook": 0.6,
+    "pacing": 0.67
+   },
+   "signals": {
+    "intensity": 0.779,
+    "arc_contrast": 1.0,
+    "reaction": 0.756,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.641,
+    "excitement_db": 16.9,
+    "shock_contrast_db": 24.5,
+    "contrast_db": 24.4,
+    "triggers": 1.0,
+    "speech_rate": 2.75,
+    "trigger_words": [
+     "oh my god",
+     "win"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 90,
+    "emotion": 78,
+    "pacing": 67,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: oh my god, win; reaction 24 dB above setup; voice 17 dB above the stream's usual level",
+   "text": "why are you doing it? why are you doing it? oh my god they come in what time? you really saw this for your mom? oh my god you want to win in that game?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2157.83,
+   "end": 2179.18,
+   "peak": 2175.45,
+   "score": 54,
+   "comp": {
+    "emotion": 0.589,
+    "story": 0.906,
+    "hook": 0.12,
+    "pacing": 0.382
+   },
+   "signals": {
+    "intensity": 0.771,
+    "arc_contrast": 1.0,
+    "reaction": 0.765,
+    "shock": 1.0,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.763,
+    "excitement_db": 16.8,
+    "shock_contrast_db": 30.7,
+    "contrast_db": 26.1,
+    "triggers": 0.0,
+    "speech_rate": 0.45,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 91,
+    "emotion": 59,
+    "pacing": 38,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 26 dB above setup; voice 17 dB above the stream's usual level; laughter",
+   "text": "And please use 2nd infiltance Hoot now",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4549.32,
+   "end": 4571.48,
+   "peak": 4569.15,
+   "score": 58,
+   "comp": {
+    "emotion": 0.589,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.449
+   },
+   "signals": {
+    "intensity": 0.764,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.579,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.898,
+    "excitement_db": 16.7,
+    "shock_contrast_db": 13.9,
+    "contrast_db": 18.2,
+    "triggers": 0.5,
+    "speech_rate": 0.9,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 59,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 17 dB above the stream's usual level; trigger words: bro",
+   "text": "I have to spam him Bro, right wheel Bro, Tiger, Crocodile and Wolf, I have just seen it",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7623.77,
+   "end": 7646.89,
+   "peak": 7643.85,
+   "score": 62,
+   "comp": {
+    "emotion": 0.575,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.809
+   },
+   "signals": {
+    "intensity": 0.764,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.508,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.811,
+    "excitement_db": 16.7,
+    "shock_contrast_db": 12.2,
+    "contrast_db": 12.8,
+    "triggers": 0.5,
+    "speech_rate": 3.02,
+    "trigger_words": [
+     "kill",
+     "what the"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 57,
+    "pacing": 81,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; voice 17 dB above the stream's usual level; trigger words: kill, what the",
+   "text": "Yeah. I need you to do something for me. Not sure. You can like it though. Whatever you need, I'm here for you. Donnie is going to kill her. It's Monday. She's behind on a rent again. You got to swing by there. See what the hold up is. What is this? What is this? Oh, she already wants you. Range Rover SV, yes sir. What is the business?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5353.9,
+   "end": 5386.37,
+   "peak": 5375.75,
+   "score": 64,
+   "comp": {
+    "emotion": 0.704,
+    "story": 0.97,
+    "hook": 0.12,
+    "pacing": 0.694
+   },
+   "signals": {
+    "intensity": 0.757,
+    "arc_contrast": 1.0,
+    "reaction": 0.926,
+    "shock": 0.679,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.871,
+    "excitement_db": 16.6,
+    "shock_contrast_db": 16.3,
+    "contrast_db": 30.5,
+    "triggers": 1.0,
+    "speech_rate": 2.3,
+    "trigger_words": [
+     "no",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 70,
+    "pacing": 69,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no, bro; reaction 30 dB above setup; voice 17 dB above the stream's usual level",
+   "text": "much? I'll call it a brightness Yeah I'll call it a brightness Bro Bro Can we check the car? He's 10 Oh he's going to take the car Oh boy What's the name of the car? I'm going to go to the gun shop tomorrow Get in your car No Mission will be in its own car",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8379.77,
+   "end": 8424.77,
+   "peak": 8382.15,
+   "score": 55,
+   "comp": {
+    "emotion": 0.456,
+    "story": 0.999,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.75,
+    "arc_contrast": 1.0,
+    "reaction": 0.996,
+    "shock": 0.467,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 16.5,
+    "shock_contrast_db": 11.2,
+    "contrast_db": 14.8,
+    "triggers": 0.0,
+    "speech_rate": 0.24,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 46,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "नब्वग के यर तकाशहा हैग। पातक ईब ही खुगब ही बनंटाodeू",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8967.6,
+   "end": 9012.6,
+   "peak": 8955.95,
+   "score": 37,
+   "comp": {
+    "emotion": 0.502,
+    "story": 0.399,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.743,
+    "arc_contrast": 0.0,
+    "reaction": 0.997,
+    "shock": 0.725,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 16.4,
+    "shock_contrast_db": 17.4,
+    "contrast_db": -84.4,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 40,
+    "emotion": 50,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 16 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8665.42,
+   "end": 8704.48,
+   "peak": 8699.05,
+   "score": 54,
+   "comp": {
+    "emotion": 0.452,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.488
+   },
+   "signals": {
+    "intensity": 0.743,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.475,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.976,
+    "excitement_db": 16.4,
+    "shock_contrast_db": 11.4,
+    "contrast_db": 13.8,
+    "triggers": 0.0,
+    "speech_rate": 0.59,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 45,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "चलालाय नूग पसलली बार आी गे उपानारेण लस कर�� koopaveer ये नoukkenarin padithe 좋बि दें। ھم نے وہ تب چھڑا ہی؟ OK, چھڑے",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3220.12,
+   "end": 3244.73,
+   "peak": 3239.45,
+   "score": 55,
+   "comp": {
+    "emotion": 0.602,
+    "story": 0.892,
+    "hook": 0.12,
+    "pacing": 0.407
+   },
+   "signals": {
+    "intensity": 0.736,
+    "arc_contrast": 1.0,
+    "reaction": 0.73,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.813,
+    "excitement_db": 16.3,
+    "shock_contrast_db": 27.2,
+    "contrast_db": 18.7,
+    "triggers": 0.25,
+    "speech_rate": 0.75,
+    "trigger_words": [
+     "lucia"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 89,
+    "emotion": 60,
+    "pacing": 41,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 19 dB above setup; voice 16 dB above the stream's usual level; trigger words: lucia",
+   "text": "Gz sharing good time with his friend Lucia It's ,真 smell Bengal gram Affairs E avatar",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8241.39,
+   "end": 8278.59,
+   "peak": 8271.35,
+   "score": 51,
+   "comp": {
+    "emotion": 0.727,
+    "story": 0.608,
+    "hook": 0.12,
+    "pacing": 0.497
+   },
+   "signals": {
+    "intensity": 0.721,
+    "arc_contrast": 0.347,
+    "reaction": 1.0,
+    "shock": 0.929,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.995,
+    "excitement_db": 16.1,
+    "shock_contrast_db": 22.3,
+    "contrast_db": 4.2,
+    "triggers": 1.0,
+    "speech_rate": 0.45,
+    "trigger_words": [
+     "no"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 61,
+    "emotion": 73,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no; voice 16 dB above the stream's usual level; reaction 4 dB above setup",
+   "text": "no no no no no no no no no ho ये फगी कसाफी एार सीचादे विर फगीना",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1053.91,
+   "end": 1080.17,
+   "peak": 1077.55,
+   "score": 57,
+   "comp": {
+    "emotion": 0.719,
+    "story": 0.557,
+    "hook": 0.42,
+    "pacing": 0.519
+   },
+   "signals": {
+    "intensity": 0.714,
+    "arc_contrast": 0.492,
+    "reaction": 0.654,
+    "shock": 0.917,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.873,
+    "excitement_db": 16.0,
+    "shock_contrast_db": 22.0,
+    "contrast_db": 5.9,
+    "triggers": 1.0,
+    "speech_rate": 1.41,
+    "trigger_words": [
+     "bhai",
+     "yaar"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 56,
+    "emotion": 72,
+    "pacing": 52,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, yaar; voice 16 dB above the stream's usual level; reaction 6 dB above setup",
+   "text": "Lai kola patin dvaadu yaar bhai Rani kle naasai, GTSX ke le dvao Rani kle dvao, GTSX ke le ni Rani kle dvaalai Virita kle dvaalai Virita kle dvaakar bhai chants Koi",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7114.82,
+   "end": 7133.05,
+   "peak": 7130.85,
+   "score": 48,
+   "comp": {
+    "emotion": 0.53,
+    "story": 0.755,
+    "hook": 0.12,
+    "pacing": 0.398
+   },
+   "signals": {
+    "intensity": 0.707,
+    "arc_contrast": 1.0,
+    "reaction": 0.388,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.797,
+    "excitement_db": 15.9,
+    "shock_contrast_db": 33.8,
+    "contrast_db": 16.3,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 76,
+    "emotion": 53,
+    "pacing": 40,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 16 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 39% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6812.56,
+   "end": 6834.63,
+   "peak": 6830.85,
+   "score": 57,
+   "comp": {
+    "emotion": 0.471,
+    "story": 0.918,
+    "hook": 0.12,
+    "pacing": 0.823
+   },
+   "signals": {
+    "intensity": 0.7,
+    "arc_contrast": 1.0,
+    "reaction": 0.796,
+    "shock": 0.729,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.741,
+    "excitement_db": 15.8,
+    "shock_contrast_db": 17.5,
+    "contrast_db": 17.0,
+    "triggers": 0.0,
+    "speech_rate": 3.27,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 92,
+    "emotion": 47,
+    "pacing": 82,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 80% of the ending",
+   "text": "so you want me to play this however you like I want my cut and I want them out of there I cover them for long enough چا لو دستف اب ہم لوگوں کو кئیس کرنے وہ ہمارے پر ہے ہا باہی your action will affect your criminal profile you may have a lasting impact hold this to check your current state as what",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8026.9,
+   "end": 8054.13,
+   "peak": 8050.65,
+   "score": 45,
+   "comp": {
+    "emotion": 0.39,
+    "story": 0.755,
+    "hook": 0.12,
+    "pacing": 0.528
+   },
+   "signals": {
+    "intensity": 0.7,
+    "arc_contrast": 0.591,
+    "reaction": 1.0,
+    "shock": 0.325,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 15.8,
+    "shock_contrast_db": 7.8,
+    "contrast_db": 7.1,
+    "triggers": 0.0,
+    "speech_rate": 1.14,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 76,
+    "emotion": 39,
+    "pacing": 53,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 7 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "have you done it? what? what? why is the lights with the air we are going to get some products why am i running away brother what is going on is",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3280.72,
+   "end": 3298.64,
+   "peak": 3296.45,
+   "score": 54,
+   "comp": {
+    "emotion": 0.514,
+    "story": 0.964,
+    "hook": 0.12,
+    "pacing": 0.392
+   },
+   "signals": {
+    "intensity": 0.686,
+    "arc_contrast": 1.0,
+    "reaction": 0.911,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.785,
+    "excitement_db": 15.6,
+    "shock_contrast_db": 24.8,
+    "contrast_db": 19.8,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 51,
+    "pacing": 39,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 20 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 91% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1410.16,
+   "end": 1425.9,
+   "peak": 1423.35,
+   "score": 49,
+   "comp": {
+    "emotion": 0.509,
+    "story": 0.822,
+    "hook": 0.12,
+    "pacing": 0.345
+   },
+   "signals": {
+    "intensity": 0.679,
+    "arc_contrast": 1.0,
+    "reaction": 0.555,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.689,
+    "excitement_db": 15.5,
+    "shock_contrast_db": 35.2,
+    "contrast_db": 36.2,
+    "triggers": 0.0,
+    "speech_rate": 0.36,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 82,
+    "emotion": 51,
+    "pacing": 34,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 36 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 55% of the ending",
+   "text": "بہی Rhoda ये चना शिंगाया",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2350.91,
+   "end": 2368.49,
+   "peak": 2364.55,
+   "score": 55,
+   "comp": {
+    "emotion": 0.459,
+    "story": 0.977,
+    "hook": 0.12,
+    "pacing": 0.575
+   },
+   "signals": {
+    "intensity": 0.679,
+    "arc_contrast": 1.0,
+    "reaction": 0.942,
+    "shock": 0.75,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.736,
+    "excitement_db": 15.5,
+    "shock_contrast_db": 18.0,
+    "contrast_db": 20.4,
+    "triggers": 0.0,
+    "speech_rate": 2.03,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 98,
+    "emotion": 46,
+    "pacing": 57,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 20 dB above setup; voice 16 dB above the stream's usual level; keeps reacting for 94% of the ending",
+   "text": "What is he feeling now? I am tired. Friends, 5 minutes has passed. 5 minutes. 5 minutes. 4 minutes. You are wrong. 5 minutes and 52 seconds. 5 minutes.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4867.62,
+   "end": 4885.9,
+   "peak": 4881.05,
+   "score": 52,
+   "comp": {
+    "emotion": 0.493,
+    "story": 0.935,
+    "hook": 0.12,
+    "pacing": 0.363
+   },
+   "signals": {
+    "intensity": 0.657,
+    "arc_contrast": 1.0,
+    "reaction": 0.837,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.726,
+    "excitement_db": 15.2,
+    "shock_contrast_db": 24.8,
+    "contrast_db": 12.9,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 94,
+    "emotion": 49,
+    "pacing": 36,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; voice 15 dB above the stream's usual level; keeps reacting for 84% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1806.12,
+   "end": 1831.29,
+   "peak": 1822.15,
+   "score": 52,
+   "comp": {
+    "emotion": 0.432,
+    "story": 0.941,
+    "hook": 0.12,
+    "pacing": 0.451
+   },
+   "signals": {
+    "intensity": 0.65,
+    "arc_contrast": 1.0,
+    "reaction": 0.853,
+    "shock": 0.725,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.902,
+    "excitement_db": 15.1,
+    "shock_contrast_db": 17.4,
+    "contrast_db": 16.6,
+    "triggers": 0.0,
+    "speech_rate": 0.85,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 94,
+    "emotion": 43,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; voice 15 dB above the stream's usual level; keeps reacting for 85% of the ending",
+   "text": "karnap ned gyomra ils這個是 kanana buy eno n вы auf yoh kare ne apa your hane aag bhi aag bhi , Trapiematics",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6100.67,
+   "end": 6122.77,
+   "peak": 6119.85,
+   "score": 56,
+   "comp": {
+    "emotion": 0.632,
+    "story": 0.579,
+    "hook": 0.42,
+    "pacing": 0.648
+   },
+   "signals": {
+    "intensity": 0.643,
+    "arc_contrast": 0.631,
+    "reaction": 0.5,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.666,
+    "excitement_db": 15.0,
+    "shock_contrast_db": 27.3,
+    "contrast_db": 7.6,
+    "triggers": 0.75,
+    "speech_rate": 2.57,
+    "trigger_words": [
+     "bro",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 58,
+    "emotion": 63,
+    "pacing": 65,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, let's go; reaction 8 dB above setup; voice 15 dB above the stream's usual level",
+   "text": "pick up another gun, working from brand will require some gay, from ammunition pick up a long arm at Chuck's tackle and short. Ok, let's go. Oye, what is that? What is that? Did you see? He ran into the tree too. Bro, one minute, where are our guns?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3818.03,
+   "end": 3841.3,
+   "peak": 3836.65,
+   "score": 52,
+   "comp": {
+    "emotion": 0.373,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.465
+   },
+   "signals": {
+    "intensity": 0.643,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.454,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.93,
+    "excitement_db": 15.0,
+    "shock_contrast_db": 10.9,
+    "contrast_db": 14.4,
+    "triggers": 0.0,
+    "speech_rate": 0.34,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 37,
+    "pacing": 46,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; voice 15 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "Laga ke pira bhi ar dek dihaan se",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5577.3,
+   "end": 5606.55,
+   "peak": 5593.95,
+   "score": 58,
+   "comp": {
+    "emotion": 0.631,
+    "story": 0.944,
+    "hook": 0.12,
+    "pacing": 0.495
+   },
+   "signals": {
+    "intensity": 0.636,
+    "arc_contrast": 0.916,
+    "reaction": 0.988,
+    "shock": 0.771,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.99,
+    "excitement_db": 14.9,
+    "shock_contrast_db": 18.5,
+    "contrast_db": 11.0,
+    "triggers": 1.0,
+    "speech_rate": 0.17,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 94,
+    "emotion": 63,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai; reaction 11 dB above setup; voice 15 dB above the stream's usual level",
+   "text": "bhai bhai bhai bhai bhai",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 518.63,
+   "end": 540.95,
+   "peak": 536.75,
+   "score": 50,
+   "comp": {
+    "emotion": 0.471,
+    "story": 0.864,
+    "hook": 0.12,
+    "pacing": 0.415
+   },
+   "signals": {
+    "intensity": 0.629,
+    "arc_contrast": 1.0,
+    "reaction": 0.659,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.83,
+    "excitement_db": 14.8,
+    "shock_contrast_db": 27.1,
+    "contrast_db": 19.4,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 86,
+    "emotion": 47,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 19 dB above setup; voice 15 dB above the stream's usual level; keeps reacting for 66% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4787.49,
+   "end": 4806.55,
+   "peak": 4804.55,
+   "score": 40,
+   "comp": {
+    "emotion": 0.507,
+    "story": 0.532,
+    "hook": 0.12,
+    "pacing": 0.354
+   },
+   "signals": {
+    "intensity": 0.621,
+    "arc_contrast": 0.882,
+    "reaction": 0.007,
+    "shock": 0.954,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.709,
+    "excitement_db": 14.7,
+    "shock_contrast_db": 22.9,
+    "contrast_db": 10.6,
+    "triggers": 0.25,
+    "speech_rate": 0.77,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 53,
+    "emotion": 51,
+    "pacing": 35,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; voice 15 dB above the stream's usual level; trigger words: bro",
+   "text": "Okay, we can cover R1 We can cover R1 Bro, one more time Okay",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6617.97,
+   "end": 6643.72,
+   "peak": 6638.75,
+   "score": 49,
+   "comp": {
+    "emotion": 0.369,
+    "story": 0.881,
+    "hook": 0.12,
+    "pacing": 0.562
+   },
+   "signals": {
+    "intensity": 0.621,
+    "arc_contrast": 0.801,
+    "reaction": 1.0,
+    "shock": 0.513,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.939,
+    "excitement_db": 14.7,
+    "shock_contrast_db": 12.3,
+    "contrast_db": 9.6,
+    "triggers": 0.0,
+    "speech_rate": 1.46,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 88,
+    "emotion": 37,
+    "pacing": 56,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 10 dB above setup; voice 15 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "پیچھا دیا بائی اہہہ ہے؟ یہ کیا بہا؟ What? بائی میرے گاڈی کا انگیں گیا میرے گاڈی کا انگیں گیا میرے بیچھے پولیس پڑی ہے پولیس کو میرے کپ... بائی پولیس کو میرے کپڑے پتے ہیں برو",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8578.74,
+   "end": 8623.52,
+   "peak": 8607.35,
+   "score": 56,
+   "comp": {
+    "emotion": 0.496,
+    "story": 0.996,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.614,
+    "arc_contrast": 1.0,
+    "reaction": 0.99,
+    "shock": 0.675,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.996,
+    "excitement_db": 14.6,
+    "shock_contrast_db": 16.2,
+    "contrast_db": 16.2,
+    "triggers": 0.5,
+    "speech_rate": 0.24,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 50,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 16 dB above setup; voice 15 dB above the stream's usual level; trigger words: bhai",
+   "text": "daiseingi ki? Bhai, bhai sabhi sabhi, sorry Kulni hai para hai",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2426.38,
+   "end": 2453.23,
+   "peak": 2450.45,
+   "score": 62,
+   "comp": {
+    "emotion": 0.619,
+    "story": 0.877,
+    "hook": 0.42,
+    "pacing": 0.366
+   },
+   "signals": {
+    "intensity": 0.614,
+    "arc_contrast": 1.0,
+    "reaction": 0.693,
+    "shock": 0.792,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.717,
+    "excitement_db": 14.6,
+    "shock_contrast_db": 19.0,
+    "contrast_db": 19.9,
+    "triggers": 1.0,
+    "speech_rate": 1.04,
+    "trigger_words": [
+     "look",
+     "gta"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 88,
+    "emotion": 62,
+    "pacing": 37,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: look, gta; reaction 20 dB above setup; voice 15 dB above the stream's usual level",
+   "text": "ke g高 ko lakta hai ki Nakhavi hai ye兒important sade theen minute bham look GTA 6 keh le val ae sonstp sade",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7002.56,
+   "end": 7030.43,
+   "peak": 7027.45,
+   "score": 51,
+   "comp": {
+    "emotion": 0.571,
+    "story": 0.545,
+    "hook": 0.42,
+    "pacing": 0.465
+   },
+   "signals": {
+    "intensity": 0.607,
+    "arc_contrast": 0.48,
+    "reaction": 0.642,
+    "shock": 0.579,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.93,
+    "excitement_db": 14.5,
+    "shock_contrast_db": 13.9,
+    "contrast_db": 5.8,
+    "triggers": 1.0,
+    "speech_rate": 0.86,
+    "trigger_words": [
+     "no",
+     "bro",
+     "what the"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 55,
+    "emotion": 57,
+    "pacing": 46,
+    "engagement": null
+   },
+   "category": "rage",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no, bro, what the; voice 14 dB above the stream's usual level; reaction 6 dB above setup",
+   "text": "बरhood लै इग टू़र ground Hellfire ee! A no nonne! What the hell? Bro, there is no wave, bro There is no wave bro",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8967.6,
+   "end": 9012.6,
+   "peak": 9002.15,
+   "score": 43,
+   "comp": {
+    "emotion": 0.443,
+    "story": 0.623,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.607,
+    "arc_contrast": 0.382,
+    "reaction": 0.985,
+    "shock": 0.938,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 14.5,
+    "shock_contrast_db": 22.5,
+    "contrast_db": 4.6,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 62,
+    "emotion": 44,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 14 dB above the stream's usual level; reaction 5 dB above setup; keeps reacting for 98% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4981.24,
+   "end": 5017.7,
+   "peak": 4988.95,
+   "score": 51,
+   "comp": {
+    "emotion": 0.384,
+    "story": 0.96,
+    "hook": 0.12,
+    "pacing": 0.48
+   },
+   "signals": {
+    "intensity": 0.6,
+    "arc_contrast": 0.968,
+    "reaction": 0.948,
+    "shock": 0.421,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.96,
+    "excitement_db": 14.4,
+    "shock_contrast_db": 10.1,
+    "contrast_db": 11.6,
+    "triggers": 0.25,
+    "speech_rate": 0.44,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 38,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 95% of the ending",
+   "text": "aiii aiii aiii aiii aiii aiii aiii aiii aiii aiii aiii aiii bhai aiii i am",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 602.54,
+   "end": 633.15,
+   "peak": 630.95,
+   "score": 49,
+   "comp": {
+    "emotion": 0.413,
+    "story": 0.887,
+    "hook": 0.12,
+    "pacing": 0.4
+   },
+   "signals": {
+    "intensity": 0.6,
+    "arc_contrast": 1.0,
+    "reaction": 0.718,
+    "shock": 0.817,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.799,
+    "excitement_db": 14.4,
+    "shock_contrast_db": 19.6,
+    "contrast_db": 12.8,
+    "triggers": 0.0,
+    "speech_rate": 0.03,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 89,
+    "emotion": 41,
+    "pacing": 40,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 72% of the ending",
+   "text": "ڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈڈ",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4022.22,
+   "end": 4039.52,
+   "peak": 4036.35,
+   "score": 66,
+   "comp": {
+    "emotion": 0.575,
+    "story": 1.0,
+    "hook": 0.4,
+    "pacing": 0.545
+   },
+   "signals": {
+    "intensity": 0.593,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.654,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.907,
+    "excitement_db": 14.3,
+    "shock_contrast_db": 15.7,
+    "contrast_db": 22.6,
+    "triggers": 1.0,
+    "speech_rate": 1.45,
+    "trigger_words": [
+     "bro",
+     "no",
+     "oh my god",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 100,
+    "emotion": 57,
+    "pacing": 55,
+    "engagement": null
+   },
+   "category": "clutch",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, no, oh my god; reaction 23 dB above setup; voice 14 dB above the stream's usual level",
+   "text": "Bro, what is that? No, it is not. Luminosity is also in it. Bro. Oh my god. Let's go. That people are playing right?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4074.19,
+   "end": 4092.64,
+   "peak": 4089.15,
+   "score": 55,
+   "comp": {
+    "emotion": 0.457,
+    "story": 0.885,
+    "hook": 0.12,
+    "pacing": 0.767
+   },
+   "signals": {
+    "intensity": 0.586,
+    "arc_contrast": 0.808,
+    "reaction": 1.0,
+    "shock": 0.588,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 14.2,
+    "shock_contrast_db": 14.1,
+    "contrast_db": 9.7,
+    "triggers": 0.5,
+    "speech_rate": 2.33,
+    "trigger_words": [
+     "look",
+     "l"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 88,
+    "emotion": 46,
+    "pacing": 77,
+    "engagement": null
+   },
+   "category": "fail",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 10 dB above setup; trigger words: look, l; voice 14 dB above the stream's usual level",
+   "text": "check out the water. There is going to be some high. Reveal the hood. Oh, play play play. Oh, look at that. That lure predator L -35. Indian or fuel is coming. Indian fuel is coming. Indian fuel is coming. Let's do this.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5695.01,
+   "end": 5720.8,
+   "peak": 5718.45,
+   "score": 57,
+   "comp": {
+    "emotion": 0.439,
+    "story": 0.968,
+    "hook": 0.12,
+    "pacing": 0.774
+   },
+   "signals": {
+    "intensity": 0.586,
+    "arc_contrast": 1.0,
+    "reaction": 0.919,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.648,
+    "excitement_db": 14.2,
+    "shock_contrast_db": 25.7,
+    "contrast_db": 18.4,
+    "triggers": 0.0,
+    "speech_rate": 3.25,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 44,
+    "pacing": 77,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 92% of the ending",
+   "text": "you were got a problem over there all good it's gonna take more than that skank to put me in a bad mood today so you still got that place for me to stay? yeah yeah i got a place and you're the only one oh i don't know they don't tell you but it sounds like it could be soon sure why? they are talking to each other how to say lord you are having second thoughts are you?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3926.4,
+   "end": 3942.6,
+   "peak": 3939.35,
+   "score": 50,
+   "comp": {
+    "emotion": 0.508,
+    "story": 0.678,
+    "hook": 0.12,
+    "pacing": 0.788
+   },
+   "signals": {
+    "intensity": 0.586,
+    "arc_contrast": 0.607,
+    "reaction": 0.785,
+    "shock": 0.971,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.964,
+    "excitement_db": 14.2,
+    "shock_contrast_db": 23.3,
+    "contrast_db": 7.3,
+    "triggers": 0.0,
+    "speech_rate": 2.53,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 68,
+    "emotion": 51,
+    "pacing": 79,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 7 dB above setup; voice 14 dB above the stream's usual level; laughter",
+   "text": "okay? You are going to get a plane now ठाश येग हीगितन रेकत जा नेง नेसा हैpin हैंगाँनि ने लाघी हैं। नेन किं बे reinforce न ही लाज ने कर, ohh रे meer था ओवr न अऄज नाख जा हो हैं",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2042.69,
+   "end": 2064.3,
+   "peak": 2060.95,
+   "score": 49,
+   "comp": {
+    "emotion": 0.346,
+    "story": 0.979,
+    "hook": 0.12,
+    "pacing": 0.387
+   },
+   "signals": {
+    "intensity": 0.579,
+    "arc_contrast": 1.0,
+    "reaction": 0.947,
+    "shock": 0.562,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.774,
+    "excitement_db": 14.1,
+    "shock_contrast_db": 13.5,
+    "contrast_db": 21.3,
+    "triggers": 0.0,
+    "speech_rate": 0.53,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 98,
+    "emotion": 35,
+    "pacing": 39,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 21 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 95% of the ending",
+   "text": "Hello Shawa Shawa Mahiyaza Shawa Shawa Rajula Shawa Shawa Mahiyaza",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7788.26,
+   "end": 7815.24,
+   "peak": 7798.65,
+   "score": 68,
+   "comp": {
+    "emotion": 0.626,
+    "story": 0.996,
+    "hook": 0.42,
+    "pacing": 0.539
+   },
+   "signals": {
+    "intensity": 0.579,
+    "arc_contrast": 1.0,
+    "reaction": 0.991,
+    "shock": 0.963,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.989,
+    "excitement_db": 14.1,
+    "shock_contrast_db": 23.1,
+    "contrast_db": 13.0,
+    "triggers": 1.0,
+    "speech_rate": 1.22,
+    "trigger_words": [
+     "no"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 100,
+    "emotion": 63,
+    "pacing": 54,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no; reaction 13 dB above setup; voice 14 dB above the stream's usual level",
+   "text": "sorry i got a mistake and no one is going down no one is going down and i was going down and no new ranger open and no new ranger open two two",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6370.34,
+   "end": 6385.75,
+   "peak": 6383.55,
+   "score": 49,
+   "comp": {
+    "emotion": 0.534,
+    "story": 0.664,
+    "hook": 0.12,
+    "pacing": 0.723
+   },
+   "signals": {
+    "intensity": 0.579,
+    "arc_contrast": 1.0,
+    "reaction": 0.159,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.784,
+    "excitement_db": 14.1,
+    "shock_contrast_db": 36.7,
+    "contrast_db": 12.9,
+    "triggers": 0.5,
+    "speech_rate": 2.66,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 66,
+    "emotion": 53,
+    "pacing": 72,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; trigger words: bro; voice 14 dB above the stream's usual level",
+   "text": "It's a rifle. Nice one. It's a suppressor. If you want. It's a suppressor. Muscle brakes, sight. Take your pick, Marauder. Oh, bro. Bro, last time the car was a suppressor. You could've seen it in this gun.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 192.17,
+   "end": 217.43,
+   "peak": 213.25,
+   "score": 50,
+   "comp": {
+    "emotion": 0.429,
+    "story": 0.891,
+    "hook": 0.12,
+    "pacing": 0.479
+   },
+   "signals": {
+    "intensity": 0.571,
+    "arc_contrast": 1.0,
+    "reaction": 0.728,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.784,
+    "excitement_db": 14.0,
+    "shock_contrast_db": 25.1,
+    "contrast_db": 14.2,
+    "triggers": 0.0,
+    "speech_rate": 1.44,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 89,
+    "emotion": 43,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 73% of the ending",
+   "text": "لوگ جادہ سیدے کیا کر رہوں گے میں نے نے نے چھٹی لے رہوں گے but لوگ جادہ سیدے اور کیا کر رہوں گے سوچھو جی رہوں لوگ ا Answer Ceo کی شاہpersہ کی خبر کی",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 873.23,
+   "end": 889.12,
+   "peak": 886.35,
+   "score": 52,
+   "comp": {
+    "emotion": 0.333,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.625
+   },
+   "signals": {
+    "intensity": 0.543,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.579,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.795,
+    "excitement_db": 13.6,
+    "shock_contrast_db": 13.9,
+    "contrast_db": 17.6,
+    "triggers": 0.0,
+    "speech_rate": 2.14,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 100,
+    "emotion": 33,
+    "pacing": 62,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 18 dB above setup; voice 14 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir bm Sir",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4915.31,
+   "end": 4936.16,
+   "peak": 4931.55,
+   "score": 63,
+   "comp": {
+    "emotion": 0.475,
+    "story": 1.0,
+    "hook": 0.42,
+    "pacing": 0.49
+   },
+   "signals": {
+    "intensity": 0.536,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.804,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.979,
+    "excitement_db": 13.5,
+    "shock_contrast_db": 19.3,
+    "contrast_db": 12.2,
+    "triggers": 0.5,
+    "speech_rate": 0.29,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 100,
+    "emotion": 48,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; trigger words: bhai; voice 14 dB above the stream's usual level",
+   "text": "lads go baby bhai plane gesgoodDonneどう",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7526.24,
+   "end": 7541.61,
+   "peak": 7537.65,
+   "score": 46,
+   "comp": {
+    "emotion": 0.396,
+    "story": 0.556,
+    "hook": 0.4,
+    "pacing": 0.506
+   },
+   "signals": {
+    "intensity": 0.529,
+    "arc_contrast": 0.26,
+    "reaction": 1.0,
+    "shock": 0.671,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.97,
+    "excitement_db": 13.4,
+    "shock_contrast_db": 16.1,
+    "contrast_db": 3.1,
+    "triggers": 0.25,
+    "speech_rate": 1.11,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 56,
+    "emotion": 40,
+    "pacing": 51,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 13 dB above the stream's usual level; keeps reacting for 100% of the ending; reaction 3 dB above setup",
+   "text": "bhai elat to ghaadi ni jr rhajan jr aagise dhali sisters لیکن این کھانiber Schwartz این این",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6407.17,
+   "end": 6431.95,
+   "peak": 6429.65,
+   "score": 53,
+   "comp": {
+    "emotion": 0.397,
+    "story": 0.967,
+    "hook": 0.12,
+    "pacing": 0.589
+   },
+   "signals": {
+    "intensity": 0.521,
+    "arc_contrast": 1.0,
+    "reaction": 0.917,
+    "shock": 0.692,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.662,
+    "excitement_db": 13.3,
+    "shock_contrast_db": 16.6,
+    "contrast_db": 23.0,
+    "triggers": 0.25,
+    "speech_rate": 2.29,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 40,
+    "pacing": 59,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 23 dB above setup; voice 13 dB above the stream's usual level; keeps reacting for 92% of the ending",
+   "text": "what I got? He can't buy it. He can't buy it. He can't buy it. Is it full? $108R. Yeah. How much can he make it? Okay, he's carrying his money. Bro, I have a lot of money. Basically, I'm the same. Please.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8867.78,
+   "end": 8912.78,
+   "peak": 8866.55,
+   "score": 33,
+   "comp": {
+    "emotion": 0.36,
+    "story": 0.399,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.514,
+    "arc_contrast": 0.0,
+    "reaction": 0.997,
+    "shock": 0.771,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.997,
+    "excitement_db": 13.2,
+    "shock_contrast_db": 18.5,
+    "contrast_db": -71.0,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 40,
+    "emotion": 36,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "voice 13 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1663.91,
+   "end": 1692.56,
+   "peak": 1683.45,
+   "score": 50,
+   "comp": {
+    "emotion": 0.396,
+    "story": 0.924,
+    "hook": 0.12,
+    "pacing": 0.494
+   },
+   "signals": {
+    "intensity": 0.514,
+    "arc_contrast": 1.0,
+    "reaction": 0.809,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.713,
+    "excitement_db": 13.2,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 32.3,
+    "triggers": 0.5,
+    "speech_rate": 1.69,
+    "trigger_words": [
+     "look"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 92,
+    "emotion": 40,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 32 dB above setup; trigger words: look; voice 13 dB above the stream's usual level",
+   "text": "Guys, I haven't checked it yet. Guys, let's see. I am running. I am playing 60 FPS. I am playing 60 FPS. I am playing 10 FPS. Now we will play a bandwara. And after that, look at",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8196.92,
+   "end": 8220.95,
+   "peak": 8213.45,
+   "score": 55,
+   "comp": {
+    "emotion": 0.492,
+    "story": 0.686,
+    "hook": 0.4,
+    "pacing": 0.616
+   },
+   "signals": {
+    "intensity": 0.5,
+    "arc_contrast": 0.476,
+    "reaction": 1.0,
+    "shock": 0.462,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 13.0,
+    "shock_contrast_db": 11.1,
+    "contrast_db": 5.7,
+    "triggers": 1.0,
+    "speech_rate": 1.58,
+    "trigger_words": [
+     "bhai",
+     "no"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 69,
+    "emotion": 49,
+    "pacing": 62,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai, no; reaction 6 dB above setup; voice 13 dB above the stream's usual level",
+   "text": "BHAI IDIR IS NO BAI BhaI Mee nake, ConvertIvel Deh Ki, Trai Jee Hara Pursh aA BHAI AIT Palsha ConvertIvel Deh Ki, MaI AI RSI, Lek To Mood ki Aaya adel, Pai Pli Ping PuI Toulag DaI Yas",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8743.27,
+   "end": 8766.3,
+   "peak": 8755.15,
+   "score": 44,
+   "comp": {
+    "emotion": 0.282,
+    "story": 0.785,
+    "hook": 0.12,
+    "pacing": 0.644
+   },
+   "signals": {
+    "intensity": 0.493,
+    "arc_contrast": 0.65,
+    "reaction": 0.986,
+    "shock": 0.425,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.993,
+    "excitement_db": 12.9,
+    "shock_contrast_db": 10.2,
+    "contrast_db": 7.8,
+    "triggers": 0.0,
+    "speech_rate": 1.74,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 78,
+    "emotion": 28,
+    "pacing": 64,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 8 dB above setup; voice 13 dB above the stream's usual level; keeps reacting for 99% of the ending",
+   "text": "پہر اس میں کیسا ہوا رہے کہ کنترولان سے میں وہ نہیں کر پا رہے میں ایم ٹکا کے مارت جا ہوتا اس کو پہتیاری کنترولان سے ایسا ایسا ہوا رہے ایم ار لینے کی try と کروں گا بہیں",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2686.21,
+   "end": 2705.71,
+   "peak": 2702.55,
+   "score": 44,
+   "comp": {
+    "emotion": 0.394,
+    "story": 0.738,
+    "hook": 0.12,
+    "pacing": 0.476
+   },
+   "signals": {
+    "intensity": 0.486,
+    "arc_contrast": 1.0,
+    "reaction": 0.346,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.834,
+    "excitement_db": 12.8,
+    "shock_contrast_db": 34.0,
+    "contrast_db": 16.7,
+    "triggers": 0.0,
+    "speech_rate": 1.29,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 74,
+    "emotion": 39,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; voice 13 dB above the stream's usual level; keeps reacting for 35% of the ending",
+   "text": "Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan Gals Bhojgan",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3606.45,
+   "end": 3629.24,
+   "peak": 3624.05,
+   "score": 71,
+   "comp": {
+    "emotion": 0.464,
+    "story": 1.0,
+    "hook": 0.7,
+    "pacing": 0.621
+   },
+   "signals": {
+    "intensity": 0.479,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.362,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.957,
+    "excitement_db": 12.7,
+    "shock_contrast_db": 8.7,
+    "contrast_db": 14.6,
+    "triggers": 1.0,
+    "speech_rate": 1.71,
+    "trigger_words": [
+     "bro",
+     "run",
+     "stop"
+    ]
+   },
+   "breakdown": {
+    "hook": 70,
+    "story": 100,
+    "emotion": 46,
+    "pacing": 62,
+    "engagement": null
+   },
+   "category": "chaos",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, run, stop; reaction 15 dB above setup; voice 13 dB above the stream's usual level",
+   "text": "tu mecky stop showering i mean golly i mean i mean golly golly golly bro bro what do you want to do? jump okay bro bro gaming time gaming time press L3 to run L3 again to sprint you",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 296.27,
+   "end": 325.72,
+   "peak": 318.45,
+   "score": 60,
+   "comp": {
+    "emotion": 0.451,
+    "story": 0.82,
+    "hook": 0.48,
+    "pacing": 0.629
+   },
+   "signals": {
+    "intensity": 0.479,
+    "arc_contrast": 0.853,
+    "reaction": 0.947,
+    "shock": 0.546,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.871,
+    "excitement_db": 12.7,
+    "shock_contrast_db": 13.1,
+    "contrast_db": 10.2,
+    "triggers": 0.75,
+    "speech_rate": 1.97,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 82,
+    "emotion": 45,
+    "pacing": 63,
+    "engagement": null
+   },
+   "category": "hot take",
+   "sources": [
+    "voice",
+    "llm"
+   ],
+   "reason": "reaction 10 dB above setup; story: GTA 6 Hype vs Reality - GTA 6 First Livestream; trigger words: bhai",
+   "text": "but fir mme na kare juti hai 5 ki mmear ha aur bhai saap fir mme saamagma hai ki jo game mme na bhaj pan se bhai bhai saap naa dhikta hai aske mme ko khaapam khaapam khaapam khaapam khaapam khaapam khaapam khaapam khaapam fir mme saamagma hai ki loko mein itmi hype kyou hai sidi baat hai",
+   "llm": {
+    "setup_t": 270.0,
+    "payoff_t": 300.0,
+    "end_t": 310.0,
+    "story_score": 75.0,
+    "hook": "GTA 6 HYPE",
+    "title": "GTA 6 Hype vs Reality - GTA 6 First Livestream"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1305.09,
+   "end": 1322.82,
+   "peak": 1318.05,
+   "score": 51,
+   "comp": {
+    "emotion": 0.279,
+    "story": 0.957,
+    "hook": 0.12,
+    "pacing": 0.789
+   },
+   "signals": {
+    "intensity": 0.471,
+    "arc_contrast": 1.0,
+    "reaction": 0.892,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.694,
+    "excitement_db": 12.6,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 23.6,
+    "triggers": 0.0,
+    "speech_rate": 3.21,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 28,
+    "pacing": 79,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 24 dB above setup; voice 13 dB above the stream's usual level; keeps reacting for 89% of the ending",
+   "text": "کسی کو داگا یہ ہوگیا تو دوستو جس نے بھی ابھی دا کہ سپسکریب بال بٹین دب ہے سنو کر دو ایار دیکھیں, ہمارے ہیں بھی 6 ملین 1 lakh 36000 53 سپسکریب ارس اگر آپ نے بھی تک سپسکریب نہیں کریں گے سپسکریب بال بٹین دو آگا دو وہ دیکھا لائیڈ گئی بہت",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3868.43,
+   "end": 3899.15,
+   "peak": 3890.55,
+   "score": 72,
+   "comp": {
+    "emotion": 0.479,
+    "story": 0.97,
+    "hook": 0.6,
+    "pacing": 0.932
+   },
+   "signals": {
+    "intensity": 0.471,
+    "arc_contrast": 1.0,
+    "reaction": 0.925,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.863,
+    "excitement_db": 12.6,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 15.1,
+    "triggers": 1.0,
+    "speech_rate": 3.65,
+    "trigger_words": [
+     "run",
+     "oh my god",
+     "dude",
+     "stop"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 97,
+    "emotion": 48,
+    "pacing": 93,
+    "engagement": null
+   },
+   "category": "chaos",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: run, oh my god, dude; reaction 15 dB above setup; voice 13 dB above the stream's usual level",
+   "text": "Love fishing Good living You see what I am saying Enjoy your life to the men's suits Finally shut you Fuck off They don't know nothing about me man I use a VPN Hey do you know what road signs are all about? Safety Control Dude is that the plane? Oh Do you have to drop the front stop signs? Okay that plane is going to drop again We are going to run away Oh yeah, we are going to run away Oh my god We are going to run away We are going to run away We are going to run away Okay I think it's in We are",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1344.94,
+   "end": 1373.93,
+   "peak": 1369.05,
+   "score": 50,
+   "comp": {
+    "emotion": 0.466,
+    "story": 0.857,
+    "hook": 0.12,
+    "pacing": 0.415
+   },
+   "signals": {
+    "intensity": 0.464,
+    "arc_contrast": 1.0,
+    "reaction": 0.642,
+    "shock": 1.0,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.712,
+    "excitement_db": 12.5,
+    "shock_contrast_db": 35.9,
+    "contrast_db": 13.7,
+    "triggers": 0.0,
+    "speech_rate": 1.3,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 86,
+    "emotion": 47,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; voice 12 dB above the stream's usual level; laughter",
+   "text": "اگر تمہیں میری شادي کے لئی ایار ہے ایار ہے ایار ہے تو سپسکریب تو کرنا بڑے گا بہی بہی میں شادي کر ہوں دیکھ سوں لوگ گول لگا کرتے میں گول لگا کرتے",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 910.65,
+   "end": 937.86,
+   "peak": 935.65,
+   "score": 30,
+   "comp": {
+    "emotion": 0.536,
+    "story": 0.133,
+    "hook": 0.12,
+    "pacing": 0.489
+   },
+   "signals": {
+    "intensity": 0.464,
+    "arc_contrast": 0.0,
+    "reaction": 0.333,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.788,
+    "excitement_db": 12.5,
+    "shock_contrast_db": 39.4,
+    "contrast_db": -8.4,
+    "triggers": 0.75,
+    "speech_rate": 1.48,
+    "trigger_words": [
+     "bro",
+     "way",
+     "look"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 13,
+    "emotion": 54,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, way, look; voice 12 dB above the stream's usual level; keeps reacting for 33% of the ending",
+   "text": "I love from US really U .S, I am also in SaNow amazingly Bro Is this such a chocolate chips? He wants to see Euroaws & want to take the House personalities Come this way Brother Look There",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3324.82,
+   "end": 3358.73,
+   "peak": 3347.35,
+   "score": 61,
+   "comp": {
+    "emotion": 0.468,
+    "story": 0.953,
+    "hook": 0.4,
+    "pacing": 0.512
+   },
+   "signals": {
+    "intensity": 0.45,
+    "arc_contrast": 1.0,
+    "reaction": 0.882,
+    "shock": 0.938,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.891,
+    "excitement_db": 12.3,
+    "shock_contrast_db": 22.5,
+    "contrast_db": 12.7,
+    "triggers": 0.5,
+    "speech_rate": 1.33,
+    "trigger_words": [
+     "graphics",
+     "kya"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 95,
+    "emotion": 47,
+    "pacing": 51,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; trigger words: graphics, kya; voice 12 dB above the stream's usual level",
+   "text": "vaee correctoress ki graphics dike reo bai me samo saktai 30 fps bi ke shalne kya hai baa graphings diko vroo Baal checker Baal des Baal mimintgai Milk My moose car doesn't work Nelise Home Drive Baal jur values Naagha a bad Ch gravy",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7171.61,
+   "end": 7192.88,
+   "peak": 7187.25,
+   "score": 64,
+   "comp": {
+    "emotion": 0.52,
+    "story": 0.905,
+    "hook": 0.42,
+    "pacing": 0.696
+   },
+   "signals": {
+    "intensity": 0.443,
+    "arc_contrast": 1.0,
+    "reaction": 0.763,
+    "shock": 0.713,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.769,
+    "excitement_db": 12.2,
+    "shock_contrast_db": 17.1,
+    "contrast_db": 21.7,
+    "triggers": 1.0,
+    "speech_rate": 2.56,
+    "trigger_words": [
+     "bro",
+     "look at this"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 90,
+    "emotion": 52,
+    "pacing": 70,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, look at this; reaction 22 dB above setup; voice 12 dB above the stream's usual level",
+   "text": "Erning, wanted and heat ok Jason's crime, committed wanted, well being, time and money what is the other time that one hour has passed brother hey, my car is also... Bro, brother, brother, brother, brother is coming this is a big thing look at this,",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5318.96,
+   "end": 5334.05,
+   "peak": 5330.45,
+   "score": 50,
+   "comp": {
+    "emotion": 0.348,
+    "story": 0.94,
+    "hook": 0.12,
+    "pacing": 0.572
+   },
+   "signals": {
+    "intensity": 0.443,
+    "arc_contrast": 0.9,
+    "reaction": 1.0,
+    "shock": 0.604,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.804,
+    "excitement_db": 12.2,
+    "shock_contrast_db": 14.5,
+    "contrast_db": 10.8,
+    "triggers": 0.25,
+    "speech_rate": 1.85,
+    "trigger_words": [
+     "look"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 94,
+    "emotion": 35,
+    "pacing": 57,
+    "engagement": null
+   },
+   "category": "reveal",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; voice 12 dB above the stream's usual level; keeps reacting for 100% of the ending",
+   "text": "How do you think he's going inside? I don't know Come on Look at Jason's 70 -ganado The name of cars is proper I think so",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5166.62,
+   "end": 5188.44,
+   "peak": 5184.35,
+   "score": 59,
+   "comp": {
+    "emotion": 0.449,
+    "story": 0.85,
+    "hook": 0.42,
+    "pacing": 0.668
+   },
+   "signals": {
+    "intensity": 0.443,
+    "arc_contrast": 0.888,
+    "reaction": 0.794,
+    "shock": 0.608,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.767,
+    "excitement_db": 12.2,
+    "shock_contrast_db": 14.6,
+    "contrast_db": 10.7,
+    "triggers": 0.75,
+    "speech_rate": 2.43,
+    "trigger_words": [
+     "dude",
+     "jason"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 85,
+    "emotion": 45,
+    "pacing": 67,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; trigger words: dude, jason; voice 12 dB above the stream's usual level",
+   "text": "It's cause man We'll play until we're stuck in that man We're stuck in that That was good Right Donnie I mean the count was good Yeah of course Yeah Jason What were you doing there? Err Oh Oh dude Yeah I'm ready to switch it once out right",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6170.43,
+   "end": 6188.45,
+   "peak": 6186.25,
+   "score": 45,
+   "comp": {
+    "emotion": 0.407,
+    "story": 0.68,
+    "hook": 0.12,
+    "pacing": 0.664
+   },
+   "signals": {
+    "intensity": 0.429,
+    "arc_contrast": 0.827,
+    "reaction": 0.459,
+    "shock": 0.929,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.841,
+    "excitement_db": 12.0,
+    "shock_contrast_db": 22.3,
+    "contrast_db": 9.9,
+    "triggers": 0.25,
+    "speech_rate": 2.22,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 68,
+    "emotion": 41,
+    "pacing": 66,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 10 dB above setup; voice 12 dB above the stream's usual level; trigger words: bro",
+   "text": "Can I see inside the car? Ok, the money is here. Not bad, sir. Come on. For that, we have guns for a gun. What is the priority for a gun? Bro, how are you going to see the map?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3389.22,
+   "end": 3411.26,
+   "peak": 3406.05,
+   "score": 48,
+   "comp": {
+    "emotion": 0.269,
+    "story": 0.978,
+    "hook": 0.12,
+    "pacing": 0.452
+   },
+   "signals": {
+    "intensity": 0.407,
+    "arc_contrast": 1.0,
+    "reaction": 0.945,
+    "shock": 0.529,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.903,
+    "excitement_db": 11.7,
+    "shock_contrast_db": 12.7,
+    "contrast_db": 15.3,
+    "triggers": 0.0,
+    "speech_rate": 0.68,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 98,
+    "emotion": 27,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; voice 12 dB above the stream's usual level; keeps reacting for 94% of the ending",
+   "text": ". . दाने भीछ्गा - याते एती ये लाफगा - ये लाबा मितकवा -",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5786.47,
+   "end": 5810.19,
+   "peak": 5802.35,
+   "score": 54,
+   "comp": {
+    "emotion": 0.413,
+    "story": 0.905,
+    "hook": 0.12,
+    "pacing": 0.769
+   },
+   "signals": {
+    "intensity": 0.386,
+    "arc_contrast": 1.0,
+    "reaction": 0.762,
+    "shock": 0.892,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.767,
+    "excitement_db": 11.4,
+    "shock_contrast_db": 21.4,
+    "contrast_db": 14.2,
+    "triggers": 0.0,
+    "speech_rate": 2.93,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 90,
+    "emotion": 41,
+    "pacing": 77,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; laughter; voice 11 dB above the stream's usual level",
+   "text": "my mind is trying to marathon so that i can finish this game up here who is this? oh Brian what you doing up there? i'll just fix it some weeks oh this is a clip we are not that's good you don't fix it too good i'm gonna have to start charging rent hey i'm just looking after the place man",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3678.7,
+   "end": 3709.3,
+   "peak": 3697.25,
+   "score": 59,
+   "comp": {
+    "emotion": 0.433,
+    "story": 0.962,
+    "hook": 0.4,
+    "pacing": 0.446
+   },
+   "signals": {
+    "intensity": 0.386,
+    "arc_contrast": 1.0,
+    "reaction": 0.906,
+    "shock": 0.896,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.891,
+    "excitement_db": 11.4,
+    "shock_contrast_db": 21.5,
+    "contrast_db": 12.8,
+    "triggers": 0.5,
+    "speech_rate": 0.62,
+    "trigger_words": [
+     "no",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 96,
+    "emotion": 43,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; trigger words: no, bro; voice 11 dB above the stream's usual level",
+   "text": "mean no, bro ༭༽༽༽༽ Coach i think my brother is coming into coffee shop 你会在勇气eh ༽༽༽༽༽༽ H Singing ૫༽༽༽༽༽༽༽༽༽༽༽༽༽༽༽༽༽",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 9236.88,
+   "end": 9253.55,
+   "peak": 9251.35,
+   "score": 25,
+   "comp": {
+    "emotion": 0.427,
+    "story": 0.0,
+    "hook": 0.12,
+    "pacing": 0.692
+   },
+   "signals": {
+    "intensity": 0.379,
+    "arc_contrast": 0.0,
+    "reaction": 0.0,
+    "shock": 0.879,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.582,
+    "excitement_db": 11.3,
+    "shock_contrast_db": 21.1,
+    "contrast_db": -6.3,
+    "triggers": 0.5,
+    "speech_rate": 3.01,
+    "trigger_words": [
+     "love you",
+     "thank you"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 0,
+    "emotion": 43,
+    "pacing": 69,
+    "engagement": null
+   },
+   "category": "wholesome",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: love you, thank you; voice 11 dB above the stream's usual level",
+   "text": "See you on the next stream. After marriage. Or, if you are going to do a viral marriage, then, not the after marriage. Bye bye. Love you guys. Thank you so much for tuning in. It really means a lot. Subscribe. Like. Subscribe.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5851.11,
+   "end": 5871.73,
+   "peak": 5862.85,
+   "score": 58,
+   "comp": {
+    "emotion": 0.361,
+    "story": 0.95,
+    "hook": 0.42,
+    "pacing": 0.554
+   },
+   "signals": {
+    "intensity": 0.371,
+    "arc_contrast": 1.0,
+    "reaction": 0.876,
+    "shock": 0.562,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.802,
+    "excitement_db": 11.2,
+    "shock_contrast_db": 13.5,
+    "contrast_db": 19.9,
+    "triggers": 0.5,
+    "speech_rate": 1.76,
+    "trigger_words": [
+     "million"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 95,
+    "emotion": 36,
+    "pacing": 55,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 20 dB above setup; trigger words: million; voice 11 dB above the stream's usual level",
+   "text": "guys guys guys guys guys 6 .15 million so just subscribe please subscribe please this is your house brine lets you stay here but any maintenance is your problem okay",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6867.56,
+   "end": 6892.55,
+   "peak": 6890.35,
+   "score": 31,
+   "comp": {
+    "emotion": 0.349,
+    "story": 0.235,
+    "hook": 0.12,
+    "pacing": 0.807
+   },
+   "signals": {
+    "intensity": 0.371,
+    "arc_contrast": 0.356,
+    "reaction": 0.053,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.729,
+    "excitement_db": 11.2,
+    "shock_contrast_db": 46.2,
+    "contrast_db": 4.3,
+    "triggers": 0.0,
+    "speech_rate": 3.21,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 24,
+    "emotion": 35,
+    "pacing": 81,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 4 dB above setup; voice 11 dB above the stream's usual level",
+   "text": "vaai you're gonna die you're gonna die guys he said he liked me he said he liked me he said he liked me and he didn't subscribe where's your class out there boy he said he liked me he said he liked me he said he liked me friend alright give me Brian's red or kick your ass and throw this place upside down la vaai oh turn you",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8578.74,
+   "end": 8623.52,
+   "peak": 8562.15,
+   "score": 35,
+   "comp": {
+    "emotion": 0.422,
+    "story": 0.399,
+    "hook": 0.12,
+    "pacing": 0.498
+   },
+   "signals": {
+    "intensity": 0.343,
+    "arc_contrast": 0.0,
+    "reaction": 0.998,
+    "shock": 0.425,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.996,
+    "excitement_db": 10.8,
+    "shock_contrast_db": 10.2,
+    "contrast_db": -77.9,
+    "triggers": 1.0,
+    "speech_rate": 0.24,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 40,
+    "emotion": 42,
+    "pacing": 50,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai; keeps reacting for 100% of the ending; voice 11 dB above the stream's usual level",
+   "text": "daiseingi ki? Bhai, bhai sabhi sabhi, sorry Kulni hai para hai",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1719.09,
+   "end": 1744.57,
+   "peak": 1740.35,
+   "score": 53,
+   "comp": {
+    "emotion": 0.361,
+    "story": 0.848,
+    "hook": 0.42,
+    "pacing": 0.415
+   },
+   "signals": {
+    "intensity": 0.336,
+    "arc_contrast": 1.0,
+    "reaction": 0.62,
+    "shock": 0.633,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.829,
+    "excitement_db": 10.7,
+    "shock_contrast_db": 15.2,
+    "contrast_db": 17.1,
+    "triggers": 0.5,
+    "speech_rate": 0.39,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 85,
+    "emotion": 36,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 17 dB above setup; trigger words: bhai; voice 11 dB above the stream's usual level",
+   "text": "Why? Because 15 minutes have gone away Oh Bhai 15",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5946.84,
+   "end": 5977.68,
+   "peak": 5970.55,
+   "score": 46,
+   "comp": {
+    "emotion": 0.248,
+    "story": 0.905,
+    "hook": 0.12,
+    "pacing": 0.523
+   },
+   "signals": {
+    "intensity": 0.336,
+    "arc_contrast": 1.0,
+    "reaction": 0.762,
+    "shock": 0.367,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.741,
+    "excitement_db": 10.7,
+    "shock_contrast_db": 8.8,
+    "contrast_db": 12.3,
+    "triggers": 0.0,
+    "speech_rate": 1.76,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 90,
+    "emotion": 25,
+    "pacing": 52,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; laughter; voice 11 dB above the stream's usual level",
+   "text": "we should display in the game I mean it is a little different F .O .V. we have to be bigger but the setting's F .O .V. the F is good and what is there its down अने अवच मैं जा हुर की ने और रह सजरे ये बहना ये अजम करते नहीए ये",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3435.42,
+   "end": 3459.62,
+   "peak": 3451.95,
+   "score": 46,
+   "comp": {
+    "emotion": 0.328,
+    "story": 0.757,
+    "hook": 0.12,
+    "pacing": 0.756
+   },
+   "signals": {
+    "intensity": 0.336,
+    "arc_contrast": 0.708,
+    "reaction": 0.83,
+    "shock": 0.317,
+    "laughter": 0.4,
+    "voiced_after_trim": 0.703,
+    "excitement_db": 10.7,
+    "shock_contrast_db": 7.6,
+    "contrast_db": 8.5,
+    "triggers": 0.25,
+    "speech_rate": 3.02,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 76,
+    "emotion": 33,
+    "pacing": 76,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 9 dB above setup; laughter; voice 11 dB above the stream's usual level",
+   "text": "jalo oyo sholleterie ma dhal renge ya trying to comment oh bro store umboz and uh hurt thai don't get too much of a sense of humor over there counting zonk, kkyo yep oxidic, kkyo Right Okay Mere ka au counsellor Bho ta na Bhaat karte hai ha Nini bhaat karte hai Assistment le te ki banda sudra hai ki ni sudra hai Luce ya kameena Ye de go Sure",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6281.8,
+   "end": 6301.79,
+   "peak": 6299.25,
+   "score": 52,
+   "comp": {
+    "emotion": 0.398,
+    "story": 0.658,
+    "hook": 0.4,
+    "pacing": 0.747
+   },
+   "signals": {
+    "intensity": 0.329,
+    "arc_contrast": 0.613,
+    "reaction": 0.725,
+    "shock": 0.833,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.853,
+    "excitement_db": 10.6,
+    "shock_contrast_db": 20.0,
+    "contrast_db": 7.4,
+    "triggers": 0.5,
+    "speech_rate": 2.6,
+    "trigger_words": [
+     "jason",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 66,
+    "emotion": 40,
+    "pacing": 75,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 7 dB above setup; trigger words: jason, let's go; voice 11 dB above the stream's usual level",
+   "text": "Jason D. Roozaa. Let's go. We will talk about this. Let's do it. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. For you. They are all right. Yes. For you.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3012.82,
+   "end": 3038.82,
+   "peak": 3036.55,
+   "score": 68,
+   "comp": {
+    "emotion": 0.531,
+    "story": 0.661,
+    "hook": 0.88,
+    "pacing": 0.731
+   },
+   "signals": {
+    "intensity": 0.329,
+    "arc_contrast": 0.664,
+    "reaction": 0.435,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.758,
+    "excitement_db": 10.6,
+    "shock_contrast_db": 25.8,
+    "contrast_db": 8.0,
+    "triggers": 1.0,
+    "speech_rate": 2.76,
+    "trigger_words": [
+     "oh my god",
+     "dude",
+     "bro",
+     "let's go"
+    ]
+   },
+   "breakdown": {
+    "hook": 88,
+    "story": 66,
+    "emotion": 53,
+    "pacing": 73,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice",
+    "llm"
+   ],
+   "reason": "trigger words: oh my god, dude, bro; story: Mummy ki car chori? 😂; reaction 8 dB above setup",
+   "text": "Lavahiii Oh bro Oh bro, Let's go Oh Gaa, Ata Yeh dek Isme ko yeh, Asa gana chal rai gha lai sensde to gana vandu yeh Gana vandu yeh I still can't believe I shacked up with a car thief Successful bro And I was leaving for me and excuse me but you're a hell of a lot worse oh my god dude oh what",
+   "llm": {
+    "setup_t": 3000.0,
+    "payoff_t": 3030.0,
+    "end_t": 3030.0,
+    "story_score": 75.0,
+    "hook": "MOTHER'S CAR?",
+    "title": "Mummy ki car chori? 😂"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5435.76,
+   "end": 5456.01,
+   "peak": 5451.15,
+   "score": 47,
+   "comp": {
+    "emotion": 0.287,
+    "story": 0.519,
+    "hook": 0.4,
+    "pacing": 0.982
+   },
+   "signals": {
+    "intensity": 0.307,
+    "arc_contrast": 0.198,
+    "reaction": 1.0,
+    "shock": 0.321,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 10.3,
+    "shock_contrast_db": 7.7,
+    "contrast_db": 2.4,
+    "triggers": 0.5,
+    "speech_rate": 3.41,
+    "trigger_words": [
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 40,
+    "story": 52,
+    "emotion": 29,
+    "pacing": 98,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro; keeps reacting for 100% of the ending; voice 10 dB above the stream's usual level",
+   "text": "the water is coming from the water bro, what are you thinking? we got here on a camera and weised it man, we reached in the understanding bro, i catch you, we know about this it's just us in storyline we are also about to onboard we got here with our plantation تو اس کی وجہ سے ہمیں گاڑیہیں بھی تھی قول دیکھیں گے گرام دیکھیں سپس اچھے بس",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7048.73,
+   "end": 7080.07,
+   "peak": 7072.45,
+   "score": 39,
+   "comp": {
+    "emotion": 0.392,
+    "story": 0.557,
+    "hook": 0.12,
+    "pacing": 0.481
+   },
+   "signals": {
+    "intensity": 0.3,
+    "arc_contrast": 0.448,
+    "reaction": 0.719,
+    "shock": 0.608,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.929,
+    "excitement_db": 10.2,
+    "shock_contrast_db": 14.6,
+    "contrast_db": 5.4,
+    "triggers": 0.75,
+    "speech_rate": 1.08,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 56,
+    "emotion": 39,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bhai; reaction 5 dB above setup; voice 10 dB above the stream's usual level",
+   "text": "Ocean Bhai ,he is literally Bhai proper healthcare to all the Behaviors Bhai is a Rapaati car like this I think some people put a car here once they are safe I guess ,I",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4144.55,
+   "end": 4179.03,
+   "peak": 4168.75,
+   "score": 49,
+   "comp": {
+    "emotion": 0.419,
+    "story": 0.762,
+    "hook": 0.12,
+    "pacing": 0.731
+   },
+   "signals": {
+    "intensity": 0.279,
+    "arc_contrast": 0.603,
+    "reaction": 1.0,
+    "shock": 0.537,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.992,
+    "excitement_db": 9.9,
+    "shock_contrast_db": 12.9,
+    "contrast_db": 7.2,
+    "triggers": 1.0,
+    "speech_rate": 2.17,
+    "trigger_words": [
+     "bro",
+     "police"
+    ]
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 76,
+    "emotion": 42,
+    "pacing": 73,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: bro, police; reaction 7 dB above setup; keeps reacting for 100% of the ending",
+   "text": "This is easy. Bro, I don't know. I am hiding in the police. I am hiding in the police. Bro, I am not going to take it. I am not going to take it. I am not going to take it. Bro, you are going to do this. Bro, you brought it from the beast. That's it. Now forward. You see that right? Come on. Okay. Is there another one? How's that chick here, man?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1855.17,
+   "end": 1882.19,
+   "peak": 1874.45,
+   "score": 50,
+   "comp": {
+    "emotion": 0.23,
+    "story": 0.931,
+    "hook": 0.12,
+    "pacing": 0.864
+   },
+   "signals": {
+    "intensity": 0.236,
+    "arc_contrast": 1.0,
+    "reaction": 0.827,
+    "shock": 0.479,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.733,
+    "excitement_db": 9.3,
+    "shock_contrast_db": 11.5,
+    "contrast_db": 24.9,
+    "triggers": 0.0,
+    "speech_rate": 3.49,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 93,
+    "emotion": 23,
+    "pacing": 86,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 25 dB above setup; laughter; keeps reacting for 83% of the ending",
+   "text": "باہی یہ سور پہ نہیں چیڑے گا نو تو باہکی بھی چیز آپ دیکھا رہے تھے نانا باہکی دیاں فیڈ باہی میری باہی جہاں پیسے بچھ سکتے میں بچانے چی ہے لیکن جا نہیں بچ سکتے مہ باہکی بچانے سور پاہلے گا پانسوں بس اشعر دیکھ کچھ ہے نانا کیا سونے وہ دیکھا آنہتلے جو جا پری نیچی صroatی ہے اور اس کے بعد تو اپنے لوہ کی لکلی فیکت ہے اور پھر وہ لوگتے کی ری کیا تماری چاندی",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 425.36,
+   "end": 447.69,
+   "peak": 442.05,
+   "score": 48,
+   "comp": {
+    "emotion": 0.29,
+    "story": 0.97,
+    "hook": 0.12,
+    "pacing": 0.452
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 1.0,
+    "reaction": 0.924,
+    "shock": 0.792,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.905,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 19.0,
+    "contrast_db": 12.6,
+    "triggers": 0.0,
+    "speech_rate": 0.05,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 29,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; keeps reacting for 92% of the ending; laughter",
+   "text": "بہتھوڑ",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 741.51,
+   "end": 768.12,
+   "peak": 762.85,
+   "score": 41,
+   "comp": {
+    "emotion": 0.267,
+    "story": 0.804,
+    "hook": 0.12,
+    "pacing": 0.351
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 1.0,
+    "reaction": 0.51,
+    "shock": 0.879,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.691,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 21.1,
+    "contrast_db": 14.9,
+    "triggers": 0.0,
+    "speech_rate": 1.03,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 80,
+    "emotion": 27,
+    "pacing": 35,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; voice 9 dB above the stream's usual level; keeps reacting for 51% of the ending",
+   "text": "भी घरकसार अदर कंछा। नेर यह आणाफाग कि रहा। वन्म वी neon lower Dhyr alltid Man das lovie Vire Shawda to you Brother i dont know what Yefu",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 9077.89,
+   "end": 9105.24,
+   "peak": 9101.45,
+   "score": 32,
+   "comp": {
+    "emotion": 0.191,
+    "story": 0.565,
+    "hook": 0.12,
+    "pacing": 0.421
+   },
+   "signals": {
+    "intensity": 0.2,
+    "arc_contrast": 0.305,
+    "reaction": 0.954,
+    "shock": 0.554,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.843,
+    "excitement_db": 8.8,
+    "shock_contrast_db": 13.3,
+    "contrast_db": 3.7,
+    "triggers": 0.0,
+    "speech_rate": 0.45,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 56,
+    "emotion": 19,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "keeps reacting for 95% of the ending; reaction 4 dB above setup; voice 9 dB above the stream's usual level",
+   "text": "Naeeaar mishins kay canal hoom Mata murmuma neces Miura bu Why nae",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6021.94,
+   "end": 6045.82,
+   "peak": 6041.15,
+   "score": 43,
+   "comp": {
+    "emotion": 0.164,
+    "story": 0.958,
+    "hook": 0.12,
+    "pacing": 0.377
+   },
+   "signals": {
+    "intensity": 0.186,
+    "arc_contrast": 1.0,
+    "reaction": 0.894,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.728,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 14.9,
+    "triggers": 0.0,
+    "speech_rate": 1.07,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 96,
+    "emotion": 16,
+    "pacing": 38,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 15 dB above setup; keeps reacting for 89% of the ending; voice 9 dB above the stream's usual level",
+   "text": "AGO GIGI AGO AYE YEA PROTEAM CHEK, DEAR FAD UNDER CHALA DOS DO PUT DOWN UPTAY FHEK SAKTAE PUT TARNA OVATCHA",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4310.57,
+   "end": 4330.74,
+   "peak": 4327.25,
+   "score": 41,
+   "comp": {
+    "emotion": 0.175,
+    "story": 0.741,
+    "hook": 0.12,
+    "pacing": 0.776
+   },
+   "signals": {
+    "intensity": 0.179,
+    "arc_contrast": 0.568,
+    "reaction": 1.0,
+    "shock": 0.517,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 8.5,
+    "shock_contrast_db": 12.4,
+    "contrast_db": 6.8,
+    "triggers": 0.0,
+    "speech_rate": 2.38,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 74,
+    "emotion": 18,
+    "pacing": 78,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 7 dB above setup; keeps reacting for 100% of the ending; voice 8 dB above the stream's usual level",
+   "text": "And this is the last one, we will do this in the giveaway Yes, we will do this in the giveaway Guys, like the video, don't forget to press the like button And don't forget to subscribe to the channel Guys, we are having fun in this marathon",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4733.73,
+   "end": 4758.85,
+   "peak": 4756.65,
+   "score": 41,
+   "comp": {
+    "emotion": 0.271,
+    "story": 0.766,
+    "hook": 0.12,
+    "pacing": 0.429
+   },
+   "signals": {
+    "intensity": 0.179,
+    "arc_contrast": 0.931,
+    "reaction": 0.518,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.763,
+    "excitement_db": 8.5,
+    "shock_contrast_db": 28.1,
+    "contrast_db": 11.2,
+    "triggers": 0.0,
+    "speech_rate": 1.24,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 77,
+    "emotion": 27,
+    "pacing": 43,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; keeps reacting for 52% of the ending; voice 8 dB above the stream's usual level",
+   "text": "Bye, jeez I have to save him Bye, get out of here Get out of here Okay, zombie fix What is this? Elevan And, oh, heal Heal -o Huh?",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 8143.19,
+   "end": 8168.43,
+   "peak": 8160.25,
+   "score": 59,
+   "comp": {
+    "emotion": 0.393,
+    "story": 0.948,
+    "hook": 0.42,
+    "pacing": 0.527
+   },
+   "signals": {
+    "intensity": 0.179,
+    "arc_contrast": 0.946,
+    "reaction": 0.952,
+    "shock": 0.608,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.897,
+    "excitement_db": 8.5,
+    "shock_contrast_db": 14.6,
+    "contrast_db": 11.4,
+    "triggers": 1.0,
+    "speech_rate": 1.39,
+    "trigger_words": [
+     "no",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 42,
+    "story": 95,
+    "emotion": 39,
+    "pacing": 53,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: no, bro; reaction 11 dB above setup; keeps reacting for 95% of the ending",
+   "text": "but i dont think they show a dummy Hey buddy 2st hour Ok I'll go, Please No No no not No no no no No no ill sorry bro Your heartthiate is mine brother Ok,",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6670.38,
+   "end": 6696.55,
+   "peak": 6686.35,
+   "score": 47,
+   "comp": {
+    "emotion": 0.23,
+    "story": 0.915,
+    "hook": 0.12,
+    "pacing": 0.626
+   },
+   "signals": {
+    "intensity": 0.157,
+    "arc_contrast": 0.883,
+    "reaction": 0.963,
+    "shock": 0.638,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.934,
+    "excitement_db": 8.2,
+    "shock_contrast_db": 15.3,
+    "contrast_db": 10.6,
+    "triggers": 0.0,
+    "speech_rate": 1.79,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 92,
+    "emotion": 23,
+    "pacing": 63,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 11 dB above setup; keeps reacting for 96% of the ending; laughter",
+   "text": "یا کنترولڈ سے میرے کو بیلکل کے لامی آتا ہے آیاں ملے میں نے دھیرے نہیں چلا پا رو بس یہ دیکھا دوری ہے کی کنترولڈ سے کتنا دواؤں کتنا نہیں دواؤں کو آلہ کنگیزن ہو رہے میں جو رہے میں کہاں جا رہا ہوں یہ وقت",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 7569.44,
+   "end": 7588.75,
+   "peak": 7586.55,
+   "score": 38,
+   "comp": {
+    "emotion": 0.189,
+    "story": 0.708,
+    "hook": 0.12,
+    "pacing": 0.567
+   },
+   "signals": {
+    "intensity": 0.15,
+    "arc_contrast": 0.675,
+    "reaction": 0.759,
+    "shock": 0.646,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.82,
+    "excitement_db": 8.1,
+    "shock_contrast_db": 15.5,
+    "contrast_db": 8.1,
+    "triggers": 0.0,
+    "speech_rate": 1.78,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 71,
+    "emotion": 19,
+    "pacing": 57,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 8 dB above setup; keeps reacting for 76% of the ending; voice 8 dB above the stream's usual level",
+   "text": "Baum. So, basically, we have to clone the 4 cars. The new cars will be the unique cars. Okay? It won't be like that. We will just take the car.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6756.95,
+   "end": 6780.47,
+   "peak": 6777.85,
+   "score": 45,
+   "comp": {
+    "emotion": 0.167,
+    "story": 0.972,
+    "hook": 0.12,
+    "pacing": 0.478
+   },
+   "signals": {
+    "intensity": 0.136,
+    "arc_contrast": 1.0,
+    "reaction": 0.929,
+    "shock": 0.562,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.622,
+    "excitement_db": 7.9,
+    "shock_contrast_db": 13.5,
+    "contrast_db": 13.3,
+    "triggers": 0.0,
+    "speech_rate": 1.84,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 97,
+    "emotion": 17,
+    "pacing": 48,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 13 dB above setup; keeps reacting for 93% of the ending; voice 8 dB above the stream's usual level",
+   "text": "ابھی تمہلو پاگل وقتل ہو گیاں چلے رہا ہوں کی رہا ہوں this must be the place moon stone boutique ok boom money for the job last week is in your mailbox یہ وہ",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 659.88,
+   "end": 685.17,
+   "peak": 682.15,
+   "score": 24,
+   "comp": {
+    "emotion": 0.251,
+    "story": 0.267,
+    "hook": 0.12,
+    "pacing": 0.388
+   },
+   "signals": {
+    "intensity": 0.129,
+    "arc_contrast": 0.292,
+    "reaction": 0.23,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.775,
+    "excitement_db": 7.8,
+    "shock_contrast_db": 52.6,
+    "contrast_db": 3.5,
+    "triggers": 0.0,
+    "speech_rate": 0.36,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 27,
+    "emotion": 25,
+    "pacing": 39,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 3 dB above setup; voice 8 dB above the stream's usual level; keeps reacting for 23% of the ending",
+   "text": "mà کہانا ہے سوڑی میں نے کہل نہیں چھاڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑڑThose",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 6573.53,
+   "end": 6594.8,
+   "peak": 6592.15,
+   "score": 41,
+   "comp": {
+    "emotion": 0.136,
+    "story": 0.879,
+    "hook": 0.12,
+    "pacing": 0.539
+   },
+   "signals": {
+    "intensity": 0.093,
+    "arc_contrast": 1.0,
+    "reaction": 0.698,
+    "shock": 0.496,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.657,
+    "excitement_db": 7.3,
+    "shock_contrast_db": 11.9,
+    "contrast_db": 12.1,
+    "triggers": 0.0,
+    "speech_rate": 2.05,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 88,
+    "emotion": 14,
+    "pacing": 54,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; keeps reacting for 70% of the ending; voice 7 dB above the stream's usual level",
+   "text": "getting scared We were there Yes Okay We can't get out of the city We can't get out of the city But What is this? Leroy is coastal auto care Mord shop Offing a range of customs Okay",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3128.91,
+   "end": 3149.15,
+   "peak": 3146.95,
+   "score": 56,
+   "comp": {
+    "emotion": 0.333,
+    "story": 0.9,
+    "hook": 0.48,
+    "pacing": 0.45
+   },
+   "signals": {
+    "intensity": 0.093,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.479,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.805,
+    "excitement_db": 7.3,
+    "shock_contrast_db": 11.5,
+    "contrast_db": 22.9,
+    "triggers": 1.0,
+    "speech_rate": 1.24,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 90,
+    "emotion": 33,
+    "pacing": 45,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice",
+    "llm"
+   ],
+   "reason": "trigger words: oh my god; reaction 23 dB above setup; story: 13 saal ka intezaar khatam! 🔥",
+   "text": "Billy Buchar yes i understood what oh my god lucky blocker oh my god oh my god oh my god",
+   "llm": {
+    "setup_t": 3100.0,
+    "payoff_t": 3130.0,
+    "end_t": 3130.0,
+    "story_score": 80.0,
+    "hook": "13 YEARS WORTH IT",
+    "title": "13 saal ka intezaar khatam! 🔥"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1447.29,
+   "end": 1472.24,
+   "peak": 1469.35,
+   "score": 30,
+   "comp": {
+    "emotion": 0.221,
+    "story": 0.496,
+    "hook": 0.12,
+    "pacing": 0.388
+   },
+   "signals": {
+    "intensity": 0.071,
+    "arc_contrast": 0.419,
+    "reaction": 0.611,
+    "shock": 0.963,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.775,
+    "excitement_db": 7.0,
+    "shock_contrast_db": 23.1,
+    "contrast_db": 5.0,
+    "triggers": 0.0,
+    "speech_rate": 0.07,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 50,
+    "emotion": 22,
+    "pacing": 39,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 5 dB above setup; keeps reacting for 61% of the ending; voice 7 dB above the stream's usual level",
+   "text": "तんです",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2538.64,
+   "end": 2563.53,
+   "peak": 2558.05,
+   "score": 68,
+   "comp": {
+    "emotion": 0.305,
+    "story": 0.961,
+    "hook": 0.7,
+    "pacing": 0.854
+   },
+   "signals": {
+    "intensity": 0.071,
+    "arc_contrast": 1.0,
+    "reaction": 0.902,
+    "shock": 0.383,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.709,
+    "excitement_db": 7.0,
+    "shock_contrast_db": 9.2,
+    "contrast_db": 21.8,
+    "triggers": 1.0,
+    "speech_rate": 3.54,
+    "trigger_words": [
+     "win",
+     "god",
+     "no"
+    ]
+   },
+   "breakdown": {
+    "hook": 70,
+    "story": 96,
+    "emotion": 30,
+    "pacing": 85,
+    "engagement": null
+   },
+   "category": "hot take",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: win, god, no; reaction 22 dB above setup; keeps reacting for 90% of the ending",
+   "text": "I'll go! No, no! Go away! You can do it! Listen to me! Listen to me! Yes! Yes! You can do it! Okay? I'll do it in the end. Friends! If you want to win a PS5 because I am honestly telling you that I didn't plan to give away my PS5 to God! God!",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 365.52,
+   "end": 391.56,
+   "peak": 388.95,
+   "score": 46,
+   "comp": {
+    "emotion": 0.226,
+    "story": 0.864,
+    "hook": 0.12,
+    "pacing": 0.676
+   },
+   "signals": {
+    "intensity": 0.064,
+    "arc_contrast": 1.0,
+    "reaction": 0.659,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.719,
+    "excitement_db": 6.9,
+    "shock_contrast_db": 24.9,
+    "contrast_db": 13.8,
+    "triggers": 0.0,
+    "speech_rate": 2.58,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 86,
+    "emotion": 23,
+    "pacing": 68,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 14 dB above setup; keeps reacting for 66% of the ending; voice 7 dB above the stream's usual level",
+   "text": "بہی بہی آنیس لیبروں بہی آپ کو GT -SX سے پہلے کیا سے ملی پہلے نہیں ملی بہی ہم لوگ نیوزی لندار کر رہو تاکہ ہم لوگ سادي چار بجے بسیگلی آیسٹی کے ساپ سے کھیل پائنس کو ہم لوگ مجاگ میں حلکے میں لے رہوگے ہم لوگوں جی جی بھ رہو اور کیا چل لے بہی نام لیلو پلیس آرین اگروال شاوٹا تیو اگروال تو بڑی آئی ہمیں",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 9153.83,
+   "end": 9199.3,
+   "peak": 9195.75,
+   "score": 47,
+   "comp": {
+    "emotion": 0.221,
+    "story": 0.587,
+    "hook": 0.6,
+    "pacing": 0.513
+   },
+   "signals": {
+    "intensity": 0.029,
+    "arc_contrast": 0.344,
+    "reaction": 0.951,
+    "shock": 0.546,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.813,
+    "excitement_db": 6.4,
+    "shock_contrast_db": 13.1,
+    "contrast_db": 4.1,
+    "triggers": 0.5,
+    "speech_rate": 1.53,
+    "trigger_words": [
+     "love you"
+    ]
+   },
+   "breakdown": {
+    "hook": 60,
+    "story": 59,
+    "emotion": 22,
+    "pacing": 51,
+    "engagement": null
+   },
+   "category": "wholesome",
+   "sources": [
+    "voice"
+   ],
+   "reason": "trigger words: love you; reaction 4 dB above setup; keeps reacting for 95% of the ending",
+   "text": "Coch bhi. TK GT -SX Ki Marathon Karo. Coch bhi kar dina. Mare random loo ko longa, TK. Ese stream ke ose longa ki ki mare newest kar ke check kar mo na. To yes. TK. Chalo. Bye bye. Love you guys. I am going there. I am giving tea. I am giving tea. I am giving tea. I am giving tea. I am giving tea. I am giving tea.",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 564.48,
+   "end": 591.75,
+   "peak": 585.65,
+   "score": 41,
+   "comp": {
+    "emotion": 0.066,
+    "story": 0.951,
+    "hook": 0.12,
+    "pacing": 0.526
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.99,
+    "reaction": 0.893,
+    "shock": 0.329,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.835,
+    "excitement_db": 6.0,
+    "shock_contrast_db": 7.9,
+    "contrast_db": 11.9,
+    "triggers": 0.0,
+    "speech_rate": 1.54,
+    "trigger_words": []
+   },
+   "breakdown": {
+    "hook": 12,
+    "story": 95,
+    "emotion": 7,
+    "pacing": 53,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "voice"
+   ],
+   "reason": "reaction 12 dB above setup; keeps reacting for 89% of the ending",
+   "text": "پڑیہ ہی ہونا ہے صحیب آتے بہیں اگر آتے تکڑی ہویں اگر آتے مستھ ہوتے ہیں بہی ہے اور لہا بہیں یسی اگر وال اور کونہ آریا نگر وال لہا بہیں دونوں لگے پڑے ہیں دیکھ رہتے ہیں بہیہ",
+   "llm": null,
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 300.0,
+   "end": 345.0,
+   "peak": 330.0,
+   "score": 52,
+   "comp": {
+    "emotion": 0.307,
+    "story": 0.524,
+    "hook": 0.76,
+    "pacing": 0.544
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.495,
+    "shock": 0.583,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.791,
+    "excitement_db": 0.7,
+    "shock_contrast_db": 14.0,
+    "contrast_db": -11.0,
+    "triggers": 0.75,
+    "speech_rate": 1.74,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 76,
+    "story": 52,
+    "emotion": 31,
+    "pacing": 54,
+    "engagement": null
+   },
+   "category": "hot take",
+   "sources": [
+    "llm"
+   ],
+   "reason": "story: Why the hype is different this time - GTA 6; trigger words: bhai; laughter",
+   "text": "mmear ha aur bhai saap fir mme saamagma hai ki jo game mme na bhaj pan se bhai bhai saap naa dhikta hai aske mme ko khaapam khaapam khaapam khaapam khaapam khaapam khaapam khaapam khaapam fir mme saamagma hai ki loko mein itmi hype kyou hai sidi baat hai Sur muziling, maamlok muziling, maing تم سمجھ رہ میری بات just GT -SX کے لگلے بات کو سایئے سادي چھوڑ کہاں یہاں بہت ہے میں یہاں بہت ہے",
+   "llm": {
+    "setup_t": 300.0,
+    "payoff_t": 330.0,
+    "end_t": 345.0,
+    "story_score": 85.0,
+    "hook": "REALITY CHECK",
+    "title": "Why the hype is different this time - GTA 6"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2515.0,
+   "end": 2532.46,
+   "peak": 2530.0,
+   "score": 41,
+   "comp": {
+    "emotion": 0.25,
+    "story": 0.429,
+    "hook": 0.48,
+    "pacing": 0.638
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.02,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.541,
+    "excitement_db": -1.7,
+    "shock_contrast_db": 29.7,
+    "contrast_db": -3.3,
+    "triggers": 0.25,
+    "speech_rate": 2.84,
+    "trigger_words": [
+     "no"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 43,
+    "emotion": 25,
+    "pacing": 64,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "story: The Hype for GTA 6 is Real! | GTA VI First Livestream; trigger words: no",
+   "text": "Are you okay? I'll take your family too. No! After that, you can do a PS5 to him. You can do it! You can do it! You can do it! You can do a PS5 to him! You can do it! You can do it! Friends! Bye! Go away! Go",
+   "llm": {
+    "setup_t": 2515.0,
+    "payoff_t": 2530.0,
+    "end_t": 2530.0,
+    "story_score": 85.0,
+    "hook": "WE MADE IT!",
+    "title": "The Hype for GTA 6 is Real! | GTA VI First Livestream"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 2841.64,
+   "end": 2872.3,
+   "peak": 2860.0,
+   "score": 61,
+   "comp": {
+    "emotion": 0.503,
+    "story": 0.661,
+    "hook": 0.76,
+    "pacing": 0.411
+   },
+   "signals": {
+    "intensity": 0.45,
+    "arc_contrast": 0.211,
+    "reaction": 0.863,
+    "shock": 0.612,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.822,
+    "excitement_db": 12.3,
+    "shock_contrast_db": 14.7,
+    "contrast_db": 2.5,
+    "triggers": 1.0,
+    "speech_rate": 0.2,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 76,
+    "story": 66,
+    "emotion": 50,
+    "pacing": 41,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "llm"
+   ],
+   "reason": "trigger words: bhai; story: GTA 6 ka pehla reaction! 😱; voice 12 dB above the stream's usual level",
+   "text": "bhai bhai Samantha bhai bhai bhai",
+   "llm": {
+    "setup_t": 2845.0,
+    "payoff_t": 2860.0,
+    "end_t": 2860.0,
+    "story_score": 85.0,
+    "hook": "GDS MAN OH BHAI",
+    "title": "GTA 6 ka pehla reaction! 😱"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3135.65,
+   "end": 3162.2,
+   "peak": 3160.0,
+   "score": 54,
+   "comp": {
+    "emotion": 0.4,
+    "story": 0.471,
+    "hook": 0.88,
+    "pacing": 0.401
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.229,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.703,
+    "excitement_db": -1.7,
+    "shock_contrast_db": 31.7,
+    "contrast_db": -6.2,
+    "triggers": 1.0,
+    "speech_rate": 1.25,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "breakdown": {
+    "hook": 88,
+    "story": 47,
+    "emotion": 40,
+    "pacing": 40,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "trigger words: oh my god; story: Lucia's first appearance! 😍; keeps reacting for 23% of the ending",
+   "text": "oh my god lucky blocker oh my god oh my god oh my god oh my god oh my god oh my god oh my god oh my God young",
+   "llm": {
+    "setup_t": 3140.0,
+    "payoff_t": 3160.0,
+    "end_t": 3160.0,
+    "story_score": 85.0,
+    "hook": "LUCIA CAMINO",
+    "title": "Lucia's first appearance! 😍"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5577.27,
+   "end": 5612.68,
+   "peak": 5610.0,
+   "score": 47,
+   "comp": {
+    "emotion": 0.293,
+    "story": 0.625,
+    "hook": 0.48,
+    "pacing": 0.494
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 1.0,
+    "shock": 0.467,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.987,
+    "excitement_db": 3.8,
+    "shock_contrast_db": 11.2,
+    "contrast_db": -3.0,
+    "triggers": 1.0,
+    "speech_rate": 0.34,
+    "trigger_words": [
+     "bhai"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 62,
+    "emotion": 29,
+    "pacing": 49,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "trigger words: bhai; story: Unexpected Discovery in GTA VI; keeps reacting for 100% of the ending",
+   "text": "bhai bhai bhai bhai bhai bhai bhai bhai bhai bhai bhai bhai",
+   "llm": {
+    "setup_t": 5580.0,
+    "payoff_t": 5610.0,
+    "end_t": 5610.0,
+    "story_score": 85.0,
+    "hook": "BRO YE KYA HAI",
+    "title": "Unexpected Discovery in GTA VI"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3632.95,
+   "end": 3660.0,
+   "peak": 3650.0,
+   "score": 56,
+   "comp": {
+    "emotion": 0.356,
+    "story": 0.762,
+    "hook": 0.48,
+    "pacing": 0.705
+   },
+   "signals": {
+    "intensity": 0.129,
+    "arc_contrast": 0.623,
+    "reaction": 1.0,
+    "shock": 0.521,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 7.8,
+    "shock_contrast_db": 12.5,
+    "contrast_db": 7.5,
+    "triggers": 1.0,
+    "speech_rate": 2.03,
+    "trigger_words": [
+     "run",
+     "way",
+     "let's go",
+     "cops"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 76,
+    "emotion": 36,
+    "pacing": 70,
+    "engagement": null
+   },
+   "category": "chaos",
+   "sources": [
+    "llm"
+   ],
+   "reason": "trigger words: run, way, let's go; story: Cop se bachne ki koshish! | GTA 6; reaction 7 dB above setup",
+   "text": "can play what? let's go let's go i'm happy listen to me cop's done oh shit what am i doing? i mean run i'm running i mean run i mean run i'm running i mean run i mean run i mean run i mean run all the way to неё uve got it uve got it",
+   "llm": {
+    "setup_t": 3633.0,
+    "payoff_t": 3650.0,
+    "end_t": 3660.0,
+    "story_score": 75.0,
+    "hook": "POLICE CHASE PANIC",
+    "title": "Cop se bachne ki koshish! | GTA 6"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 4585.0,
+   "end": 4610.0,
+   "peak": 4600.0,
+   "score": 38,
+   "comp": {
+    "emotion": 0.16,
+    "story": 0.505,
+    "hook": 0.48,
+    "pacing": 0.419
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.649,
+    "shock": 0.35,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.801,
+    "excitement_db": -5.0,
+    "shock_contrast_db": 8.4,
+    "contrast_db": -7.9,
+    "triggers": 0.25,
+    "speech_rate": 1.09,
+    "trigger_words": [
+     "look"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 50,
+    "emotion": 16,
+    "pacing": 42,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "story: GTA 6 Graphics are Insane!; laughter; trigger words: look",
+   "text": "is in the game R32 look is in the game Okay, we have to go quietly If there is a gun in his hand, who is that? What?",
+   "llm": {
+    "setup_t": 4585.0,
+    "payoff_t": 4600.0,
+    "end_t": 4610.0,
+    "story_score": 75.0,
+    "hook": "LOOK AT THIS",
+    "title": "GTA 6 Graphics are Insane!"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 1980.0,
+   "end": 2012.2,
+   "peak": 2010.0,
+   "score": 37,
+   "comp": {
+    "emotion": 0.3,
+    "story": 0.407,
+    "hook": 0.48,
+    "pacing": 0.261
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.412,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.522,
+    "excitement_db": 3.4,
+    "shock_contrast_db": 24.2,
+    "contrast_db": -5.5,
+    "triggers": 0.5,
+    "speech_rate": 0.86,
+    "trigger_words": [
+     "yaar"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 41,
+    "emotion": 30,
+    "pacing": 26,
+    "engagement": null
+   },
+   "category": "funny",
+   "sources": [
+    "llm"
+   ],
+   "reason": "story: GTA 6 Gameplay Lag Issue? 💀; trigger words: yaar; keeps reacting for 41% of the ending",
+   "text": "27 month yaar dhiyo Rani, 77 month yaar dhiyo Sorry sorry sorry How about it right? 77 months dos do You know How many months?",
+   "llm": {
+    "setup_t": 1980.0,
+    "payoff_t": 2010.0,
+    "end_t": 2010.0,
+    "story_score": 65.0,
+    "hook": "10 FPS LAG",
+    "title": "GTA 6 Gameplay Lag Issue? 💀"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 3540.0,
+   "end": 3563.79,
+   "peak": 3560.0,
+   "score": 47,
+   "comp": {
+    "emotion": 0.387,
+    "story": 0.519,
+    "hook": 0.48,
+    "pacing": 0.552
+   },
+   "signals": {
+    "intensity": 0.186,
+    "arc_contrast": 0.011,
+    "reaction": 0.954,
+    "shock": 0.812,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.846,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 19.5,
+    "contrast_db": 0.1,
+    "triggers": 0.75,
+    "speech_rate": 1.65,
+    "trigger_words": [
+     "bro",
+     "look at this",
+     "oh my god"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 52,
+    "emotion": 39,
+    "pacing": 55,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "story: GTA 6 Graphics are Insane! | GTA VI; trigger words: bro, look at this, oh my god; keeps reacting for 95% of the ending",
+   "text": "Too many Hey Bro This gun is coming out Oh This is locked Okay See that It's not a gun It's not a gun Okay Ready to advise Stick up Look at this Oh my God",
+   "llm": {
+    "setup_t": 3540.0,
+    "payoff_t": 3560.0,
+    "end_t": 3560.0,
+    "story_score": 65.0,
+    "hook": "LUCIAS GRAPHICS",
+    "title": "GTA 6 Graphics are Insane! | GTA VI"
+   },
+   "label": null,
+   "big": false
+  },
+  {
+   "start": 5400.0,
+   "end": 5433.47,
+   "peak": 5430.0,
+   "score": 46,
+   "comp": {
+    "emotion": 0.237,
+    "story": 0.474,
+    "hook": 0.48,
+    "pacing": 0.924
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.0,
+    "reaction": 0.747,
+    "shock": 0.188,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.91,
+    "excitement_db": -11.1,
+    "shock_contrast_db": 4.5,
+    "contrast_db": -9.2,
+    "triggers": 1.0,
+    "speech_rate": 3.35,
+    "trigger_words": [
+     "look",
+     "oh my god",
+     "bro"
+    ]
+   },
+   "breakdown": {
+    "hook": 48,
+    "story": 47,
+    "emotion": 24,
+    "pacing": 92,
+    "engagement": null
+   },
+   "category": "reaction",
+   "sources": [
+    "llm"
+   ],
+   "reason": "trigger words: look, oh my god, bro; story: Unexpected Reaction in GTA 6; keeps reacting for 75% of the ending",
+   "text": "Get in Get in Get in Can we get back now? Okay Can't get back to the car Get in i could have been tired for a few days ha ha ha ha i could have been tired for a few days oh my god look at that i think they got a few bro, look at the rate racing bro, look at the reflections in the water i am still walking and the water is coming from the water so the water is coming from the water bro, what? look, look at that if the water is coming from the water then i will show you where is this? look do you see?",
+   "llm": {
+    "setup_t": 5400.0,
+    "payoff_t": 5430.0,
+    "end_t": 5430.0,
+    "story_score": 65.0,
+    "hook": "WHAT THE FUCK?",
+    "title": "Unexpected Reaction in GTA 6"
+   },
+   "label": null,
+   "big": false
+  }
+ ]
+}

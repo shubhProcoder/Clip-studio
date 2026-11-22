@@ -1,0 +1,2271 @@
+{
+ "split": "holdout",
+ "content": "talk",
+ "transcribed": true,
+ "note": "Every candidate window (first 90 min of a VOD longer than 2 h) of one discover-clips run (--min-score 0 --max-clips 0 --llm none, --hud auto; talk: --content talk) on a public stream, labelled blind (no scores shown) by the maintainer's tooling from the window transcript and 6-frame strips. No media, no video id, title or channel. 'text' keeps <= 12 neutral tokens (milestone line, trigger words); 'tokens' holds the word counts the quality bar reads.",
+ "candidates": [
+  {
+   "start": 0.0,
+   "end": 11.69,
+   "peak": 4.35,
+   "text": "",
+   "tokens": {
+    "n": 33,
+    "distinct": 29
+   },
+   "comp": {
+    "story": 0.444,
+    "emotion": 0.13,
+    "hook": 0.15,
+    "pacing": 0.809
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.2,
+    "reaction": 0.971,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.886,
+    "excitement_db": 8.8,
+    "shock_contrast_db": 9.8,
+    "triggers": 0.0,
+    "speech_rate": 2.83,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "cold-open insult, needs the context",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 52.95,
+   "end": 77.54,
+   "peak": 69.65,
+   "text": "always",
+   "tokens": {
+    "n": 58,
+    "distinct": 41
+   },
+   "comp": {
+    "story": 0.423,
+    "emotion": 0.265,
+    "hook": 0.15,
+    "pacing": 0.711
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.357,
+    "reaction": 0.839,
+    "laughter": 0.2,
+    "statement": 0.3,
+    "complete": 0.5,
+    "voiced_after_trim": 0.837,
+    "excitement_db": 11.0,
+    "shock_contrast_db": 9.4,
+    "triggers": 0.25,
+    "speech_rate": 2.46,
+    "trigger_words": [
+     "always"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 91.36,
+   "end": 115.49,
+   "peak": 111.05,
+   "text": "",
+   "tokens": {
+    "n": 60,
+    "distinct": 44
+   },
+   "comp": {
+    "story": 0.662,
+    "emotion": 0.315,
+    "hook": 0.75,
+    "pacing": 0.722
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.934,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.741,
+    "excitement_db": -7.6,
+    "shock_contrast_db": 0.0,
+    "triggers": 0.5,
+    "speech_rate": 2.76,
+    "trigger_words": [
+     "39",
+     "54"
+    ]
+   },
+   "category": "funny",
+   "label": true,
+   "big": false,
+   "reason": "guess the hours played: 54 in six days, 'go outside'",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 288.66,
+   "end": 312.95,
+   "peak": 308.55,
+   "text": "",
+   "tokens": {
+    "n": 92,
+    "distinct": 62
+   },
+   "comp": {
+    "story": 0.616,
+    "emotion": 0.419,
+    "hook": 0.15,
+    "pacing": 0.938
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.229,
+    "reaction": 0.831,
+    "laughter": 1.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.877,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 14.1,
+    "triggers": 0.0,
+    "speech_rate": 3.84,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 379.04,
+   "end": 409.19,
+   "peak": 404.05,
+   "text": "",
+   "tokens": {
+    "n": 84,
+    "distinct": 59
+   },
+   "comp": {
+    "story": 0.516,
+    "emotion": 0.227,
+    "hook": 0.25,
+    "pacing": 0.742
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.707,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.784,
+    "excitement_db": 0.5,
+    "shock_contrast_db": 13.3,
+    "triggers": 0.25,
+    "speech_rate": 2.75,
+    "trigger_words": [
+     "2016"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 425.18,
+   "end": 452.66,
+   "peak": 440.75,
+   "text": "best thats crazy",
+   "tokens": {
+    "n": 83,
+    "distinct": 57
+   },
+   "comp": {
+    "story": 0.672,
+    "emotion": 0.42,
+    "hook": 0.5,
+    "pacing": 0.806
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.859,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.814,
+    "excitement_db": -7.7,
+    "shock_contrast_db": 6.7,
+    "triggers": 1.0,
+    "speech_rate": 3.0,
+    "trigger_words": [
+     "that's crazy",
+     "best",
+     "20"
+    ]
+   },
+   "category": "funny",
+   "label": true,
+   "big": false,
+   "reason": "surprising fact: an old game's biggest launch ever, explained in one go",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 460.24,
+   "end": 478.39,
+   "peak": 475.35,
+   "text": "",
+   "tokens": {
+    "n": 59,
+    "distinct": 54
+   },
+   "comp": {
+    "story": 0.465,
+    "emotion": 0.159,
+    "hook": 0.15,
+    "pacing": 0.913
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.064,
+    "reaction": 0.823,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.928,
+    "excitement_db": 6.9,
+    "shock_contrast_db": 13.5,
+    "triggers": 0.0,
+    "speech_rate": 3.25,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 594.71,
+   "end": 622.4,
+   "peak": 613.65,
+   "text": "",
+   "tokens": {
+    "n": 87,
+    "distinct": 66
+   },
+   "comp": {
+    "story": 0.396,
+    "emotion": 0.219,
+    "hook": 0.15,
+    "pacing": 0.833
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.264,
+    "reaction": 0.982,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.84,
+    "excitement_db": 9.7,
+    "shock_contrast_db": 11.8,
+    "triggers": 0.0,
+    "speech_rate": 3.06,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 677.59,
+   "end": 712.49,
+   "peak": 702.25,
+   "text": "",
+   "tokens": {
+    "n": 101,
+    "distinct": 69
+   },
+   "comp": {
+    "story": 0.548,
+    "emotion": 0.227,
+    "hook": 0.25,
+    "pacing": 0.776
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.866,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.794,
+    "excitement_db": -13.0,
+    "shock_contrast_db": 11.3,
+    "triggers": 0.25,
+    "speech_rate": 2.89,
+    "trigger_words": [
+     "200"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 744.8,
+   "end": 773.84,
+   "peak": 766.65,
+   "text": "ill be honest",
+   "tokens": {
+    "n": 117,
+    "distinct": 76
+   },
+   "comp": {
+    "story": 0.611,
+    "emotion": 0.177,
+    "hook": 0.5,
+    "pacing": 0.927
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.007,
+    "reaction": 0.806,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.854,
+    "excitement_db": 6.1,
+    "shock_contrast_db": 17.5,
+    "triggers": 0.5,
+    "speech_rate": 4.03,
+    "trigger_words": [
+     "i'll be honest"
+    ]
+   },
+   "category": "hot take",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 838.08,
+   "end": 854.54,
+   "peak": 849.05,
+   "text": "",
+   "tokens": {
+    "n": 48,
+    "distinct": 40
+   },
+   "comp": {
+    "story": 0.803,
+    "emotion": 0.525,
+    "hook": 0.75,
+    "pacing": 0.801
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.89,
+    "laughter": 1.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.836,
+    "excitement_db": -4.2,
+    "shock_contrast_db": 7.3,
+    "triggers": 0.5,
+    "speech_rate": 2.91,
+    "trigger_words": [
+     "15"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 944.98,
+   "end": 967.4,
+   "peak": 963.35,
+   "text": "",
+   "tokens": {
+    "n": 61,
+    "distinct": 48
+   },
+   "comp": {
+    "story": 0.381,
+    "emotion": 0.017,
+    "hook": 0.15,
+    "pacing": 0.81
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.057,
+    "reaction": 0.904,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.879,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 10.7,
+    "triggers": 0.0,
+    "speech_rate": 2.85,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1108.46,
+   "end": 1136.39,
+   "peak": 1128.35,
+   "text": "",
+   "tokens": {
+    "n": 61,
+    "distinct": 41
+   },
+   "comp": {
+    "story": 0.342,
+    "emotion": 0.064,
+    "hook": 0.15,
+    "pacing": 0.599
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.214,
+    "reaction": 0.712,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.676,
+    "excitement_db": 9.0,
+    "shock_contrast_db": 28.8,
+    "triggers": 0.0,
+    "speech_rate": 2.3,
+    "trigger_words": []
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1190.2,
+   "end": 1205.79,
+   "peak": 1201.25,
+   "text": "",
+   "tokens": {
+    "n": 59,
+    "distinct": 45
+   },
+   "comp": {
+    "story": 0.483,
+    "emotion": 0.166,
+    "hook": 0.15,
+    "pacing": 0.906
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.086,
+    "reaction": 0.913,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.811,
+    "excitement_db": 7.2,
+    "shock_contrast_db": 12.6,
+    "triggers": 0.0,
+    "speech_rate": 4.0,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1260.42,
+   "end": 1287.83,
+   "peak": 1276.85,
+   "text": "",
+   "tokens": {
+    "n": 82,
+    "distinct": 60
+   },
+   "comp": {
+    "story": 0.669,
+    "emotion": 0.305,
+    "hook": 0.75,
+    "pacing": 0.885
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.257,
+    "reaction": 0.969,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.903,
+    "excitement_db": 9.6,
+    "shock_contrast_db": 11.5,
+    "triggers": 0.25,
+    "speech_rate": 3.16,
+    "trigger_words": [
+     "47"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1404.86,
+   "end": 1435.2,
+   "peak": 1429.85,
+   "text": "heres the thing",
+   "tokens": {
+    "n": 94,
+    "distinct": 69
+   },
+   "comp": {
+    "story": 0.75,
+    "emotion": 0.245,
+    "hook": 0.5,
+    "pacing": 0.857
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.751,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.776,
+    "excitement_db": -4.7,
+    "shock_contrast_db": 9.8,
+    "triggers": 0.5,
+    "speech_rate": 3.35,
+    "trigger_words": [
+     "here's the thing"
+    ]
+   },
+   "category": "hot take",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1522.97,
+   "end": 1543.17,
+   "peak": 1539.15,
+   "text": "never im telling you",
+   "tokens": {
+    "n": 70,
+    "distinct": 58
+   },
+   "comp": {
+    "story": 0.595,
+    "emotion": 0.262,
+    "hook": 1.0,
+    "pacing": 0.913
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.724,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.841,
+    "excitement_db": -15.6,
+    "shock_contrast_db": 5.1,
+    "triggers": 0.75,
+    "speech_rate": 3.47,
+    "trigger_words": [
+     "i'm telling you",
+     "never"
+    ]
+   },
+   "category": "hot take",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1667.02,
+   "end": 1690.77,
+   "peak": 1686.95,
+   "text": "",
+   "tokens": {
+    "n": 66,
+    "distinct": 45
+   },
+   "comp": {
+    "story": 0.373,
+    "emotion": 0.056,
+    "hook": 0.15,
+    "pacing": 0.764
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.186,
+    "reaction": 0.864,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.765,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 14.5,
+    "triggers": 0.0,
+    "speech_rate": 2.91,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1757.52,
+   "end": 1783.67,
+   "peak": 1780.25,
+   "text": "",
+   "tokens": {
+    "n": 94,
+    "distinct": 65
+   },
+   "comp": {
+    "story": 0.565,
+    "emotion": 0.087,
+    "hook": 0.25,
+    "pacing": 0.938
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.949,
+    "laughter": 0.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.876,
+    "excitement_db": 0.1,
+    "shock_contrast_db": 3.7,
+    "triggers": 0.25,
+    "speech_rate": 3.6,
+    "trigger_words": [
+     "10"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1802.91,
+   "end": 1827.98,
+   "peak": 1824.95,
+   "text": "",
+   "tokens": {
+    "n": 86,
+    "distinct": 64
+   },
+   "comp": {
+    "story": 0.4,
+    "emotion": 0.079,
+    "hook": 0.15,
+    "pacing": 0.941
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.264,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.881,
+    "excitement_db": 9.7,
+    "shock_contrast_db": 10.6,
+    "triggers": 0.0,
+    "speech_rate": 3.77,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1879.1,
+   "end": 1910.58,
+   "peak": 1902.05,
+   "text": "",
+   "tokens": {
+    "n": 101,
+    "distinct": 75
+   },
+   "comp": {
+    "story": 0.437,
+    "emotion": 0.094,
+    "hook": 0.15,
+    "pacing": 0.901
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.079,
+    "reaction": 0.935,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.845,
+    "excitement_db": 7.1,
+    "shock_contrast_db": 7.7,
+    "triggers": 0.0,
+    "speech_rate": 3.39,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1957.48,
+   "end": 1988.24,
+   "peak": 1977.75,
+   "text": "ill be honest",
+   "tokens": {
+    "n": 97,
+    "distinct": 66
+   },
+   "comp": {
+    "story": 0.914,
+    "emotion": 0.641,
+    "hook": 1.0,
+    "pacing": 0.852
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.036,
+    "reaction": 0.819,
+    "laughter": 0.8,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.844,
+    "excitement_db": 6.5,
+    "shock_contrast_db": 8.6,
+    "triggers": 1.0,
+    "speech_rate": 3.15,
+    "trigger_words": [
+     "i'll be honest"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "reaction to a quote, needs the video",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2032.21,
+   "end": 2056.95,
+   "peak": 2054.75,
+   "text": "never",
+   "tokens": {
+    "n": 96,
+    "distinct": 65
+   },
+   "comp": {
+    "story": 0.509,
+    "emotion": 0.245,
+    "hook": 0.25,
+    "pacing": 0.919
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.418,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.839,
+    "excitement_db": -13.5,
+    "shock_contrast_db": 19.0,
+    "triggers": 0.5,
+    "speech_rate": 3.92,
+    "trigger_words": [
+     "never",
+     "20"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2179.25,
+   "end": 2203.73,
+   "peak": 2199.55,
+   "text": "billion",
+   "tokens": {
+    "n": 77,
+    "distinct": 58
+   },
+   "comp": {
+    "story": 0.54,
+    "emotion": 0.526,
+    "hook": 0.25,
+    "pacing": 0.832
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.121,
+    "reaction": 0.826,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.825,
+    "excitement_db": 7.7,
+    "shock_contrast_db": 8.9,
+    "triggers": 1.0,
+    "speech_rate": 3.1,
+    "trigger_words": [
+     "428",
+     "000",
+     "24",
+     "billion"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2254.21,
+   "end": 2274.29,
+   "peak": 2270.05,
+   "text": "always",
+   "tokens": {
+    "n": 51,
+    "distinct": 30
+   },
+   "comp": {
+    "story": 0.478,
+    "emotion": 0.137,
+    "hook": 0.15,
+    "pacing": 0.695
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.164,
+    "reaction": 0.864,
+    "laughter": 0.0,
+    "statement": 0.3,
+    "complete": 1.0,
+    "voiced_after_trim": 0.712,
+    "excitement_db": 8.3,
+    "shock_contrast_db": 13.5,
+    "triggers": 0.25,
+    "speech_rate": 2.69,
+    "trigger_words": [
+     "always"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2401.66,
+   "end": 2436.39,
+   "peak": 2424.85,
+   "text": "oh my god",
+   "tokens": {
+    "n": 109,
+    "distinct": 65
+   },
+   "comp": {
+    "story": 0.673,
+    "emotion": 0.463,
+    "hook": 1.0,
+    "pacing": 0.862
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.143,
+    "reaction": 0.866,
+    "laughter": 0.2,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.83,
+    "excitement_db": 8.0,
+    "shock_contrast_db": 7.0,
+    "triggers": 1.0,
+    "speech_rate": 3.24,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2504.14,
+   "end": 2530.97,
+   "peak": 2525.15,
+   "text": "best",
+   "tokens": {
+    "n": 97,
+    "distinct": 64
+   },
+   "comp": {
+    "story": 0.647,
+    "emotion": 0.315,
+    "hook": 0.25,
+    "pacing": 0.94
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.859,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.879,
+    "excitement_db": -0.8,
+    "shock_contrast_db": 2.0,
+    "triggers": 0.5,
+    "speech_rate": 3.76,
+    "trigger_words": [
+     "best",
+     "14"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2561.99,
+   "end": 2578.14,
+   "peak": 2575.75,
+   "text": "",
+   "tokens": {
+    "n": 56,
+    "distinct": 39
+   },
+   "comp": {
+    "story": 0.757,
+    "emotion": 0.438,
+    "hook": 0.25,
+    "pacing": 0.846
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.66,
+    "laughter": 1.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.692,
+    "excitement_db": 0.7,
+    "shock_contrast_db": 23.1,
+    "triggers": 0.25,
+    "speech_rate": 3.55,
+    "trigger_words": [
+     "14"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2708.47,
+   "end": 2732.14,
+   "peak": 2727.55,
+   "text": "ill be honest",
+   "tokens": {
+    "n": 61,
+    "distinct": 46
+   },
+   "comp": {
+    "story": 0.749,
+    "emotion": 0.175,
+    "hook": 0.5,
+    "pacing": 0.711
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.994,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.791,
+    "excitement_db": 5.1,
+    "shock_contrast_db": 11.0,
+    "triggers": 0.5,
+    "speech_rate": 2.58,
+    "trigger_words": [
+     "i'll be honest"
+    ]
+   },
+   "category": "hot take",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2771.66,
+   "end": 2788.78,
+   "peak": 2784.95,
+   "text": "never",
+   "tokens": {
+    "n": 42,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.478,
+    "emotion": 0.42,
+    "hook": 0.55,
+    "pacing": 0.699
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.767,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.795,
+    "excitement_db": 2.3,
+    "shock_contrast_db": 11.7,
+    "triggers": 1.0,
+    "speech_rate": 2.51,
+    "trigger_words": [
+     "never",
+     "79",
+     "39",
+     "40"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2830.8,
+   "end": 2860.66,
+   "peak": 2854.85,
+   "text": "literally",
+   "tokens": {
+    "n": 100,
+    "distinct": 69
+   },
+   "comp": {
+    "story": 0.482,
+    "emotion": 0.245,
+    "hook": 0.25,
+    "pacing": 0.894
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.783,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.789,
+    "excitement_db": -6.0,
+    "shock_contrast_db": 15.7,
+    "triggers": 0.5,
+    "speech_rate": 3.5,
+    "trigger_words": [
+     "literally",
+     "14"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2876.05,
+   "end": 2901.16,
+   "peak": 2894.85,
+   "text": "",
+   "tokens": {
+    "n": 73,
+    "distinct": 59
+   },
+   "comp": {
+    "story": 0.563,
+    "emotion": 0.312,
+    "hook": 0.25,
+    "pacing": 0.792
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.05,
+    "reaction": 0.689,
+    "laughter": 0.6,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.721,
+    "excitement_db": 6.7,
+    "shock_contrast_db": 20.5,
+    "triggers": 0.25,
+    "speech_rate": 3.16,
+    "trigger_words": [
+     "150"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2961.57,
+   "end": 2982.97,
+   "peak": 2978.55,
+   "text": "thats crazy",
+   "tokens": {
+    "n": 59,
+    "distinct": 47
+   },
+   "comp": {
+    "story": 0.75,
+    "emotion": 0.361,
+    "hook": 0.5,
+    "pacing": 0.742
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.036,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.792,
+    "excitement_db": 6.5,
+    "shock_contrast_db": 8.0,
+    "triggers": 1.0,
+    "speech_rate": 2.73,
+    "trigger_words": [
+     "that's crazy",
+     "10",
+     "15",
+     "50",
+     "$150"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3254.72,
+   "end": 3269.75,
+   "peak": 3267.55,
+   "text": "",
+   "tokens": {
+    "n": 54,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.409,
+    "emotion": 0.087,
+    "hook": 0.75,
+    "pacing": 0.793
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.171,
+    "laughter": 0.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.587,
+    "excitement_db": -18.5,
+    "shock_contrast_db": 21.9,
+    "triggers": 0.25,
+    "speech_rate": 3.6,
+    "trigger_words": [
+     "000"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small joke, no reaction",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3308.91,
+   "end": 3324.85,
+   "peak": 3322.65,
+   "text": "",
+   "tokens": {
+    "n": 38,
+    "distinct": 31
+   },
+   "comp": {
+    "story": 0.315,
+    "emotion": 0.058,
+    "hook": 0.15,
+    "pacing": 0.848
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.193,
+    "reaction": 0.576,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.894,
+    "excitement_db": 8.7,
+    "shock_contrast_db": 30.2,
+    "triggers": 0.0,
+    "speech_rate": 3.01,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3415.26,
+   "end": 3436.07,
+   "peak": 3432.15,
+   "text": "",
+   "tokens": {
+    "n": 79,
+    "distinct": 60
+   },
+   "comp": {
+    "story": 0.46,
+    "emotion": 0.164,
+    "hook": 0.15,
+    "pacing": 0.933
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.079,
+    "reaction": 0.798,
+    "laughter": 0.4,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.865,
+    "excitement_db": 7.1,
+    "shock_contrast_db": 16.0,
+    "triggers": 0.0,
+    "speech_rate": 3.8,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3605.82,
+   "end": 3633.57,
+   "peak": 3623.65,
+   "text": "",
+   "tokens": {
+    "n": 91,
+    "distinct": 68
+   },
+   "comp": {
+    "story": 0.486,
+    "emotion": 0.157,
+    "hook": 0.55,
+    "pacing": 0.838
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.807,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.771,
+    "excitement_db": -7.0,
+    "shock_contrast_db": 5.3,
+    "triggers": 0.25,
+    "speech_rate": 3.26,
+    "trigger_words": [
+     "99"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3815.62,
+   "end": 3838.76,
+   "peak": 3835.55,
+   "text": "what the",
+   "tokens": {
+    "n": 63,
+    "distinct": 49
+   },
+   "comp": {
+    "story": 0.846,
+    "emotion": 0.315,
+    "hook": 1.0,
+    "pacing": 0.721
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.98,
+    "laughter": 0.4,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.71,
+    "excitement_db": -1.5,
+    "shock_contrast_db": 8.5,
+    "triggers": 0.5,
+    "speech_rate": 2.83,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3860.21,
+   "end": 3884.16,
+   "peak": 3879.55,
+   "text": "",
+   "tokens": {
+    "n": 92,
+    "distinct": 71
+   },
+   "comp": {
+    "story": 0.66,
+    "emotion": 0.275,
+    "hook": 0.25,
+    "pacing": 0.938
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.157,
+    "reaction": 0.923,
+    "laughter": 0.4,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.876,
+    "excitement_db": 8.2,
+    "shock_contrast_db": 10.9,
+    "triggers": 0.25,
+    "speech_rate": 3.78,
+    "trigger_words": [
+     "52"
+    ]
+   },
+   "category": "funny",
+   "label": true,
+   "big": false,
+   "reason": "mocks smurf accounts, then admits his own 52 hours in six days",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4051.64,
+   "end": 4068.79,
+   "peak": 4063.45,
+   "text": "ill be honest",
+   "tokens": {
+    "n": 75,
+    "distinct": 56
+   },
+   "comp": {
+    "story": 0.707,
+    "emotion": 0.175,
+    "hook": 0.5,
+    "pacing": 0.916
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.786,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.832,
+    "excitement_db": -3.3,
+    "shock_contrast_db": 15.8,
+    "triggers": 0.5,
+    "speech_rate": 4.37,
+    "trigger_words": [
+     "i'll be honest"
+    ]
+   },
+   "category": "hot take",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4133.44,
+   "end": 4156.08,
+   "peak": 4152.15,
+   "text": "",
+   "tokens": {
+    "n": 79,
+    "distinct": 57
+   },
+   "comp": {
+    "story": 0.441,
+    "emotion": 0.1,
+    "hook": 0.15,
+    "pacing": 0.9
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.1,
+    "reaction": 0.956,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.801,
+    "excitement_db": 7.4,
+    "shock_contrast_db": 9.7,
+    "triggers": 0.0,
+    "speech_rate": 3.55,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4232.85,
+   "end": 4249.25,
+   "peak": 4247.05,
+   "text": "what the",
+   "tokens": {
+    "n": 49,
+    "distinct": 35
+   },
+   "comp": {
+    "story": 0.75,
+    "emotion": 0.194,
+    "hook": 0.5,
+    "pacing": 0.876
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.064,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.936,
+    "excitement_db": 6.9,
+    "shock_contrast_db": 23.6,
+    "triggers": 0.5,
+    "speech_rate": 3.04,
+    "trigger_words": [
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4287.26,
+   "end": 4311.75,
+   "peak": 4309.55,
+   "text": "",
+   "tokens": {
+    "n": 60,
+    "distinct": 48
+   },
+   "comp": {
+    "story": 0.31,
+    "emotion": 0.106,
+    "hook": 0.15,
+    "pacing": 0.673
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.121,
+    "reaction": 0.3,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.738,
+    "excitement_db": 7.7,
+    "shock_contrast_db": 51.6,
+    "triggers": 0.0,
+    "speech_rate": 2.52,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4451.02,
+   "end": 4478.55,
+   "peak": 4475.85,
+   "text": "oh my god what the",
+   "tokens": {
+    "n": 99,
+    "distinct": 72
+   },
+   "comp": {
+    "story": 0.65,
+    "emotion": 0.459,
+    "hook": 0.5,
+    "pacing": 0.913
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.364,
+    "reaction": 1.0,
+    "laughter": 0.0,
+    "statement": 1.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.826,
+    "excitement_db": 11.1,
+    "shock_contrast_db": 8.9,
+    "triggers": 1.0,
+    "speech_rate": 3.6,
+    "trigger_words": [
+     "oh my god",
+     "what the"
+    ]
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "an old photo shows up: 'I was a handsome man, I don't know what happened'",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4504.94,
+   "end": 4525.47,
+   "peak": 4523.35,
+   "text": "",
+   "tokens": {
+    "n": 54,
+    "distinct": 48
+   },
+   "comp": {
+    "story": 0.725,
+    "emotion": 0.297,
+    "hook": 0.25,
+    "pacing": 0.753
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 1.0,
+    "laughter": 0.6,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.841,
+    "excitement_db": 0.5,
+    "shock_contrast_db": 8.0,
+    "triggers": 0.25,
+    "speech_rate": 2.66,
+    "trigger_words": [
+     "15"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4542.14,
+   "end": 4564.54,
+   "peak": 4560.15,
+   "text": "",
+   "tokens": {
+    "n": 84,
+    "distinct": 55
+   },
+   "comp": {
+    "story": 0.442,
+    "emotion": 0.096,
+    "hook": 0.15,
+    "pacing": 0.924
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.086,
+    "reaction": 0.961,
+    "laughter": 0.2,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.847,
+    "excitement_db": 7.2,
+    "shock_contrast_db": 10.1,
+    "triggers": 0.0,
+    "speech_rate": 3.89,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4572.15,
+   "end": 4601.98,
+   "peak": 4595.75,
+   "text": "",
+   "tokens": {
+    "n": 95,
+    "distinct": 68
+   },
+   "comp": {
+    "story": 0.599,
+    "emotion": 0.245,
+    "hook": 0.25,
+    "pacing": 0.898
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.872,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.894,
+    "excitement_db": 0.4,
+    "shock_contrast_db": 4.4,
+    "triggers": 0.5,
+    "speech_rate": 3.25,
+    "trigger_words": [
+     "1911"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4686.77,
+   "end": 4706.5,
+   "peak": 4699.45,
+   "text": "",
+   "tokens": {
+    "n": 53,
+    "distinct": 39
+   },
+   "comp": {
+    "story": 0.598,
+    "emotion": 0.157,
+    "hook": 0.25,
+    "pacing": 0.823
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.863,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.732,
+    "excitement_db": -0.9,
+    "shock_contrast_db": 4.0,
+    "triggers": 0.25,
+    "speech_rate": 3.29,
+    "trigger_words": [
+     "10"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4713.48,
+   "end": 4740.82,
+   "peak": 4733.75,
+   "text": "",
+   "tokens": {
+    "n": 109,
+    "distinct": 72
+   },
+   "comp": {
+    "story": 0.57,
+    "emotion": 0.235,
+    "hook": 0.25,
+    "pacing": 0.954
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.2,
+    "reaction": 0.977,
+    "laughter": 0.0,
+    "statement": 0.5,
+    "complete": 1.0,
+    "voiced_after_trim": 0.907,
+    "excitement_db": 8.8,
+    "shock_contrast_db": 8.8,
+    "triggers": 0.5,
+    "speech_rate": 3.98,
+    "trigger_words": [
+     "10",
+     "2042"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4775.76,
+   "end": 4802.68,
+   "peak": 4798.25,
+   "text": "",
+   "tokens": {
+    "n": 80,
+    "distinct": 57
+   },
+   "comp": {
+    "story": 0.483,
+    "emotion": 0.157,
+    "hook": 0.25,
+    "pacing": 0.772
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.79,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.711,
+    "excitement_db": 0.9,
+    "shock_contrast_db": 4.5,
+    "triggers": 0.25,
+    "speech_rate": 3.08,
+    "trigger_words": [
+     "6m"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4884.48,
+   "end": 4905.53,
+   "peak": 4901.25,
+   "text": "",
+   "tokens": {
+    "n": 75,
+    "distinct": 45
+   },
+   "comp": {
+    "story": 0.575,
+    "emotion": 0.297,
+    "hook": 0.55,
+    "pacing": 0.887
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.752,
+    "laughter": 0.6,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.773,
+    "excitement_db": 6.0,
+    "shock_contrast_db": 13.9,
+    "triggers": 0.25,
+    "speech_rate": 3.64,
+    "trigger_words": [
+     "15"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4978.77,
+   "end": 4994.72,
+   "peak": 4992.45,
+   "text": "crazy",
+   "tokens": {
+    "n": 40,
+    "distinct": 31
+   },
+   "comp": {
+    "story": 0.359,
+    "emotion": 0.175,
+    "hook": 0.15,
+    "pacing": 0.722
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.057,
+    "reaction": 0.518,
+    "laughter": 0.2,
+    "statement": 0.3,
+    "complete": 0.5,
+    "voiced_after_trim": 0.819,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 26.5,
+    "triggers": 0.25,
+    "speech_rate": 2.56,
+    "trigger_words": [
+     "crazy"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5045.82,
+   "end": 5067.24,
+   "peak": 5061.45,
+   "text": "",
+   "tokens": {
+    "n": 71,
+    "distinct": 50
+   },
+   "comp": {
+    "story": 0.236,
+    "emotion": 0.011,
+    "hook": 0.15,
+    "pacing": 0.881
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.036,
+    "reaction": 0.681,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 0.5,
+    "voiced_after_trim": 0.778,
+    "excitement_db": 6.5,
+    "shock_contrast_db": 26.9,
+    "triggers": 0.0,
+    "speech_rate": 3.46,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5112.35,
+   "end": 5129.23,
+   "peak": 5125.65,
+   "text": "",
+   "tokens": {
+    "n": 47,
+    "distinct": 34
+   },
+   "comp": {
+    "story": 0.353,
+    "emotion": 0.013,
+    "hook": 0.15,
+    "pacing": 0.775
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.043,
+    "reaction": 0.767,
+    "laughter": 0.0,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.772,
+    "excitement_db": 6.6,
+    "shock_contrast_db": 15.0,
+    "triggers": 0.0,
+    "speech_rate": 2.94,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5193.23,
+   "end": 5210.43,
+   "peak": 5206.85,
+   "text": "",
+   "tokens": {
+    "n": 41,
+    "distinct": 26
+   },
+   "comp": {
+    "story": 0.405,
+    "emotion": 0.157,
+    "hook": 0.75,
+    "pacing": 0.689
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.402,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.591,
+    "excitement_db": 0.4,
+    "shock_contrast_db": 33.3,
+    "triggers": 0.25,
+    "speech_rate": 2.97,
+    "trigger_words": [
+     "69"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5247.33,
+   "end": 5275.1,
+   "peak": 5264.35,
+   "text": "",
+   "tokens": {
+    "n": 100,
+    "distinct": 59
+   },
+   "comp": {
+    "story": 0.496,
+    "emotion": 0.157,
+    "hook": 0.25,
+    "pacing": 0.91
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.0,
+    "reaction": 0.857,
+    "laughter": 0.2,
+    "statement": 0.5,
+    "complete": 0.5,
+    "voiced_after_trim": 0.819,
+    "excitement_db": -0.8,
+    "shock_contrast_db": 4.5,
+    "triggers": 0.25,
+    "speech_rate": 3.6,
+    "trigger_words": [
+     "18"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "text"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5371.53,
+   "end": 5399.65,
+   "peak": 5393.75,
+   "text": "",
+   "tokens": {
+    "n": 94,
+    "distinct": 58
+   },
+   "comp": {
+    "story": 0.532,
+    "emotion": 0.251,
+    "hook": 0.15,
+    "pacing": 0.897
+   },
+   "signals": {
+    "content": "talk",
+    "intensity": 0.136,
+    "reaction": 0.912,
+    "laughter": 0.6,
+    "statement": 0.0,
+    "complete": 1.0,
+    "voiced_after_trim": 0.838,
+    "excitement_db": 7.9,
+    "shock_contrast_db": 5.6,
+    "triggers": 0.0,
+    "speech_rate": 3.39,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "game news talk or ad read, no standalone moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  }
+ ]
+}

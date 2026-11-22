@@ -1,0 +1,44 @@
+{
+ "name": "hud_gta_h1",
+ "split": "test",
+ "duration": 866.9,
+ "profile": "gta5",
+ "events": [
+  {
+   "t": 48.0,
+   "event": "wanted_3plus"
+  },
+  {
+   "t": 519.0,
+   "event": "wanted_3plus"
+  },
+  {
+   "t": 766.0,
+   "event": "wanted_3plus"
+  }
+ ],
+ "detections": [
+  {
+   "t": 48.3,
+   "event": "wanted_3plus",
+   "strength": 0.7
+  }
+ ],
+ "dropped_detections": [
+  {
+   "t": 9.76,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 121.0,
+   "event": "flash",
+   "strength": 0.3
+  },
+  {
+   "t": 557.47,
+   "event": "flash",
+   "strength": 0.3
+  }
+ ]
+}

@@ -1,0 +1,2484 @@
+{
+ "split": "tune",
+ "content": "gaming",
+ "transcribed": true,
+ "note": "Every candidate window (first 90 min of a VOD longer than 2 h) of one discover-clips run (--min-score 0 --max-clips 0 --llm none, --hud auto; talk: --content talk) on a public stream, labelled blind (no scores shown) by the maintainer's tooling from the window transcript and 6-frame strips. No media, no video id, title or channel. 'text' keeps <= 12 neutral tokens (milestone line, trigger words); 'tokens' holds the word counts the quality bar reads.",
+ "candidates": [
+  {
+   "start": 71.65,
+   "end": 98.99,
+   "peak": 87.45,
+   "text": "oh my god look",
+   "tokens": {
+    "n": 39,
+    "distinct": 32
+   },
+   "comp": {
+    "emotion": 0.332,
+    "story": 0.905,
+    "hook": 0.12,
+    "pacing": 0.544
+   },
+   "signals": {
+    "intensity": 0.186,
+    "arc_contrast": 0.897,
+    "reaction": 0.918,
+    "shock": 0.288,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.911,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 6.9,
+    "contrast_db": 10.8,
+    "triggers": 1.0,
+    "speech_rate": 1.44,
+    "trigger_words": [
+     "oh my god",
+     "look"
+    ],
+    "face_motion": 0.603,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 152.78,
+   "end": 171.84,
+   "peak": 167.65,
+   "text": "run",
+   "tokens": {
+    "n": 11,
+    "distinct": 11
+   },
+   "comp": {
+    "emotion": 0.541,
+    "story": 0.97,
+    "hook": 0.12,
+    "pacing": 0.472
+   },
+   "signals": {
+    "intensity": 0.736,
+    "arc_contrast": 1.0,
+    "reaction": 0.924,
+    "shock": 0.696,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.944,
+    "excitement_db": 16.3,
+    "shock_contrast_db": 16.7,
+    "contrast_db": 13.0,
+    "triggers": 0.25,
+    "speech_rate": 0.78,
+    "trigger_words": [
+     "run"
+    ],
+    "face_motion": 0.427,
+    "face_seen": 1.0
+   },
+   "category": "chaos",
+   "label": false,
+   "big": false,
+   "reason": "short complaint while walking, no payoff",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 232.44,
+   "end": 266.18,
+   "peak": 256.35,
+   "text": "lets go",
+   "tokens": {
+    "n": 39,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.426,
+    "story": 0.947,
+    "hook": 0.52,
+    "pacing": 0.517
+   },
+   "signals": {
+    "intensity": 0.607,
+    "arc_contrast": 0.956,
+    "reaction": 0.934,
+    "shock": 0.604,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.919,
+    "excitement_db": 14.5,
+    "shock_contrast_db": 14.5,
+    "contrast_db": 11.5,
+    "triggers": 0.25,
+    "speech_rate": 1.29,
+    "trigger_words": [
+     "let's go"
+    ],
+    "face_motion": 0.419,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 327.62,
+   "end": 351.48,
+   "peak": 347.65,
+   "text": "",
+   "tokens": {
+    "n": 47,
+    "distinct": 29
+   },
+   "comp": {
+    "emotion": 0.295,
+    "story": 0.889,
+    "hook": 0.12,
+    "pacing": 0.668
+   },
+   "signals": {
+    "intensity": 0.321,
+    "arc_contrast": 1.0,
+    "reaction": 0.724,
+    "shock": 0.633,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.677,
+    "excitement_db": 10.5,
+    "shock_contrast_db": 15.2,
+    "contrast_db": 12.1,
+    "triggers": 0.0,
+    "speech_rate": 2.65,
+    "trigger_words": [],
+    "face_motion": 0.574,
+    "face_seen": 1.0
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 456.27,
+   "end": 480.53,
+   "peak": 478.25,
+   "text": "oh my god",
+   "tokens": {
+    "n": 40,
+    "distinct": 33
+   },
+   "comp": {
+    "emotion": 0.376,
+    "story": 0.655,
+    "hook": 0.6,
+    "pacing": 0.537
+   },
+   "signals": {
+    "intensity": 0.229,
+    "arc_contrast": 0.687,
+    "reaction": 0.607,
+    "shock": 0.721,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.641,
+    "excitement_db": 9.2,
+    "shock_contrast_db": 17.3,
+    "contrast_db": 8.2,
+    "triggers": 0.5,
+    "speech_rate": 2.08,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 0.59,
+    "face_seen": 1.0
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 525.84,
+   "end": 551.67,
+   "peak": 547.55,
+   "text": "no",
+   "tokens": {
+    "n": 11,
+    "distinct": 8
+   },
+   "comp": {
+    "emotion": 0.734,
+    "story": 0.864,
+    "hook": 0.42,
+    "pacing": 0.35
+   },
+   "signals": {
+    "intensity": 0.986,
+    "arc_contrast": 0.865,
+    "reaction": 0.862,
+    "shock": 0.475,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.7,
+    "excitement_db": 19.8,
+    "shock_contrast_db": 11.4,
+    "contrast_db": 10.4,
+    "triggers": 0.5,
+    "speech_rate": 0.82,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.325,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "brief surprise at the character's legs, no build-up",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 605.38,
+   "end": 626.75,
+   "peak": 624.55,
+   "text": "no",
+   "tokens": {
+    "n": 31,
+    "distinct": 20
+   },
+   "comp": {
+    "emotion": 0.757,
+    "story": 0.911,
+    "hook": 0.42,
+    "pacing": 0.567
+   },
+   "signals": {
+    "intensity": 0.871,
+    "arc_contrast": 1.0,
+    "reaction": 0.776,
+    "shock": 0.767,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.604,
+    "excitement_db": 18.2,
+    "shock_contrast_db": 18.4,
+    "contrast_db": 12.1,
+    "triggers": 0.75,
+    "speech_rate": 2.33,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.063,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 682.0,
+   "end": 709.57,
+   "peak": 706.85,
+   "text": "thank you",
+   "tokens": {
+    "n": 27,
+    "distinct": 16
+   },
+   "comp": {
+    "emotion": 0.287,
+    "story": 0.678,
+    "hook": 0.12,
+    "pacing": 0.483
+   },
+   "signals": {
+    "intensity": 0.207,
+    "arc_contrast": 0.463,
+    "reaction": 1.0,
+    "shock": 0.521,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.967,
+    "excitement_db": 8.9,
+    "shock_contrast_db": 12.5,
+    "contrast_db": 5.6,
+    "triggers": 0.5,
+    "speech_rate": 0.98,
+    "trigger_words": [
+     "thank you"
+    ],
+    "face_motion": 0.32,
+    "face_seen": 1.0
+   },
+   "category": "wholesome",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 749.47,
+   "end": 776.2,
+   "peak": 773.85,
+   "text": "no",
+   "tokens": {
+    "n": 39,
+    "distinct": 31
+   },
+   "comp": {
+    "emotion": 0.451,
+    "story": 0.971,
+    "hook": 0.12,
+    "pacing": 0.647
+   },
+   "signals": {
+    "intensity": 0.571,
+    "arc_contrast": 1.0,
+    "reaction": 0.927,
+    "shock": 0.612,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.721,
+    "excitement_db": 14.0,
+    "shock_contrast_db": 14.7,
+    "contrast_db": 12.4,
+    "triggers": 0.5,
+    "speech_rate": 2.43,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.231,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 874.09,
+   "end": 897.61,
+   "peak": 895.55,
+   "text": "no wait way",
+   "tokens": {
+    "n": 48,
+    "distinct": 32
+   },
+   "comp": {
+    "emotion": 0.434,
+    "story": 0.803,
+    "hook": 0.7,
+    "pacing": 0.631
+   },
+   "signals": {
+    "intensity": 0.243,
+    "arc_contrast": 1.0,
+    "reaction": 0.506,
+    "shock": 0.683,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.728,
+    "excitement_db": 9.4,
+    "shock_contrast_db": 16.4,
+    "contrast_db": 14.3,
+    "triggers": 1.0,
+    "speech_rate": 2.33,
+    "trigger_words": [
+     "no",
+     "wait",
+     "no way"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 944.74,
+   "end": 968.45,
+   "peak": 966.25,
+   "text": "thank you what the",
+   "tokens": {
+    "n": 68,
+    "distinct": 43
+   },
+   "comp": {
+    "emotion": 0.425,
+    "story": 0.999,
+    "hook": 0.12,
+    "pacing": 0.811
+   },
+   "signals": {
+    "intensity": 0.279,
+    "arc_contrast": 0.999,
+    "reaction": 1.0,
+    "shock": 0.817,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.85,
+    "excitement_db": 9.9,
+    "shock_contrast_db": 19.6,
+    "contrast_db": 12.0,
+    "triggers": 0.75,
+    "speech_rate": 2.93,
+    "trigger_words": [
+     "thank you",
+     "what the"
+    ],
+    "face_motion": 0.483,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1015.46,
+   "end": 1044.36,
+   "peak": 1038.55,
+   "text": "thank you wait lets go",
+   "tokens": {
+    "n": 83,
+    "distinct": 56
+   },
+   "comp": {
+    "emotion": 0.597,
+    "story": 0.992,
+    "hook": 0.12,
+    "pacing": 0.936
+   },
+   "signals": {
+    "intensity": 0.621,
+    "arc_contrast": 1.0,
+    "reaction": 0.98,
+    "shock": 0.654,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.872,
+    "excitement_db": 14.7,
+    "shock_contrast_db": 15.7,
+    "contrast_db": 16.5,
+    "triggers": 1.0,
+    "speech_rate": 3.58,
+    "trigger_words": [
+     "wait",
+     "thank you",
+     "let's go"
+    ],
+    "face_motion": 0.285,
+    "face_seen": 1.0
+   },
+   "category": "clutch",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1117.34,
+   "end": 1141.55,
+   "peak": 1139.35,
+   "text": "no crazy look",
+   "tokens": {
+    "n": 46,
+    "distinct": 40
+   },
+   "comp": {
+    "emotion": 0.404,
+    "story": 0.892,
+    "hook": 0.12,
+    "pacing": 0.653
+   },
+   "signals": {
+    "intensity": 0.307,
+    "arc_contrast": 1.0,
+    "reaction": 0.729,
+    "shock": 0.654,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.821,
+    "excitement_db": 10.3,
+    "shock_contrast_db": 15.7,
+    "contrast_db": 16.9,
+    "triggers": 0.75,
+    "speech_rate": 2.21,
+    "trigger_words": [
+     "no",
+     "crazy",
+     "look"
+    ],
+    "face_motion": 0.155,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "banter about the outfit, needs context",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1199.81,
+   "end": 1222.95,
+   "peak": 1220.65,
+   "text": "",
+   "tokens": {
+    "n": 51,
+    "distinct": 35
+   },
+   "comp": {
+    "emotion": 0.104,
+    "story": 0.518,
+    "hook": 0.12,
+    "pacing": 0.714
+   },
+   "signals": {
+    "intensity": 0.057,
+    "arc_contrast": 0.196,
+    "reaction": 1.0,
+    "shock": 0.404,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.918,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 9.7,
+    "contrast_db": 2.4,
+    "triggers": 0.0,
+    "speech_rate": 2.27,
+    "trigger_words": [],
+    "face_motion": 0.13,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1283.23,
+   "end": 1306.04,
+   "peak": 1303.35,
+   "text": "run wait",
+   "tokens": {
+    "n": 30,
+    "distinct": 25
+   },
+   "comp": {
+    "emotion": 0.543,
+    "story": 0.707,
+    "hook": 0.12,
+    "pacing": 0.485
+   },
+   "signals": {
+    "intensity": 0.686,
+    "arc_contrast": 0.733,
+    "reaction": 0.668,
+    "shock": 0.646,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.506,
+    "excitement_db": 15.6,
+    "shock_contrast_db": 15.5,
+    "contrast_db": 8.8,
+    "triggers": 0.5,
+    "speech_rate": 2.16,
+    "trigger_words": [
+     "run",
+     "wait"
+    ],
+    "face_motion": 0.206,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1357.05,
+   "end": 1383.85,
+   "peak": 1381.65,
+   "text": "gta lets go wait never",
+   "tokens": {
+    "n": 52,
+    "distinct": 42
+   },
+   "comp": {
+    "emotion": 0.367,
+    "story": 0.764,
+    "hook": 0.12,
+    "pacing": 0.674
+   },
+   "signals": {
+    "intensity": 0.257,
+    "arc_contrast": 0.607,
+    "reaction": 1.0,
+    "shock": 0.321,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.852,
+    "excitement_db": 9.6,
+    "shock_contrast_db": 7.7,
+    "contrast_db": 7.3,
+    "triggers": 1.0,
+    "speech_rate": 2.24,
+    "trigger_words": [
+     "gta",
+     "let's go",
+     "wait",
+     "never"
+    ],
+    "face_motion": 0.544,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1479.28,
+   "end": 1505.34,
+   "peak": 1502.65,
+   "text": "wait",
+   "tokens": {
+    "n": 46,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.561,
+    "story": 0.595,
+    "hook": 0.12,
+    "pacing": 0.575
+   },
+   "signals": {
+    "intensity": 0.679,
+    "arc_contrast": 0.617,
+    "reaction": 0.562,
+    "shock": 0.758,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.577,
+    "excitement_db": 15.5,
+    "shock_contrast_db": 18.2,
+    "contrast_db": 7.4,
+    "triggers": 0.5,
+    "speech_rate": 2.43,
+    "trigger_words": [
+     "wait"
+    ],
+    "face_motion": 0.343,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1544.93,
+   "end": 1568.55,
+   "peak": 1566.35,
+   "text": "no",
+   "tokens": {
+    "n": 37,
+    "distinct": 23
+   },
+   "comp": {
+    "emotion": 0.377,
+    "story": 0.548,
+    "hook": 0.12,
+    "pacing": 0.591
+   },
+   "signals": {
+    "intensity": 0.4,
+    "arc_contrast": 0.608,
+    "reaction": 0.459,
+    "shock": 0.833,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.915,
+    "excitement_db": 11.6,
+    "shock_contrast_db": 20.0,
+    "contrast_db": 7.3,
+    "triggers": 0.25,
+    "speech_rate": 1.67,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.556,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1716.65,
+   "end": 1743.58,
+   "peak": 1737.05,
+   "text": "",
+   "tokens": {
+    "n": 41,
+    "distinct": 37
+   },
+   "comp": {
+    "emotion": 0.451,
+    "story": 0.955,
+    "hook": 0.12,
+    "pacing": 0.593
+   },
+   "signals": {
+    "intensity": 0.721,
+    "arc_contrast": 0.955,
+    "reaction": 0.955,
+    "shock": 0.55,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.977,
+    "excitement_db": 16.1,
+    "shock_contrast_db": 13.2,
+    "contrast_db": 11.5,
+    "triggers": 0.0,
+    "speech_rate": 1.52,
+    "trigger_words": [],
+    "face_motion": 0.93,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1795.97,
+   "end": 1819.75,
+   "peak": 1817.65,
+   "text": "oh my god thank you",
+   "tokens": {
+    "n": 40,
+    "distinct": 35
+   },
+   "comp": {
+    "emotion": 0.434,
+    "story": 0.727,
+    "hook": 0.52,
+    "pacing": 0.585
+   },
+   "signals": {
+    "intensity": 0.536,
+    "arc_contrast": 0.777,
+    "reaction": 0.652,
+    "shock": 0.6,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.831,
+    "excitement_db": 13.5,
+    "shock_contrast_db": 14.4,
+    "contrast_db": 9.3,
+    "triggers": 0.5,
+    "speech_rate": 1.85,
+    "trigger_words": [
+     "oh my god",
+     "thank you"
+    ],
+    "face_motion": 0.269,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1875.68,
+   "end": 1891.25,
+   "peak": 1889.05,
+   "text": "no",
+   "tokens": {
+    "n": 17,
+    "distinct": 15
+   },
+   "comp": {
+    "emotion": 0.393,
+    "story": 0.252,
+    "hook": 0.4,
+    "pacing": 0.365
+   },
+   "signals": {
+    "intensity": 0.357,
+    "arc_contrast": 0.421,
+    "reaction": 0.0,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.504,
+    "excitement_db": 11.0,
+    "shock_contrast_db": 68.9,
+    "contrast_db": 5.0,
+    "triggers": 0.25,
+    "speech_rate": 1.56,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.402,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 1997.98,
+   "end": 2057.98,
+   "peak": 1958.15,
+   "text": "",
+   "tokens": {
+    "n": 8,
+    "distinct": 8
+   },
+   "comp": {
+    "emotion": 0.273,
+    "story": 0.399,
+    "hook": 0.12,
+    "pacing": 0.499
+   },
+   "signals": {
+    "intensity": 0.386,
+    "arc_contrast": 0.0,
+    "reaction": 0.998,
+    "shock": 0.596,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.998,
+    "excitement_db": 11.4,
+    "shock_contrast_db": 14.3,
+    "contrast_db": -62.0,
+    "triggers": 0.0,
+    "speech_rate": 0.13,
+    "trigger_words": [],
+    "face_motion": 0.747,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "one line, no moment",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2063.56,
+   "end": 2078.93,
+   "peak": 2075.25,
+   "text": "thank you what the",
+   "tokens": {
+    "n": 18,
+    "distinct": 11
+   },
+   "comp": {
+    "emotion": 0.389,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.505
+   },
+   "signals": {
+    "intensity": 0.271,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.4,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.898,
+    "excitement_db": 9.8,
+    "shock_contrast_db": 9.6,
+    "contrast_db": 14.1,
+    "triggers": 1.0,
+    "speech_rate": 1.28,
+    "trigger_words": [
+     "thank you",
+     "what the"
+    ],
+    "face_motion": 0.427,
+    "face_seen": 1.0
+   },
+   "category": "wholesome",
+   "label": false,
+   "big": false,
+   "reason": "sudden swearing but nothing visible happens",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2172.82,
+   "end": 2198.65,
+   "peak": 2196.45,
+   "text": "no what the",
+   "tokens": {
+    "n": 30,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.486,
+    "story": 0.374,
+    "hook": 0.6,
+    "pacing": 0.542
+   },
+   "signals": {
+    "intensity": 0.471,
+    "arc_contrast": 0.439,
+    "reaction": 0.276,
+    "shock": 0.737,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.925,
+    "excitement_db": 12.6,
+    "shock_contrast_db": 17.7,
+    "contrast_db": 5.3,
+    "triggers": 0.75,
+    "speech_rate": 1.4,
+    "trigger_words": [
+     "what the",
+     "no"
+    ],
+    "face_motion": 0.267,
+    "face_seen": 1.0
+   },
+   "category": "rage",
+   "label": false,
+   "big": false,
+   "reason": "complaint about a fare, weak ending",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2261.07,
+   "end": 2286.95,
+   "peak": 2284.75,
+   "text": "thank you wait way never",
+   "tokens": {
+    "n": 77,
+    "distinct": 47
+   },
+   "comp": {
+    "emotion": 0.462,
+    "story": 0.525,
+    "hook": 0.52,
+    "pacing": 0.881
+   },
+   "signals": {
+    "intensity": 0.271,
+    "arc_contrast": 0.209,
+    "reaction": 1.0,
+    "shock": 0.767,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.971,
+    "excitement_db": 9.8,
+    "shock_contrast_db": 18.4,
+    "contrast_db": 2.5,
+    "triggers": 1.0,
+    "speech_rate": 2.98,
+    "trigger_words": [
+     "thank you",
+     "wait",
+     "way",
+     "never"
+    ],
+    "face_motion": 0.687,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2353.09,
+   "end": 2368.95,
+   "peak": 2366.75,
+   "text": "way",
+   "tokens": {
+    "n": 11,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.389,
+    "story": 0.755,
+    "hook": 0.12,
+    "pacing": 0.494
+   },
+   "signals": {
+    "intensity": 0.457,
+    "arc_contrast": 0.592,
+    "reaction": 1.0,
+    "shock": 0.779,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.988,
+    "excitement_db": 12.4,
+    "shock_contrast_db": 18.7,
+    "contrast_db": 7.1,
+    "triggers": 0.25,
+    "speech_rate": 0.69,
+    "trigger_words": [
+     "way"
+    ],
+    "face_motion": 0.278,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2412.2,
+   "end": 2431.41,
+   "peak": 2428.55,
+   "text": "look",
+   "tokens": {
+    "n": 30,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.214,
+    "story": 0.68,
+    "hook": 0.12,
+    "pacing": 0.612
+   },
+   "signals": {
+    "intensity": 0.143,
+    "arc_contrast": 0.467,
+    "reaction": 1.0,
+    "shock": 0.283,
+    "laughter": 0.0,
+    "voiced_after_trim": 1.0,
+    "excitement_db": 8.0,
+    "shock_contrast_db": 6.8,
+    "contrast_db": 5.6,
+    "triggers": 0.5,
+    "speech_rate": 1.56,
+    "trigger_words": [
+     "look"
+    ],
+    "face_motion": 0.166,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2467.95,
+   "end": 2491.56,
+   "peak": 2488.55,
+   "text": "",
+   "tokens": {
+    "n": 11,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.422,
+    "story": 0.612,
+    "hook": 0.12,
+    "pacing": 0.298
+   },
+   "signals": {
+    "intensity": 0.721,
+    "arc_contrast": 0.537,
+    "reaction": 0.725,
+    "shock": 0.404,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.597,
+    "excitement_db": 16.1,
+    "shock_contrast_db": 9.7,
+    "contrast_db": 6.4,
+    "triggers": 0.0,
+    "speech_rate": 0.85,
+    "trigger_words": [],
+    "face_motion": 0.187,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2542.89,
+   "end": 2566.45,
+   "peak": 2564.25,
+   "text": "wait",
+   "tokens": {
+    "n": 48,
+    "distinct": 29
+   },
+   "comp": {
+    "emotion": 0.355,
+    "story": 0.833,
+    "hook": 0.42,
+    "pacing": 0.675
+   },
+   "signals": {
+    "intensity": 0.343,
+    "arc_contrast": 0.721,
+    "reaction": 1.0,
+    "shock": 0.592,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.886,
+    "excitement_db": 10.8,
+    "shock_contrast_db": 14.2,
+    "contrast_db": 8.7,
+    "triggers": 0.5,
+    "speech_rate": 2.16,
+    "trigger_words": [
+     "wait"
+    ],
+    "face_motion": 0.786,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2616.94,
+   "end": 2643.85,
+   "peak": 2641.45,
+   "text": "no run",
+   "tokens": {
+    "n": 82,
+    "distinct": 52
+   },
+   "comp": {
+    "emotion": 0.325,
+    "story": 0.605,
+    "hook": 0.42,
+    "pacing": 0.885
+   },
+   "signals": {
+    "intensity": 0.021,
+    "arc_contrast": 0.342,
+    "reaction": 1.0,
+    "shock": 0.583,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.92,
+    "excitement_db": 6.3,
+    "shock_contrast_db": 14.0,
+    "contrast_db": 4.1,
+    "triggers": 1.0,
+    "speech_rate": 3.12,
+    "trigger_words": [
+     "run",
+     "no"
+    ],
+    "face_motion": 0.154,
+    "face_seen": 1.0
+   },
+   "category": "chaos",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2679.58,
+   "end": 2706.35,
+   "peak": 2704.15,
+   "text": "",
+   "tokens": {
+    "n": 26,
+    "distinct": 14
+   },
+   "comp": {
+    "emotion": 0.743,
+    "story": 0.281,
+    "hook": 0.12,
+    "pacing": 0.438
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 0.377,
+    "reaction": 0.135,
+    "shock": 0.742,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.61,
+    "excitement_db": 21.8,
+    "shock_contrast_db": 17.8,
+    "contrast_db": 4.5,
+    "triggers": 0.0,
+    "speech_rate": 1.66,
+    "trigger_words": [],
+    "face_motion": 0.784,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2787.34,
+   "end": 2802.68,
+   "peak": 2799.85,
+   "text": "",
+   "tokens": {
+    "n": 28,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.213,
+    "story": 0.671,
+    "hook": 0.12,
+    "pacing": 0.651
+   },
+   "signals": {
+    "intensity": 0.307,
+    "arc_contrast": 0.482,
+    "reaction": 0.955,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.973,
+    "excitement_db": 10.3,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 5.8,
+    "triggers": 0.0,
+    "speech_rate": 1.82,
+    "trigger_words": [],
+    "face_motion": 0.194,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "chatting with a passenger, crashes the taxi, then blames the other driver",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2885.57,
+   "end": 2907.82,
+   "peak": 2905.35,
+   "text": "",
+   "tokens": {
+    "n": 33,
+    "distinct": 22
+   },
+   "comp": {
+    "emotion": 0.151,
+    "story": 0.891,
+    "hook": 0.12,
+    "pacing": 0.476
+   },
+   "signals": {
+    "intensity": 0.193,
+    "arc_contrast": 0.83,
+    "reaction": 0.982,
+    "shock": 0.371,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.667,
+    "excitement_db": 8.7,
+    "shock_contrast_db": 8.9,
+    "contrast_db": 10.0,
+    "triggers": 0.0,
+    "speech_rate": 1.71,
+    "trigger_words": [],
+    "face_motion": 0.186,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 2971.62,
+   "end": 2991.88,
+   "peak": 2989.65,
+   "text": "oh my god",
+   "tokens": {
+    "n": 30,
+    "distinct": 23
+   },
+   "comp": {
+    "emotion": 0.379,
+    "story": 0.909,
+    "hook": 0.6,
+    "pacing": 0.558
+   },
+   "signals": {
+    "intensity": 0.371,
+    "arc_contrast": 0.87,
+    "reaction": 0.968,
+    "shock": 0.65,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.893,
+    "excitement_db": 11.2,
+    "shock_contrast_db": 15.6,
+    "contrast_db": 10.4,
+    "triggers": 0.5,
+    "speech_rate": 1.55,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "passenger asks what is on the phone, punchline about what they were looking at",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3054.74,
+   "end": 3078.38,
+   "peak": 3075.85,
+   "text": "no",
+   "tokens": {
+    "n": 43,
+    "distinct": 30
+   },
+   "comp": {
+    "emotion": 0.731,
+    "story": 0.975,
+    "hook": 0.12,
+    "pacing": 0.775
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.938,
+    "shock": 0.404,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.781,
+    "excitement_db": 22.5,
+    "shock_contrast_db": 9.7,
+    "contrast_db": 15.7,
+    "triggers": 0.25,
+    "speech_rate": 2.92,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3137.99,
+   "end": 3163.06,
+   "peak": 3160.75,
+   "text": "stop look",
+   "tokens": {
+    "n": 31,
+    "distinct": 29
+   },
+   "comp": {
+    "emotion": 0.67,
+    "story": 0.7,
+    "hook": 0.4,
+    "pacing": 0.489
+   },
+   "signals": {
+    "intensity": 0.843,
+    "arc_contrast": 0.609,
+    "reaction": 0.837,
+    "shock": 0.688,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.781,
+    "excitement_db": 17.8,
+    "shock_contrast_db": 16.5,
+    "contrast_db": 7.3,
+    "triggers": 0.5,
+    "speech_rate": 1.5,
+    "trigger_words": [
+     "stop",
+     "look"
+    ],
+    "face_motion": 0.201,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3264.68,
+   "end": 3285.25,
+   "peak": 3283.05,
+   "text": "no wait",
+   "tokens": {
+    "n": 54,
+    "distinct": 38
+   },
+   "comp": {
+    "emotion": 0.337,
+    "story": 0.708,
+    "hook": 0.12,
+    "pacing": 0.736
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.733,
+    "reaction": 0.671,
+    "shock": 0.683,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.822,
+    "excitement_db": 6.0,
+    "shock_contrast_db": 16.4,
+    "contrast_db": 8.8,
+    "triggers": 1.0,
+    "speech_rate": 2.63,
+    "trigger_words": [
+     "no",
+     "wait"
+    ],
+    "face_motion": 0.121,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3357.37,
+   "end": 3373.16,
+   "peak": 3368.85,
+   "text": "no way",
+   "tokens": {
+    "n": 59,
+    "distinct": 39
+   },
+   "comp": {
+    "emotion": 0.3,
+    "story": 0.875,
+    "hook": 0.42,
+    "pacing": 0.955
+   },
+   "signals": {
+    "intensity": 0.093,
+    "arc_contrast": 0.799,
+    "reaction": 0.988,
+    "shock": 0.567,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.909,
+    "excitement_db": 7.3,
+    "shock_contrast_db": 13.6,
+    "contrast_db": 9.6,
+    "triggers": 0.75,
+    "speech_rate": 3.86,
+    "trigger_words": [
+     "way",
+     "no"
+    ],
+    "face_motion": 0.21,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3546.86,
+   "end": 3569.89,
+   "peak": 3566.35,
+   "text": "what the oh my god",
+   "tokens": {
+    "n": 110,
+    "distinct": 73
+   },
+   "comp": {
+    "emotion": 0.289,
+    "story": 0.884,
+    "hook": 0.6,
+    "pacing": 0.972
+   },
+   "signals": {
+    "intensity": 0.114,
+    "arc_contrast": 0.885,
+    "reaction": 0.883,
+    "shock": 0.467,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.943,
+    "excitement_db": 7.6,
+    "shock_contrast_db": 11.2,
+    "contrast_db": 10.6,
+    "triggers": 0.75,
+    "speech_rate": 4.78,
+    "trigger_words": [
+     "oh my god",
+     "what the"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "medic checks an injured player with a light, sudden shout, deadpan reply",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3625.41,
+   "end": 3641.91,
+   "peak": 3639.45,
+   "text": "oh my god",
+   "tokens": {
+    "n": 39,
+    "distinct": 26
+   },
+   "comp": {
+    "emotion": 0.283,
+    "story": 0.417,
+    "hook": 0.6,
+    "pacing": 0.68
+   },
+   "signals": {
+    "intensity": 0.1,
+    "arc_contrast": 0.259,
+    "reaction": 0.654,
+    "shock": 0.717,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.814,
+    "excitement_db": 7.4,
+    "shock_contrast_db": 17.2,
+    "contrast_db": 3.1,
+    "triggers": 0.5,
+    "speech_rate": 2.36,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3754.49,
+   "end": 3769.55,
+   "peak": 3766.75,
+   "text": "oh my god",
+   "tokens": {
+    "n": 44,
+    "distinct": 34
+   },
+   "comp": {
+    "emotion": 0.196,
+    "story": 0.732,
+    "hook": 0.52,
+    "pacing": 0.906
+   },
+   "signals": {
+    "intensity": 0.057,
+    "arc_contrast": 0.631,
+    "reaction": 0.882,
+    "shock": 0.617,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.908,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 14.8,
+    "contrast_db": 7.6,
+    "triggers": 0.25,
+    "speech_rate": 3.26,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3811.31,
+   "end": 3831.95,
+   "peak": 3828.85,
+   "text": "oh my god",
+   "tokens": {
+    "n": 37,
+    "distinct": 24
+   },
+   "comp": {
+    "emotion": 0.365,
+    "story": 0.776,
+    "hook": 0.12,
+    "pacing": 0.599
+   },
+   "signals": {
+    "intensity": 0.243,
+    "arc_contrast": 0.683,
+    "reaction": 0.916,
+    "shock": 0.838,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.804,
+    "excitement_db": 9.4,
+    "shock_contrast_db": 20.1,
+    "contrast_db": 8.2,
+    "triggers": 0.5,
+    "speech_rate": 1.98,
+    "trigger_words": [
+     "oh my god"
+    ],
+    "face_motion": 0.441,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 3927.08,
+   "end": 3951.72,
+   "peak": 3944.15,
+   "text": "no wait",
+   "tokens": {
+    "n": 89,
+    "distinct": 30
+   },
+   "comp": {
+    "emotion": 0.33,
+    "story": 0.978,
+    "hook": 0.42,
+    "pacing": 0.943
+   },
+   "signals": {
+    "intensity": 0.15,
+    "arc_contrast": 1.0,
+    "reaction": 0.946,
+    "shock": 0.35,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.886,
+    "excitement_db": 8.1,
+    "shock_contrast_db": 8.4,
+    "contrast_db": 18.7,
+    "triggers": 1.0,
+    "speech_rate": 4.58,
+    "trigger_words": [
+     "no",
+     "wait"
+    ],
+    "face_motion": 0.249,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "one phrase chanted over and over",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4043.79,
+   "end": 4069.14,
+   "peak": 4065.45,
+   "text": "stop wait",
+   "tokens": {
+    "n": 62,
+    "distinct": 43
+   },
+   "comp": {
+    "emotion": 0.369,
+    "story": 0.777,
+    "hook": 0.42,
+    "pacing": 0.766
+   },
+   "signals": {
+    "intensity": 0.2,
+    "arc_contrast": 0.628,
+    "reaction": 1.0,
+    "shock": 0.496,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.952,
+    "excitement_db": 8.8,
+    "shock_contrast_db": 11.9,
+    "contrast_db": 7.5,
+    "triggers": 0.75,
+    "speech_rate": 2.45,
+    "trigger_words": [
+     "wait",
+     "stop"
+    ],
+    "face_motion": 0.16,
+    "face_seen": 1.0
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4187.78,
+   "end": 4212.05,
+   "peak": 4199.15,
+   "text": "",
+   "tokens": {
+    "n": 11,
+    "distinct": 9
+   },
+   "comp": {
+    "emotion": 0.459,
+    "story": 0.995,
+    "hook": 0.12,
+    "pacing": 0.476
+   },
+   "signals": {
+    "intensity": 0.707,
+    "arc_contrast": 1.0,
+    "reaction": 0.988,
+    "shock": 0.642,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.953,
+    "excitement_db": 15.9,
+    "shock_contrast_db": 15.4,
+    "contrast_db": 12.3,
+    "triggers": 0.0,
+    "speech_rate": 0.49,
+    "trigger_words": [],
+    "face_motion": 0.173,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4238.4,
+   "end": 4264.87,
+   "peak": 4262.55,
+   "text": "dude",
+   "tokens": {
+    "n": 12,
+    "distinct": 12
+   },
+   "comp": {
+    "emotion": 0.73,
+    "story": 0.963,
+    "hook": 0.42,
+    "pacing": 0.357
+   },
+   "signals": {
+    "intensity": 0.943,
+    "arc_contrast": 0.993,
+    "reaction": 0.918,
+    "shock": 0.617,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.68,
+    "excitement_db": 19.2,
+    "shock_contrast_db": 14.8,
+    "contrast_db": 11.9,
+    "triggers": 0.5,
+    "speech_rate": 1.08,
+    "trigger_words": [
+     "dude"
+    ],
+    "face_motion": 0.563,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4327.36,
+   "end": 4343.26,
+   "peak": 4339.65,
+   "text": "no",
+   "tokens": {
+    "n": 33,
+    "distinct": 22
+   },
+   "comp": {
+    "emotion": 0.183,
+    "story": 0.461,
+    "hook": 0.42,
+    "pacing": 0.642
+   },
+   "signals": {
+    "intensity": 0.021,
+    "arc_contrast": 0.18,
+    "reaction": 0.881,
+    "shock": 0.371,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.84,
+    "excitement_db": 6.3,
+    "shock_contrast_db": 8.9,
+    "contrast_db": 2.2,
+    "triggers": 0.5,
+    "speech_rate": 2.11,
+    "trigger_words": [
+     "no"
+    ],
+    "face_motion": 0.238,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "offers a ride and gets insulted, too short",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4392.83,
+   "end": 4449.75,
+   "peak": 4447.75,
+   "text": "run",
+   "tokens": {
+    "n": 49,
+    "distinct": 28
+   },
+   "comp": {
+    "emotion": 0.9,
+    "story": 0.763,
+    "hook": 0.12,
+    "pacing": 0.574
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.407,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.873,
+    "excitement_db": 23.6,
+    "shock_contrast_db": 31.9,
+    "contrast_db": 14.2,
+    "triggers": 0.5,
+    "speech_rate": 1.69,
+    "trigger_words": [
+     "run"
+    ],
+    "face_motion": 0.752,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "self-pity rant, no payoff",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4521.32,
+   "end": 4542.29,
+   "peak": 4540.05,
+   "text": "",
+   "tokens": {
+    "n": 30,
+    "distinct": 24
+   },
+   "comp": {
+    "emotion": 0.568,
+    "story": 0.945,
+    "hook": 0.12,
+    "pacing": 0.537
+   },
+   "signals": {
+    "intensity": 0.757,
+    "arc_contrast": 0.966,
+    "reaction": 0.914,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.768,
+    "excitement_db": 16.6,
+    "shock_contrast_db": 30.6,
+    "contrast_db": 11.6,
+    "triggers": 0.0,
+    "speech_rate": 1.77,
+    "trigger_words": [],
+    "face_motion": 0.483,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4583.05,
+   "end": 4625.76,
+   "peak": 4618.45,
+   "text": "",
+   "tokens": {
+    "n": 15,
+    "distinct": 15
+   },
+   "comp": {
+    "emotion": 0.152,
+    "story": 0.623,
+    "hook": 0.12,
+    "pacing": 0.493
+   },
+   "signals": {
+    "intensity": 0.264,
+    "arc_contrast": 0.428,
+    "reaction": 0.916,
+    "shock": 0.229,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.986,
+    "excitement_db": 9.7,
+    "shock_contrast_db": 5.5,
+    "contrast_db": 5.1,
+    "triggers": 0.0,
+    "speech_rate": 0.35,
+    "trigger_words": [],
+    "face_motion": 0.387,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4654.53,
+   "end": 4680.65,
+   "peak": 4678.45,
+   "text": "",
+   "tokens": {
+    "n": 12,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.8,
+    "story": 0.708,
+    "hook": 0.12,
+    "pacing": 0.286
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.271,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.469,
+    "excitement_db": 22.3,
+    "shock_contrast_db": 32.1,
+    "contrast_db": 19.1,
+    "triggers": 0.0,
+    "speech_rate": 1.26,
+    "trigger_words": [],
+    "face_motion": 0.521,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4763.84,
+   "end": 4783.1,
+   "peak": 4780.75,
+   "text": "",
+   "tokens": {
+    "n": 10,
+    "distinct": 10
+   },
+   "comp": {
+    "emotion": 0.685,
+    "story": 0.914,
+    "hook": 0.12,
+    "pacing": 0.351
+   },
+   "signals": {
+    "intensity": 0.971,
+    "arc_contrast": 1.0,
+    "reaction": 0.784,
+    "shock": 0.783,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.702,
+    "excitement_db": 19.6,
+    "shock_contrast_db": 18.8,
+    "contrast_db": 16.4,
+    "triggers": 0.0,
+    "speech_rate": 0.92,
+    "trigger_words": [],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4832.8,
+   "end": 4853.54,
+   "peak": 4846.65,
+   "text": "",
+   "tokens": {
+    "n": 34,
+    "distinct": 21
+   },
+   "comp": {
+    "emotion": 0.434,
+    "story": 0.941,
+    "hook": 0.12,
+    "pacing": 0.548
+   },
+   "signals": {
+    "intensity": 0.679,
+    "arc_contrast": 0.943,
+    "reaction": 0.937,
+    "shock": 0.625,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.836,
+    "excitement_db": 15.5,
+    "shock_contrast_db": 15.0,
+    "contrast_db": 11.3,
+    "triggers": 0.0,
+    "speech_rate": 1.65,
+    "trigger_words": [],
+    "face_motion": 0.591,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4924.46,
+   "end": 4953.26,
+   "peak": 4943.55,
+   "text": "thank you no",
+   "tokens": {
+    "n": 24,
+    "distinct": 21
+   },
+   "comp": {
+    "emotion": 0.326,
+    "story": 0.965,
+    "hook": 0.12,
+    "pacing": 0.445
+   },
+   "signals": {
+    "intensity": 0.186,
+    "arc_contrast": 1.0,
+    "reaction": 0.912,
+    "shock": 0.758,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.891,
+    "excitement_db": 8.6,
+    "shock_contrast_db": 18.2,
+    "contrast_db": 12.3,
+    "triggers": 0.5,
+    "speech_rate": 0.84,
+    "trigger_words": [
+     "thank you",
+     "no"
+    ],
+    "face_motion": 0.19,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 4980.39,
+   "end": 5008.34,
+   "peak": 5005.05,
+   "text": "oh my god way",
+   "tokens": {
+    "n": 51,
+    "distinct": 39
+   },
+   "comp": {
+    "emotion": 0.488,
+    "story": 0.946,
+    "hook": 0.42,
+    "pacing": 0.611
+   },
+   "signals": {
+    "intensity": 0.443,
+    "arc_contrast": 1.0,
+    "reaction": 0.866,
+    "shock": 0.554,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.873,
+    "excitement_db": 12.2,
+    "shock_contrast_db": 13.3,
+    "contrast_db": 16.1,
+    "triggers": 1.0,
+    "speech_rate": 1.88,
+    "trigger_words": [
+     "way",
+     "oh my god"
+    ],
+    "face_motion": 0.181,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": true,
+   "big": false,
+   "reason": "revived by a medic after flying out of a car, jokes about seeing the light",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5110.46,
+   "end": 5132.27,
+   "peak": 5128.85,
+   "text": "no thank you",
+   "tokens": {
+    "n": 44,
+    "distinct": 39
+   },
+   "comp": {
+    "emotion": 0.284,
+    "story": 1.0,
+    "hook": 0.4,
+    "pacing": 0.66
+   },
+   "signals": {
+    "intensity": 0.243,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.433,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.83,
+    "excitement_db": 9.4,
+    "shock_contrast_db": 10.4,
+    "contrast_db": 12.6,
+    "triggers": 0.5,
+    "speech_rate": 2.22,
+    "trigger_words": [
+     "no",
+     "thank you"
+    ],
+    "face_motion": 0.292,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5192.03,
+   "end": 5208.01,
+   "peak": 5202.35,
+   "text": "",
+   "tokens": {
+    "n": 6,
+    "distinct": 6
+   },
+   "comp": {
+    "emotion": 0.47,
+    "story": 0.886,
+    "hook": 0.12,
+    "pacing": 0.484
+   },
+   "signals": {
+    "intensity": 0.7,
+    "arc_contrast": 0.879,
+    "reaction": 0.897,
+    "shock": 0.725,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.967,
+    "excitement_db": 15.8,
+    "shock_contrast_db": 17.4,
+    "contrast_db": 10.5,
+    "triggers": 0.0,
+    "speech_rate": 0.38,
+    "trigger_words": [],
+    "face_motion": 0.268,
+    "face_seen": 1.0
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5257.92,
+   "end": 5281.65,
+   "peak": 5279.45,
+   "text": "",
+   "tokens": {
+    "n": 27,
+    "distinct": 25
+   },
+   "comp": {
+    "emotion": 0.8,
+    "story": 0.847,
+    "hook": 0.12,
+    "pacing": 0.42
+   },
+   "signals": {
+    "intensity": 1.0,
+    "arc_contrast": 1.0,
+    "reaction": 0.618,
+    "shock": 1.0,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.547,
+    "excitement_db": 22.7,
+    "shock_contrast_db": 28.1,
+    "contrast_db": 15.9,
+    "triggers": 0.0,
+    "speech_rate": 1.73,
+    "trigger_words": [],
+    "face_motion": 1.0,
+    "face_seen": 1.0
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  },
+  {
+   "start": 5321.97,
+   "end": 5348.45,
+   "peak": 5346.25,
+   "text": "crazy thank you wait",
+   "tokens": {
+    "n": 54,
+    "distinct": 41
+   },
+   "comp": {
+    "emotion": 0.56,
+    "story": 0.201,
+    "hook": 0.42,
+    "pacing": 0.698
+   },
+   "signals": {
+    "intensity": 0.4,
+    "arc_contrast": 0.265,
+    "reaction": 0.106,
+    "shock": 1.0,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.768,
+    "excitement_db": 11.6,
+    "shock_contrast_db": 31.7,
+    "contrast_db": 3.2,
+    "triggers": 1.0,
+    "speech_rate": 2.57,
+    "trigger_words": [
+     "wait",
+     "crazy",
+     "thank you"
+    ],
+    "face_motion": 0.43,
+    "face_seen": 1.0
+   },
+   "category": "reveal",
+   "label": false,
+   "big": false,
+   "reason": "small talk, no event",
+   "sources": [
+    "voice"
+   ],
+   "hud_events": []
+  }
+ ]
+}

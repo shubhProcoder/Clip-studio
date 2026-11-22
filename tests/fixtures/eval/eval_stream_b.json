@@ -1,0 +1,954 @@
+{
+ "transcribed": true,
+ "note": "Every candidate window of one discover-clips run (--min-score 0 --max-clips 0 --llm none) on a public English gaming stream, labelled by hand from the window transcript, the signals and contact sheets. No media, no video id or title. 'text' keeps the token structure the quality bar reads (word count, distinct words, milestone lines); every other word is replaced by a code (w1, w2, ...).",
+ "candidates": [
+  {
+   "start": 60.84,
+   "end": 95.63,
+   "peak": 84.05,
+   "text": "w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17 w18 w19 w20 w21 w5 w22 w23 w24 w25 w26 w13 w27 w28 w29 w30 w31 w16 w32 w33 w34 w35",
+   "comp": {
+    "emotion": 0.308,
+    "story": 0.964,
+    "hook": 0.12,
+    "pacing": 0.481,
+    "engagement": 0.621
+   },
+   "signals": {
+    "intensity": 0.393,
+    "arc_contrast": 1.0,
+    "reaction": 0.911,
+    "shock": 0.504,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.85,
+    "excitement_db": 11.5,
+    "shock_contrast_db": 12.1,
+    "contrast_db": 12.1,
+    "triggers": 0.25,
+    "speech_rate": 1.28,
+    "heatmap": 0.621,
+    "trigger_words": [
+     "यार"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "intro over the opening cutscene, no moment"
+  },
+  {
+   "start": 184.86,
+   "end": 209.55,
+   "peak": 205.85,
+   "text": "w36 w37 w24 w38 w5 w8 w39 w40 w41 w42 w8 w39 w40 w41 w42 w8 w39 w40 w41 w42 w8 w43 w27 w44 w45 w5 w46 w47 w48 w49 w50 w51 w52 w5 w42",
+   "comp": {
+    "emotion": 0.263,
+    "story": 0.69,
+    "hook": 0.12,
+    "pacing": 0.56,
+    "engagement": 0.355
+   },
+   "signals": {
+    "intensity": 0.086,
+    "arc_contrast": 0.483,
+    "reaction": 1.0,
+    "shock": 0.146,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.859,
+    "excitement_db": 7.2,
+    "shock_contrast_db": 3.5,
+    "contrast_db": 5.8,
+    "triggers": 1.0,
+    "speech_rate": 1.65,
+    "heatmap": 0.355,
+    "trigger_words": [
+     "यार",
+     "भाई"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "explains the story, no moment"
+  },
+  {
+   "start": 286.4,
+   "end": 312.0,
+   "peak": 302.65,
+   "text": "w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w53 w54 w55 w56",
+   "comp": {
+    "emotion": 0.168,
+    "story": 0.824,
+    "hook": 0.12,
+    "pacing": 0.487,
+    "engagement": 0.15
+   },
+   "signals": {
+    "intensity": 0.221,
+    "arc_contrast": 0.728,
+    "reaction": 0.967,
+    "shock": 0.396,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.788,
+    "excitement_db": 9.1,
+    "shock_contrast_db": 9.5,
+    "contrast_db": 8.7,
+    "triggers": 0.0,
+    "speech_rate": 1.47,
+    "heatmap": 0.15,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "ASR loop of one phrase"
+  },
+  {
+   "start": 347.2,
+   "end": 375.33,
+   "peak": 373.05,
+   "text": "w57 w58 w46 w59 w60 w61 w56 w62 w46 w59 w60 w61 w56 w62 w46 w59 w60 w61 w56 w62 w46 w59 w60 w61 w56 w62 w46 w59 w61 w56 w62 w46 w59 w61 w56 w62 w63 w63 w63 w63 w63 w63 w63",
+   "comp": {
+    "emotion": 0.379,
+    "story": 0.646,
+    "hook": 0.12,
+    "pacing": 0.526,
+    "engagement": 0.371
+   },
+   "signals": {
+    "intensity": 0.136,
+    "arc_contrast": 0.628,
+    "reaction": 0.674,
+    "shock": 0.625,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.827,
+    "excitement_db": 7.9,
+    "shock_contrast_db": 15.0,
+    "contrast_db": 7.5,
+    "triggers": 1.0,
+    "speech_rate": 1.56,
+    "heatmap": 0.371,
+    "trigger_words": [
+     "भाई"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "repeated calls to a character, no moment"
+  },
+  {
+   "start": 441.03,
+   "end": 461.04,
+   "peak": 454.85,
+   "text": "w5 w64 w65 w66 w67 w68 w69 w70 w5 w71 w72 w12 w34 w73 w46 w74 w75 w21 w76 w77 w78 w42 w56 w5",
+   "comp": {
+    "emotion": 0.318,
+    "story": 0.83,
+    "hook": 0.42,
+    "pacing": 0.497,
+    "engagement": 0.125
+   },
+   "signals": {
+    "intensity": 0.279,
+    "arc_contrast": 0.79,
+    "reaction": 0.889,
+    "shock": 0.533,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.914,
+    "excitement_db": 9.9,
+    "shock_contrast_db": 12.8,
+    "contrast_db": 9.5,
+    "triggers": 0.5,
+    "speech_rate": 1.2,
+    "heatmap": 0.125,
+    "trigger_words": [
+     "भाई"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "calm boss-fight commentary"
+  },
+  {
+   "start": 554.02,
+   "end": 588.37,
+   "peak": 580.85,
+   "text": "w47 w79 w80 w81 w82 w5 w46 w27 w83 मार w56 w5 w64 w84 w46 w85 w86 w87 w88 w89 w90 w91 w92",
+   "comp": {
+    "emotion": 0.259,
+    "story": 0.872,
+    "hook": 0.12,
+    "pacing": 0.494,
+    "engagement": 0.514
+   },
+   "signals": {
+    "intensity": 0.171,
+    "arc_contrast": 0.808,
+    "reaction": 0.969,
+    "shock": 0.45,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.988,
+    "excitement_db": 8.4,
+    "shock_contrast_db": 10.8,
+    "contrast_db": 9.7,
+    "triggers": 0.5,
+    "speech_rate": 0.67,
+    "heatmap": 0.514,
+    "trigger_words": [
+     "भाई"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "calm boss-fight commentary"
+  },
+  {
+   "start": 605.53,
+   "end": 664.87,
+   "peak": 661.25,
+   "text": "w93 w94 w95 w96 i w97 w93 w94",
+   "comp": {
+    "emotion": 0.196,
+    "story": 0.605,
+    "hook": 0.12,
+    "pacing": 0.493,
+    "engagement": 0.321
+   },
+   "signals": {
+    "intensity": 0.271,
+    "arc_contrast": 0.521,
+    "reaction": 0.73,
+    "shock": 0.438,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.986,
+    "excitement_db": 9.8,
+    "shock_contrast_db": 10.5,
+    "contrast_db": 6.3,
+    "triggers": 0.0,
+    "speech_rate": 0.13,
+    "heatmap": 0.321,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "talks about ray tracing settings"
+  },
+  {
+   "start": 713.66,
+   "end": 732.56,
+   "peak": 730.35,
+   "text": "w98 w99 w100 w101 w102 w103 w104 w105 w106 w107 w108 w109 w110 w108 w109 w110 w111 w99 w112 w99 w112 w113 w114 w115",
+   "comp": {
+    "emotion": 0.18,
+    "story": 0.528,
+    "hook": 0.42,
+    "pacing": 0.517,
+    "engagement": 0.183
+   },
+   "signals": {
+    "intensity": 0.029,
+    "arc_contrast": 0.265,
+    "reaction": 0.921,
+    "shock": 0.392,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.921,
+    "excitement_db": 6.4,
+    "shock_contrast_db": 9.4,
+    "contrast_db": 3.2,
+    "triggers": 0.25,
+    "speech_rate": 1.28,
+    "heatmap": 0.183,
+    "trigger_words": [
+     "oh my god"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "quiet 'oh my god' line with no build-up"
+  },
+  {
+   "start": 798.55,
+   "end": 816.38,
+   "peak": 812.55,
+   "text": "w108 w109 w116 w117 w118 w119 w108 w109 w117 w120 w118 w121",
+   "comp": {
+    "emotion": 0.359,
+    "story": 0.738,
+    "hook": 0.42,
+    "pacing": 0.32,
+    "engagement": 0.138
+   },
+   "signals": {
+    "intensity": 0.071,
+    "arc_contrast": 0.845,
+    "reaction": 0.577,
+    "shock": 0.454,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.64,
+    "excitement_db": 7.0,
+    "shock_contrast_db": 10.9,
+    "contrast_db": 10.1,
+    "triggers": 1.0,
+    "speech_rate": 0.72,
+    "heatmap": 0.138,
+    "trigger_words": [
+     "king",
+     "monkey"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "joke over a cutscene; needs context"
+  },
+  {
+   "start": 874.17,
+   "end": 897.89,
+   "peak": 895.15,
+   "text": "w122 w123 w124 w125 w126 w103 w127 w128 w129 w130 the w131 w132 the w128 w93 w133 w134 w99 w135 w136 w137 w138 w126 w139 w140 w108 w121 w141 w142 w93 w143 w117 w144 w132 w122 w118 w119",
+   "comp": {
+    "emotion": 0.299,
+    "story": 0.832,
+    "hook": 0.42,
+    "pacing": 0.562,
+    "engagement": 0.205
+   },
+   "signals": {
+    "intensity": 0.05,
+    "arc_contrast": 0.72,
+    "reaction": 1.0,
+    "shock": 0.396,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.737,
+    "excitement_db": 6.7,
+    "shock_contrast_db": 9.5,
+    "contrast_db": 8.6,
+    "triggers": 1.0,
+    "speech_rate": 1.97,
+    "heatmap": 0.205,
+    "trigger_words": [
+     "monkey",
+     "king"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "cutscene narration"
+  },
+  {
+   "start": 955.35,
+   "end": 979.85,
+   "peak": 977.65,
+   "text": "w145 w114 w146 w147 w148 w149 w150 w151 the w152 w153 w154 w99 w155 w156 w157 w117 w158 w159 w160 w108 w109 w154 w117 w161 i w162 w163 w164 w165 w109 w108 w118 w119",
+   "comp": {
+    "emotion": 0.416,
+    "story": 0.479,
+    "hook": 0.42,
+    "pacing": 0.394,
+    "engagement": 0.317
+   },
+   "signals": {
+    "intensity": 0.321,
+    "arc_contrast": 0.332,
+    "reaction": 0.7,
+    "shock": 0.438,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.63,
+    "excitement_db": 10.5,
+    "shock_contrast_db": 10.5,
+    "contrast_db": 4.0,
+    "triggers": 1.0,
+    "speech_rate": 1.4,
+    "heatmap": 0.317,
+    "trigger_words": [
+     "monkey",
+     "king"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "cutscene narration"
+  },
+  {
+   "start": 1053.02,
+   "end": 1076.88,
+   "peak": 1074.45,
+   "text": "w113 w166 w109 w108 w117 w167 w168 w113 w108 w109 w117 w168 we w169 w170 w171 w108 w172 w173 w169 w170 w171 w108 w172 w174 w175 w93 w170 w171 w108 w172 w174 w175 w93 w170 w171 w108 w172 w174 w175 w93 w170 w171 w108 w172 w174",
+   "comp": {
+    "emotion": 0.36,
+    "story": 0.78,
+    "hook": 0.12,
+    "pacing": 0.576,
+    "engagement": 0.3
+   },
+   "signals": {
+    "intensity": 0.55,
+    "arc_contrast": 1.0,
+    "reaction": 0.451,
+    "shock": 0.7,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.567,
+    "excitement_db": 13.7,
+    "shock_contrast_db": 16.8,
+    "contrast_db": 14.3,
+    "triggers": 0.0,
+    "speech_rate": 2.46,
+    "heatmap": 0.3,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "finds a temple, repeats a line"
+  },
+  {
+   "start": 1183.2,
+   "end": 1216.65,
+   "peak": 1202.45,
+   "text": "w176 w109 the w177 w178 w105 w106 the w177 w179 w180 w113 w181 w181 w182 w183 w184 the w185 we w105 w186 w187 w181 w113 we w169 w188 w189 w47 w190 w5 w74 w191 w89 w192 w193 w5 w194 w74",
+   "comp": {
+    "emotion": 0.228,
+    "story": 0.883,
+    "hook": 0.12,
+    "pacing": 0.434,
+    "engagement": 0.161
+   },
+   "signals": {
+    "intensity": 0.236,
+    "arc_contrast": 0.909,
+    "reaction": 0.845,
+    "shock": 0.417,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.794,
+    "excitement_db": 9.3,
+    "shock_contrast_db": 10.0,
+    "contrast_db": 10.9,
+    "triggers": 0.25,
+    "speech_rate": 1.18,
+    "heatmap": 0.161,
+    "trigger_words": [
+     "kill"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "changes control settings"
+  },
+  {
+   "start": 1324.68,
+   "end": 1346.75,
+   "peak": 1344.55,
+   "text": "",
+   "comp": {
+    "emotion": 0.364,
+    "story": 0.833,
+    "hook": 0.12,
+    "pacing": 0.381,
+    "engagement": 0.285
+   },
+   "signals": {
+    "intensity": 0.479,
+    "arc_contrast": 1.0,
+    "reaction": 0.582,
+    "shock": 0.862,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.763,
+    "excitement_db": 12.7,
+    "shock_contrast_db": 20.7,
+    "contrast_db": 13.8,
+    "triggers": 0.0,
+    "speech_rate": 0.0,
+    "heatmap": 0.285,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "no transcript, nothing on screen"
+  },
+  {
+   "start": 1387.92,
+   "end": 1412.73,
+   "peak": 1408.75,
+   "text": "w195 w196 w87 w64 w197 w70 w5 w198 w56 w5 w30 w69 w67 w9 w199 w25 w200 w16 w201 w202 w203 w204 w47 w82",
+   "comp": {
+    "emotion": 0.135,
+    "story": 0.7,
+    "hook": 0.12,
+    "pacing": 0.283,
+    "engagement": 0.272
+   },
+   "signals": {
+    "intensity": 0.05,
+    "arc_contrast": 0.775,
+    "reaction": 0.586,
+    "shock": 0.575,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.554,
+    "excitement_db": 6.7,
+    "shock_contrast_db": 13.8,
+    "contrast_db": 9.3,
+    "triggers": 0.0,
+    "speech_rate": 1.03,
+    "heatmap": 0.272,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "explains an ability"
+  },
+  {
+   "start": 1461.7,
+   "end": 1496.23,
+   "peak": 1485.25,
+   "text": "w205 w206 w207 w87 w208 w209 w210 w211 w212 w213 w46 w214 w215 w216 w217 w51 w87 w74 मार w218 w8 w219 w220 w221 w222 फाइनली w223 w224 w225 w226 w227 w228 w229 w230 w231 w232 w202 w193",
+   "comp": {
+    "emotion": 0.34,
+    "story": 0.668,
+    "hook": 0.42,
+    "pacing": 0.449,
+    "engagement": 0.13
+   },
+   "signals": {
+    "intensity": 0.057,
+    "arc_contrast": 0.516,
+    "reaction": 0.897,
+    "shock": 0.383,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.859,
+    "excitement_db": 6.8,
+    "shock_contrast_db": 9.2,
+    "contrast_db": 6.2,
+    "triggers": 1.0,
+    "speech_rate": 1.1,
+    "heatmap": 0.13,
+    "trigger_words": [
+     "भाई",
+     "यार"
+    ]
+   },
+   "category": "funny",
+   "label": true,
+   "big": true,
+   "reason": "first boss defeated: a cheer and a milestone line, the boss falls and the reward screen shows"
+  },
+  {
+   "start": 1592.5,
+   "end": 1621.34,
+   "peak": 1611.75,
+   "text": "w113 w114 w115 we w233 w234 w235 w236 w237 w238 w53 w239 w240 w241 w41 w242 w242 w21 w243 w244 w245 w5 w246 w247 w248 w5 w248 w245 w5 w244 w194 w47 w249 w250 w248 w251 w56 w5 w8 w113 w114 w115 w252 w247 w253 w253 w254 w25 w255 w5 i w174 w256 w166 w109 w108 w46 w257 w258 w259 w53 w260",
+   "comp": {
+    "emotion": 0.316,
+    "story": 0.68,
+    "hook": 0.52,
+    "pacing": 0.708,
+    "engagement": 0.286
+   },
+   "signals": {
+    "intensity": 0.0,
+    "arc_contrast": 0.496,
+    "reaction": 0.955,
+    "shock": 0.379,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.942,
+    "excitement_db": 6.0,
+    "shock_contrast_db": 9.1,
+    "contrast_db": 6.0,
+    "triggers": 1.0,
+    "speech_rate": 2.18,
+    "heatmap": 0.286,
+    "trigger_words": [
+     "oh my god",
+     "क्या",
+     "यार",
+     "भाई"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "explores a cave"
+  },
+  {
+   "start": 1671.68,
+   "end": 1692.55,
+   "peak": 1690.35,
+   "text": "w261 w244 w262 w5 w8 w263",
+   "comp": {
+    "emotion": 0.404,
+    "story": 0.528,
+    "hook": 0.42,
+    "pacing": 0.368,
+    "engagement": 0.176
+   },
+   "signals": {
+    "intensity": 0.264,
+    "arc_contrast": 0.531,
+    "reaction": 0.524,
+    "shock": 0.492,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.736,
+    "excitement_db": 9.7,
+    "shock_contrast_db": 11.8,
+    "contrast_db": 6.4,
+    "triggers": 1.0,
+    "speech_rate": 0.29,
+    "heatmap": 0.176,
+    "trigger_words": [
+     "क्या",
+     "यार"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "two words about the vibe"
+  },
+  {
+   "start": 1737.09,
+   "end": 1761.11,
+   "peak": 1758.25,
+   "text": "w264 w77 w47 w265 w266 w21 w5 w267 w47 w268 w253 w269 w270 w5 w271 w34 w268 w21 w272 w273 w244 w274 w56 w5 w275 w46 w276",
+   "comp": {
+    "emotion": 0.565,
+    "story": 0.89,
+    "hook": 0.42,
+    "pacing": 0.229,
+    "engagement": 0.314
+   },
+   "signals": {
+    "intensity": 0.671,
+    "arc_contrast": 1.0,
+    "reaction": 0.725,
+    "shock": 0.558,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.4,
+    "excitement_db": 15.4,
+    "shock_contrast_db": 13.4,
+    "contrast_db": 14.9,
+    "triggers": 0.75,
+    "speech_rate": 1.15,
+    "heatmap": 0.314,
+    "trigger_words": [
+     "भाई",
+     "क्या"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "mid-fight question when the enemy changes form; no payoff"
+  },
+  {
+   "start": 1818.14,
+   "end": 1843.39,
+   "peak": 1840.25,
+   "text": "w277 w278 w129 w279 w280 w117 w118 w119 w233 w189 w281 w282 we w105 w188 w189 w129 w188 w189 w283 w93 w278 w108 w109 w284 game w154 w108 w285 w286 w287 w288 w289 w109 w286 w290 we w169 w291 the w292 w293 i w294 the w292 w293 w295 w233 w164 w296 w297 w298 w295 w299 w277 w278 w300 w301 w302 w303 w304 we w256 w108 w108 w109 w286 it",
+   "comp": {
+    "emotion": 0.345,
+    "story": 0.848,
+    "hook": 0.52,
+    "pacing": 0.833,
+    "engagement": 0.237
+   },
+   "signals": {
+    "intensity": 0.107,
+    "arc_contrast": 0.747,
+    "reaction": 1.0,
+    "shock": 0.312,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.848,
+    "excitement_db": 7.5,
+    "shock_contrast_db": 7.5,
+    "contrast_db": 9.0,
+    "triggers": 1.0,
+    "speech_rate": 3.05,
+    "heatmap": 0.237,
+    "trigger_words": [
+     "let's go",
+     "run",
+     "monkey",
+     "king",
+     "kill",
+     "graphics"
+    ]
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "rambles while walking through the forest"
+  },
+  {
+   "start": 1909.49,
+   "end": 1927.66,
+   "peak": 1925.05,
+   "text": "w111 w305 w306 w304 w113 w302 w303 i w97 w93 w307 it w157 the w308 w309 w310 w298 w308 w303 w113 w302 w311 w174 w312 it w101",
+   "comp": {
+    "emotion": 0.52,
+    "story": 1.0,
+    "hook": 0.12,
+    "pacing": 0.607,
+    "engagement": 0.264
+   },
+   "signals": {
+    "intensity": 0.786,
+    "arc_contrast": 1.0,
+    "reaction": 1.0,
+    "shock": 0.654,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.763,
+    "excitement_db": 17.0,
+    "shock_contrast_db": 15.7,
+    "contrast_db": 14.3,
+    "triggers": 0.0,
+    "speech_rate": 2.13,
+    "heatmap": 0.264,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": true,
+   "big": true,
+   "reason": "the fire boss sets him alight: a loud reaction (loudest moment of the stream)"
+  },
+  {
+   "start": 1971.82,
+   "end": 1994.95,
+   "peak": 1992.65,
+   "text": "w313 w298 i w314 w315 w108 w114 w316 w109 w317 w318 w313 w298",
+   "comp": {
+    "emotion": 0.325,
+    "story": 0.716,
+    "hook": 0.12,
+    "pacing": 0.316,
+    "engagement": 0.079
+   },
+   "signals": {
+    "intensity": 0.521,
+    "arc_contrast": 0.942,
+    "reaction": 0.376,
+    "shock": 0.583,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.633,
+    "excitement_db": 13.3,
+    "shock_contrast_db": 14.0,
+    "contrast_db": 11.3,
+    "triggers": 0.0,
+    "speech_rate": 0.95,
+    "heatmap": 0.079,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "short struggle line, no reaction after"
+  },
+  {
+   "start": 2140.94,
+   "end": 2158.14,
+   "peak": 2153.95,
+   "text": "w301 we w97 w93 w319 him w320 w321 w99 w109 w322 w113 w303 w111 w305 w323 w111 w305 w323 w173 w109 w108 w313 w298 w277 w319 w113 w114 w115 w322",
+   "comp": {
+    "emotion": 0.286,
+    "story": 0.623,
+    "hook": 0.12,
+    "pacing": 0.58,
+    "engagement": 0.148
+   },
+   "signals": {
+    "intensity": 0.05,
+    "arc_contrast": 0.461,
+    "reaction": 0.865,
+    "shock": 0.329,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.783,
+    "excitement_db": 6.7,
+    "shock_contrast_db": 7.9,
+    "contrast_db": 5.5,
+    "triggers": 1.0,
+    "speech_rate": 1.94,
+    "heatmap": 0.148,
+    "trigger_words": [
+     "oh my god",
+     "bro"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "a new enemy appears, calm"
+  },
+  {
+   "start": 2244.22,
+   "end": 2260.72,
+   "peak": 2257.85,
+   "text": "w302 w113 w302",
+   "comp": {
+    "emotion": 0.265,
+    "story": 0.857,
+    "hook": 0.12,
+    "pacing": 0.362,
+    "engagement": 0.112
+   },
+   "signals": {
+    "intensity": 0.386,
+    "arc_contrast": 0.804,
+    "reaction": 0.937,
+    "shock": 0.554,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.725,
+    "excitement_db": 11.4,
+    "shock_contrast_db": 13.3,
+    "contrast_db": 9.7,
+    "triggers": 0.0,
+    "speech_rate": 0.19,
+    "heatmap": 0.112,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "two words, no context"
+  },
+  {
+   "start": 2592.53,
+   "end": 2607.63,
+   "peak": 2603.55,
+   "text": "i w105 w324 w179 w123 w325 w166 w109 it the w326 w327 w109 w328 w329 w179 w330 w331 w326 w326 w326 w326 w326 w326 w326 w326 w326",
+   "comp": {
+    "emotion": 0.231,
+    "story": 0.506,
+    "hook": 0.12,
+    "pacing": 0.628,
+    "engagement": 0.039
+   },
+   "signals": {
+    "intensity": 0.221,
+    "arc_contrast": 0.205,
+    "reaction": 0.958,
+    "shock": 0.513,
+    "laughter": 0.2,
+    "voiced_after_trim": 0.94,
+    "excitement_db": 9.1,
+    "shock_contrast_db": 12.3,
+    "contrast_db": 2.5,
+    "triggers": 0.0,
+    "speech_rate": 1.79,
+    "heatmap": 0.039,
+    "trigger_words": []
+   },
+   "category": "funny",
+   "label": false,
+   "big": false,
+   "reason": "repeats one word"
+  },
+  {
+   "start": 2671.04,
+   "end": 2690.8,
+   "peak": 2688.65,
+   "text": "w332 w301 i w175 w93 w333 it w334 w321",
+   "comp": {
+    "emotion": 0.23,
+    "story": 0.512,
+    "hook": 0.12,
+    "pacing": 0.335,
+    "engagement": 0.018
+   },
+   "signals": {
+    "intensity": 0.136,
+    "arc_contrast": 0.505,
+    "reaction": 0.521,
+    "shock": 0.879,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.67,
+    "excitement_db": 7.9,
+    "shock_contrast_db": 21.1,
+    "contrast_db": 6.1,
+    "triggers": 0.0,
+    "speech_rate": 0.46,
+    "heatmap": 0.018,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "five words, calm"
+  },
+  {
+   "start": 2831.41,
+   "end": 2860.33,
+   "peak": 2850.75,
+   "text": "w108 w109 w335 i w97 w93 w188 w336 w313 w298 w313 w298 w313 w298 w313 w298 w337 w338 w339 w109 w340 w341 w340 w341 w122 w342 w343 w113 w189 w233 w344 w345 w113 w189 w233 w344 w113 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344 w189 w233 w344",
+   "comp": {
+    "emotion": 0.302,
+    "story": 0.635,
+    "hook": 0.4,
+    "pacing": 0.724,
+    "engagement": 0.089
+   },
+   "signals": {
+    "intensity": 0.064,
+    "arc_contrast": 0.444,
+    "reaction": 0.922,
+    "shock": 0.633,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.869,
+    "excitement_db": 6.9,
+    "shock_contrast_db": 15.2,
+    "contrast_db": 5.3,
+    "triggers": 0.75,
+    "speech_rate": 2.45,
+    "heatmap": 0.089,
+    "trigger_words": [
+     "dead",
+     "kill",
+     "look"
+    ]
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "repeats one short phrase"
+  },
+  {
+   "start": 3059.24,
+   "end": 3087.95,
+   "peak": 3082.25,
+   "text": "w113 w113 w113 w113 w113 w113 w113 w113 w113 w113 w113 w113 w113 w113",
+   "comp": {
+    "emotion": 0.199,
+    "story": 0.57,
+    "hook": 0.12,
+    "pacing": 0.354,
+    "engagement": 0.045
+   },
+   "signals": {
+    "intensity": 0.179,
+    "arc_contrast": 0.494,
+    "reaction": 0.685,
+    "shock": 0.638,
+    "laughter": 0.0,
+    "voiced_after_trim": 0.707,
+    "excitement_db": 8.5,
+    "shock_contrast_db": 15.3,
+    "contrast_db": 5.9,
+    "triggers": 0.0,
+    "speech_rate": 0.54,
+    "heatmap": 0.045,
+    "trigger_words": []
+   },
+   "category": "reaction",
+   "label": false,
+   "big": false,
+   "reason": "one interjection on a loop"
+  }
+ ]
+}
