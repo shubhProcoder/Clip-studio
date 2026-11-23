@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf" content="{{CSRF}}">
+<meta name="mode" content="{{MODE}}">
+<title>StreamClipper</title>
+<link rel="icon" href="/static/logo.png">
+<link rel="stylesheet" href="/static/app.css">
+<script src="/static/theme.js"></script>
+<script src="/static/icons.js" defer></script>
+<script src="/static/app.js" defer></script>
+<script src="/static/editor.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="Sidebar">
+    <a class="brand" href="#/home" title="StreamClipper"><img src="/static/logo.png" alt="" width="32" height="32"><span class="lbl">StreamClipper</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/home" data-route="home" title="Home"><span class="nav-ic" data-icon="home"></span><span class="lbl">Home</span></a>
+      <a href="#/projects" data-route="projects" title="Projects"><span class="nav-ic" data-icon="folder"></span><span class="lbl">Projects</span></a>
+      <a href="#/live" data-route="live" title="Live"><span class="nav-ic" data-icon="radio"></span><span class="lbl">Live</span></a>
+      <a href="#/styles" data-route="styles" title="Styles"><span class="nav-ic" data-icon="palette"></span><span class="lbl">Styles</span></a>
+      <a href="#/settings" data-route="settings" title="Settings"><span class="nav-ic" data-icon="settings"></span><span class="lbl">Settings</span></a>
+    </nav>
+    <button class="side-collapse" id="side-collapse" type="button" aria-label="Collapse the sidebar" title="Collapse the sidebar"><span class="nav-ic" data-icon="panel-left"></span><span class="lbl">Collapse</span></button>
+  </aside>
+  <div class="main-col">
+    <header class="topbar">
+      <label class="search">
+        <span class="search-ic" data-icon="search"></span>
+        <input id="search" type="search" placeholder="Search projects and clips" aria-label="Search projects and clips" autocomplete="off">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <span class="mode-badge" id="mode-badge" hidden>Network mode</span>
+      <button class="icon-btn" id="shortcuts-btn" type="button" aria-label="Keyboard shortcuts" title="Keyboard shortcuts (?)"><span data-icon="keyboard"></span></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+        <span class="i-sun" data-icon="sun"></span>
+        <span class="i-moon" data-icon="moon"></span>
+      </button>
+    </header>
+    <main id="app" tabindex="-1"><div class="loading"><span class="spinner"></span> Loading...</div></main>
+  </div>
+</div>
+<div id="toasts" aria-live="polite"></div>
+</body>
+</html>
