@@ -10,7 +10,7 @@ readme = "README.md"
 license = "AGPL-3.0-or-later"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
-authors = [{ name = "Arpixa Studio" }]
+authors = [{ name = "Shubh Mehrotra", email = "shubh2008mehrotra@gmail.com" }]
 keywords = ["clipping", "stream", "twitch", "youtube", "shorts", "reels", "capcut", "ffmpeg", "whisper"]
 classifiers = [
     "Programming Language :: Python :: 3",

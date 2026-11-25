@@ -1,0 +1,7 @@
+{
+  "logo": {"image": "brand_logo.png", "position": "auto", "width_pct": 12, "opacity": 0.85},
+  "handle": "@yourname",
+  "colours": {"highlight": "#FFE600", "hook_box": "#FFE600"},
+  "intro": {"text": "WAIT FOR IT", "seconds": 1.0},
+  "outro": {"text": "Follow @yourname", "seconds": 1.5}
+}
