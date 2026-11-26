@@ -1,0 +1,86 @@
+/* StreamClipper "Heat on Ink" design tokens — the ONLY source of colour values. */
+@font-face {
+  font-family: "Geist";
+  src: url("/static/fonts/geist-sans-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("/static/fonts/geist-sans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("/static/fonts/geist-sans-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("/static/fonts/geist-sans-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/static/fonts/geist-mono-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/static/fonts/geist-mono-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ink-950: #07060d;
+  --ink-900: #0c0a16;
+  --ink-800: #141024;
+  --ink-700: #1b1538;
+  --heat-400: #ffb84d;
+  --heat-500: #ff7a45;
+  --track-400: #4dd6ff;
+  --violet-500: #7c5cff;
+
+  --text: #f4f2fa;
+  --text-2: #a8a3bd;
+  --text-3: #8b86a3;
+  --pill-bg: #f4f2fa;
+  --pill-text: #0c0a16;
+  --pill-sub: #3b3554;
+  --pill-border: rgba(12, 10, 22, 0.14);
+
+  /* Derived structural alpha tokens (all from the palette above) */
+  --border-hairline: rgba(244, 242, 250, 0.12);
+  --border-strong: rgba(244, 242, 250, 0.24);
+  --highlight-top: rgba(244, 242, 250, 0.18);
+  --highlight-active: rgba(244, 242, 250, 0.34);
+  --surface-chip: rgba(20, 16, 36, 0.82);
+  --surface-bar: rgba(12, 10, 22, 0.90);
+  --pill-hover: rgba(12, 10, 22, 0.08);
+  --heat-glow: rgba(255, 184, 77, 0.24);
+  --heat-beam: rgba(255, 184, 77, 0.56);
+  --heat-beam-mid: rgba(255, 122, 69, 0.26);
+  --heat-spill: rgba(255, 184, 77, 0.30);
+  --track-glow: rgba(77, 214, 255, 0.16);
+  --violet-ambient: rgba(124, 92, 255, 0.06);
+  --shadow-nav: rgba(7, 6, 13, 0.55);
+  --shadow-monitor: rgba(7, 6, 13, 0.88);
+  --shadow-card: rgba(7, 6, 13, 0.72);
+
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --r-card: 32px;
+  --r-pill: 999px;
+  --font-sans: "Geist", system-ui, -apple-system, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+}
