@@ -8,6 +8,12 @@
 
 ## Preview
 
+### Landing Showcase (`/welcome` — "Heat on Ink")
+
+![Clip Studio Landing Page](./docs/landing_preview.png)
+
+### Studio Dashboard (`/#/home`)
+
 ![Clip Studio Interface](./docs/preview.png)
 
 ## Features
@@ -30,6 +36,7 @@
 | **Speech & Audio Intelligence** | Faster-Whisper (OpenAI Whisper via CTranslate2), RNNoise, libass |
 | **Highlight & Narrative Engine** | Multimodal heuristic scoring, Local LLM / Ollama fallback pass |
 | **Studio Web Dashboard** | Python Async HTTP Engine, Modern Vanilla JS, HTML5, Lucide Icons |
+| **Landing & Motion** | GSAP 3.13 (ScrollTrigger, SplitText), Lenis, Self-hosted Geist Sans & Mono, Strict `self`-only CSP |
 | **Draft Synthesis** | Native CapCut Desktop JSON Project Schema Engine |
 | **Deployment / Environment** | Local PC (Windows, macOS, Linux), Google Colab (T4 GPU) |
 
@@ -44,7 +51,8 @@ Clip-studio/
 │   ├── facecam.py        # Hybrid facecam border geometry & tracking fusion
 │   ├── creators.py       # Multi-creator workspaces & isolated brand kits
 │   ├── publish/          # Multi-platform publishing queue & scheduler
-│   ├── dashboard/        # Studio web server, REST API & reframe editor
+│   ├── dashboard/        # Studio web server, REST API, reframe editor & /welcome landing
+│   │   └── static/       # tokens.css, landing.{html,css,js}, vendored GSAP/Lenis & Geist fonts
 │   ├── asr.py            # Faster-Whisper chunked transcription engine
 │   ├── layout.py         # 9:16 layout synthesizer & split-screen reframing
 │   ├── scoring.py        # Multi-modal highlight scoring & discovery
@@ -78,7 +86,7 @@ streamclipper doctor
 # Clip a full VOD stream into 9:16 vertical shorts
 streamclipper clip-stream --url "https://www.youtube.com/watch?v=VIDEO_ID" --out clips --render
 
-# Launch the browser-based studio dashboard (http://127.0.0.1:8765)
+# Launch the browser-based studio dashboard (http://127.0.0.1:8765) and /welcome landing
 streamclipper dashboard
 
 # Clip a live Twitch stream in real-time
