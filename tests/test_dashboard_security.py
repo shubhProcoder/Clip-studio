@@ -53,6 +53,11 @@ def test_lan_needs_the_access_token(lan):
 
 
 def test_host_header_and_csrf_and_origin(dash):
+    st, hdrs, _ = dash.req("GET", "/welcome")
+    assert st == 200
+    assert hdrs["Content-Security-Policy"] == (
+        "default-src 'self'; font-src 'self'; img-src 'self' data:; media-src 'self'; object-src 'none'; frame-ancestors 'none'"
+    )
     assert dash.req("GET", "/api/jobs", headers={"Host": f"evil.example:{dash.port}"})[0] == 403
     body = {"source": "https://example.com/v"}
     assert dash.req("POST", "/api/jobs", body, headers={"X-CSRF-Token": ""})[0] == 403
@@ -81,6 +86,10 @@ def test_path_traversal_and_file_allowlist(dash, tmp_path):
         "/static/../server.py",
         "/static/server.py",
         "/static/%2e%2e%2fserver.py",
+        "/static/media/../server.py",
+        "/static/media/%2e%2e/app.js",
+        "/static/media/unknown.mp4",
+        "/static/media/monitor.exe",
         "/C:/Windows/win.ini",
         f"/files/{a}/job.json",
         f"/files/{a}/out/x.exe",

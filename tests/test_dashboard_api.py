@@ -60,6 +60,34 @@ def test_index_static_and_headers(dash):
     css = (server.STATIC_DIR / "app.css").read_text(encoding="utf-8")
     assert '[data-theme="dark"]' in css and "#09090b" in css and "#8b5cf6" in css.lower()
 
+    # landing showcase & portal assets (strict CSP: no inline style/script or external CDN)
+    for route in ("/welcome", "/landing"):
+        st, h, body = dash.req("GET", route)
+        assert st == 200 and b"tokens.css" in body and b"landing.css" in body and b"landing.js" in body
+        assert "default-src 'self'" in h["Content-Security-Policy"]
+        assert "font-src 'self'" in h["Content-Security-Policy"]
+        assert "media-src 'self'" in h["Content-Security-Policy"]
+    for name in (
+        "tokens.css",
+        "landing.css",
+        "landing.js",
+        "icons-sprite.svg",
+        "vendor/gsap.min.js",
+        "vendor/ScrollTrigger.min.js",
+        "vendor/SplitText.min.js",
+        "vendor/lenis.min.js",
+        "fonts/geist-sans-300.woff2",
+        "fonts/geist-sans-400.woff2",
+        "fonts/geist-sans-500.woff2",
+        "fonts/geist-sans-600.woff2",
+        "fonts/geist-mono-400.woff2",
+        "fonts/geist-mono-500.woff2",
+    ):
+        assert dash.req("GET", f"/static/{name}")[0] == 200, name
+    landing_html = (server.STATIC_DIR / "landing.html").read_text(encoding="utf-8")
+    assert "<style" not in landing_html and "https://fonts.googleapis.com" not in landing_html
+    assert "innerHTML" not in (server.STATIC_DIR / "landing.js").read_text(encoding="utf-8")
+
 
 def body_of_index(dash) -> str:
     return dash.req("GET", "/")[2].decode("utf-8")
