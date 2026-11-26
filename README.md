@@ -12,9 +12,7 @@
 
 ![Clip Studio Landing Page](./docs/landing_preview.png)
 
-### Studio Dashboard (`/#/home`)
 
-![Clip Studio Interface](./docs/preview.png)
 
 ## Features
 
