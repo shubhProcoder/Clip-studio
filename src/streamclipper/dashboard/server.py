@@ -54,8 +54,27 @@ STATIC_TYPES = {
     "icons.js": "application/javascript; charset=utf-8",
     "editor.js": "application/javascript; charset=utf-8",
     "theme.js": "application/javascript; charset=utf-8",
+    "landing.js": "application/javascript; charset=utf-8",
+    "vendor/gsap.min.js": "application/javascript; charset=utf-8",
+    "vendor/ScrollTrigger.min.js": "application/javascript; charset=utf-8",
+    "vendor/SplitText.min.js": "application/javascript; charset=utf-8",
+    "vendor/lenis.min.js": "application/javascript; charset=utf-8",
     "app.css": "text/css; charset=utf-8",
     "share.css": "text/css; charset=utf-8",
+    "tokens.css": "text/css; charset=utf-8",
+    "landing.css": "text/css; charset=utf-8",
+    "landing.html": "text/html; charset=utf-8",
+    "icons-sprite.svg": "image/svg+xml",
+    "fonts/geist-sans-300.woff2": "font/woff2",
+    "fonts/geist-sans-400.woff2": "font/woff2",
+    "fonts/geist-sans-500.woff2": "font/woff2",
+    "fonts/geist-sans-600.woff2": "font/woff2",
+    "fonts/geist-mono-400.woff2": "font/woff2",
+    "fonts/geist-mono-500.woff2": "font/woff2",
+    "media/monitor.webm": "video/webm",
+    "media/monitor.mp4": "video/mp4",
+    "media/monitor-vertical.mp4": "video/mp4",
+    "media/monitor-poster.jpg": "image/jpeg",
     "logo.png": "image/png",
     "styles_gallery.jpg": "image/jpeg",
 }
@@ -67,7 +86,7 @@ FILE_TYPES = {
     ".csv": "text/csv; charset=utf-8",
     ".json": "application/json; charset=utf-8",
 }
-CSP = "default-src 'self'; img-src 'self' data:; media-src 'self'; object-src 'none'; frame-ancestors 'none'"
+CSP = "default-src 'self'; font-src 'self'; img-src 'self' data:; media-src 'self'; object-src 'none'; frame-ancestors 'none'"
 LOOPBACK = ("127.0.0.1", "localhost", "::1")
 UPLOAD_CHUNK = 1 << 20
 SEND_CHUNK = 256 * 1024
@@ -529,8 +548,10 @@ class Handler(BaseHTTPRequestHandler):
         srv = self.server
         if not segs or segs == ["index.html"]:
             return self._index()
-        if segs[0] == "static" and len(segs) == 2:
-            return self._static(segs[1])
+        if segs in (["welcome"], ["landing"]):
+            return self._landing()
+        if segs[0] == "static" and len(segs) in (2, 3):
+            return self._static("/".join(segs[1:]))
         if segs[0] == "files" and len(segs) >= 3:
             return self._files(segs[1], segs[2:], query)
         if segs[0] != "api":
@@ -695,11 +716,26 @@ class Handler(BaseHTTPRequestHandler):
         page = page.replace("{{CSRF}}", self.server.csrf).replace("{{MODE}}", "lan" if self.server.lan else "local")
         self._send(200, page.encode("utf-8"), "text/html; charset=utf-8", {"Cache-Control": "no-store"})
 
+    def _landing(self):
+        media_dir = STATIC_DIR / "media"
+        avail = [
+            name
+            for name in ("monitor-poster.jpg", "monitor.webm", "monitor.mp4", "monitor-vertical.mp4")
+            if (media_dir / name).is_file()
+        ]
+        page = (STATIC_DIR / "landing.html").read_text(encoding="utf-8")
+        page = page.replace("{{MEDIA}}", ",".join(avail) if avail else "none")
+        self._send(200, page.encode("utf-8"), "text/html; charset=utf-8", {"Cache-Control": "no-store"})
+
     def _static(self, name: str):
         ctype = STATIC_TYPES.get(name)
-        if not ctype or not (STATIC_DIR / name).is_file():
+        p = STATIC_DIR / name
+        if not ctype or not p.is_file():
             raise HttpError(404, "Not found.")
-        self._send(200, (STATIC_DIR / name).read_bytes(), ctype, {"Cache-Control": "no-cache"})
+        if name.startswith("media/"):
+            return self._send_file(p, ctype)
+        cache = "public, max-age=31536000, immutable" if name.startswith(("fonts/", "vendor/")) else "no-cache"
+        self._send(200, p.read_bytes(), ctype, {"Cache-Control": cache})
 
     def _files(self, job_id: str, rel: list, query: dict):
         job_id = check_job_id(job_id)
